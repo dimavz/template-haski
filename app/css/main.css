@@ -311,10 +311,17 @@ section.content{
 	display: block;
 }
 
-.post_metainfo{
+.post_metainfo ul{
 	display: block;
 	border: #3797BF 2px solid;
-	padding-left: 15px;
-	padding-top: 10px;
-	margin: 5px;
+
+	padding-bottom: 20px;
+
+}
+
+.post_metainfo li{
+	display: block;
+	float: left;
+	padding-right: 20px;
+	font-size: 14px;
 }

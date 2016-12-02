@@ -1,0 +1,82 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_links{
+		display: none;
+		background-color: #585d61;
+		padding: 12px;
+		vertical-align: middle;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.main_menu ul{
+		display: none;
+		position: absolute;
+		margin-top: 40px;
+		background-color: #3797BF;
+		z-index: 10;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.post_image img{
+	max-width: 230px;
+	max-height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+		.top_links{
+		display: inline-block !important;
+	}
+
+	.main_menu ul{
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.main_menu ul{
+		display: inline-block !important;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

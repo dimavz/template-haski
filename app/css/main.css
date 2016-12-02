@@ -240,6 +240,23 @@ section.content{
 		background-color: #fff;
 }
 
+.body_panel ul{
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+.body_panel ul a{
+	display: block;
+	padding: 3px;
+	padding-left: 20px;
+}
+
+.body_panel ul a:hover {
+	background-color: #31B0D5;
+	color: yellow;
+	text-decoration: none;
+}
+
 .top_search{
 	margin-bottom: 10px;
 }

@@ -354,3 +354,14 @@ section.content{
 	padding-right: 10px;
 	padding-left: 10px;
 }
+
+.post_category{
+	display: block;
+	margin: 5px auto;
+	border-bottom: #31B0D5 1px solid ;
+	text-align:right;
+	width: 95%;
+}
+.post_category img{
+	margin-left: 10px;
+}

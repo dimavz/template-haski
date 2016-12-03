@@ -328,17 +328,27 @@ section.content{
 	display: block;
 }
 
-.post_metainfo ul{
-	display: block;
+.post_metainfo{
+	display: block-inline;
 	border: #3797BF 2px solid;
-
 	padding-bottom: 20px;
+	vertical-align: center;
 
+}
+
+.post_metainfo ul{
+	margin: 0;
+	padding: 0;
 }
 
 .post_metainfo li{
 	display: block;
 	float: left;
-	padding-right: 20px;
+	padding-right: 10px;
+	padding-left: 	5px;
 	font-size: 14px;
+}
+
+.post_metainfo li span{
+	padding-right: 10px;
 }

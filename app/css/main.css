@@ -61,6 +61,10 @@ body {
 .soc_buttons a {
 	margin-left: 3px;
 }
+
+.soc_buttons a:hover {
+	text-decoration: none;
+}
 .auth_button, 
 .main_menu_bt {
 	border: none ;

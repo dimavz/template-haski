@@ -271,16 +271,17 @@ section.content{
 
 .list_posts{
 	margin-top: 45px;
-	border: #3797BF 1px solid;
+	border: #3797BF 5px solid;
 	border-radius:0.3em;
 	padding: 5px;
-	background-color: #3797BF;
+	background-color: #fff;
 }
 
 .post{
 	border: #3797BF 1px solid;
 	padding: 5px;
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 .post_header{

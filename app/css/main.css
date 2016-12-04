@@ -61,6 +61,10 @@ body {
 .soc_buttons a {
 	margin-left: 3px;
 }
+
+.soc_buttons a:hover {
+	text-decoration: none;
+}
 .auth_button, 
 .main_menu_bt {
 	border: none ;
@@ -174,19 +178,19 @@ section.content{
 }
 
 .slider_container img{
-		width: 100%;
+	width: 100%;
 }
 
 .prev_button,
 .next_button {
-		background-color: rgba(255,255,255,0.5);
-		border-radius:10em;
-		color: #31B0D5;
-		font-size:30px;
-		padding: 	0 20px;
-		position: absolute;	
-		top:40%;
-		z-index: 10;
+	background-color: rgba(255,255,255,0.5);
+	border-radius:10em;
+	color: #31B0D5;
+	font-size:30px;
+	padding: 	0 20px;
+	position: absolute;	
+	top:40%;
+	z-index: 10;
 }
 .next_button{
 	right: 	20px;
@@ -232,12 +236,12 @@ section.content{
 }
 
 .body_panel{
-		border: #3797BF 1px solid;
-		border-bottom-right-radius:1em;
-		border-bottom-left-radius:1em;
-		margin: -1px 10px;
-		padding: 15px;
-		background-color: #fff;
+	border: #3797BF 1px solid;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	margin: -1px 10px;
+	padding: 15px;
+	background-color: #fff;
 }
 
 .body_panel ul{
@@ -249,12 +253,14 @@ section.content{
 	display: block;
 	padding: 3px;
 	padding-left: 20px;
+	border-bottom: 1px dashed grey;
 }
 
 .body_panel ul a:hover {
 	background-color: #31B0D5;
 	color: yellow;
 	text-decoration: none;
+	border-bottom: 1px solid yellow;
 }
 
 .top_search{
@@ -267,16 +273,17 @@ section.content{
 
 .list_posts{
 	margin-top: 45px;
-	border: #3797BF 1px solid;
+	border: #3797BF 5px solid;
 	border-radius:0.3em;
 	padding: 5px;
-	background-color: #3797BF;
+	background-color: #fff;
 }
 
 .post{
 	border: #3797BF 1px solid;
 	padding: 5px;
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 .post_header{
@@ -309,7 +316,6 @@ section.content{
 }
 
 .post_content{
-	position: relative;
 	display: block;
 	margin: 20px;
 }
@@ -328,17 +334,37 @@ section.content{
 	display: block;
 }
 
-.post_metainfo ul{
-	display: block;
+.post_metainfo{
 	border: #3797BF 2px solid;
+}
 
-	padding-bottom: 20px;
-
+.post_metainfo ul{
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0;
 }
 
 .post_metainfo li{
 	display: block;
 	float: left;
-	padding-right: 20px;
-	font-size: 14px;
+	margin: 0 auto;
+	font-size: 0.85em;
+	line-height: 2.1em;
+
+}
+
+.post_metainfo li span{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.post_category{
+	display: block;
+	margin: 5px auto;
+	border-bottom: #31B0D5 1px solid ;
+	text-align:right;
+	width: 95%;
+}
+.post_category img{
+	margin-left: 10px;
 }

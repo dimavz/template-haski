@@ -29,6 +29,7 @@
 		z-index: 10;
 	}
 
+
 }
 
 /* Extra Small Devices, Phones */
@@ -39,18 +40,23 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.post_image img{
-	max-width: 230px;
-	max-height: 200px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+		max-width: 230px;
+		max-height: 200px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
 }
+
+	
 
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-	
+
+		
 }
 
 /* Extra Small Devices, Phones */

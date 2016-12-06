@@ -374,33 +374,55 @@ section.content{
 
 .pag_block{
 	background-color: #fff;
-	margin-top: 10px;
-	padding: 10px;
 	border: 5px solid #3797BF;
-	border-radius: 3px;
+	border-radius: 45px;
+	margin: 10px auto;
+	padding: 0;
 }
 
 .pages {
-	display: inline-block;
+	display: block;
+	margin: 5px auto;
+	width: 99%;
+	border: 1px solid grey;
+	border-radius: 35px;
+}
+
+.wraper_ul{
+	display: block;
+	margin: 0 auto ;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pages ul{
+	padding: 0;
 	margin: 0 auto;
-	width: 90%;
-	background-color: #3779BF;
+	display: inline-block;
 }
 
 .pages ul li{
 	display: block;
 	float: left;
-	padding: 10px;
+	padding: 5px;
 	margin: 0 auto;
 }
 
 .pages ul li a{
 	display: block;
-	background-color: #000;
+	background-color: black;
 	padding: 10px;
-	color: #fff;
-	border: 5px solid #3797BF;
-	border-radius: 3px;
-	width: 50px;
 	text-align: center;
+	color: #fff;
+	border: 3px solid grey;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 50px;
+}
+
+.pages ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+	background-color:#000;
+	border: 3px solid yellow;
 }

@@ -273,9 +273,15 @@ section.content{
 .wrap_panel{
 	margin-bottom: 30px;
 }
-
+.ad_posts {
+	margin-top: 15px;
+	border: #3797BF 5px solid;
+	border-radius:0.3em;
+	padding: 5px;
+	background-color: #fff;
+}
 .list_posts{
-	margin-top: 45px;
+	margin-top: 15px;
 	border: #3797BF 5px solid;
 	border-radius:0.3em;
 	padding: 5px;

@@ -383,7 +383,7 @@ section.content{
 .pages {
 	display: block;
 	margin: 5px auto;
-	width: 99%;
+	width: 98%;
 	border: 1px solid grey;
 	border-radius: 35px;
 }
@@ -410,7 +410,7 @@ section.content{
 
 .pages ul li a{
 	display: block;
-	background-color: black;
+	background-color: #43484C;
 	padding: 10px;
 	text-align: center;
 	color: #fff;
@@ -423,6 +423,6 @@ section.content{
 .pages ul li a:hover{
 	text-decoration: none;
 	color: yellow;
-	background-color:#000;
+	background-color:#3779BF;
 	border: 3px solid yellow;
 }

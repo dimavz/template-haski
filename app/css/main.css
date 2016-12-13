@@ -82,6 +82,10 @@ body {
 	text-align: left;
 }
 
+.logo:hover {
+	color:red;
+}
+
 .greeting{
 	display: block;
 	padding: 5px 0;
@@ -100,6 +104,7 @@ body {
 	color: #fff;
 	margin-top: 20px;
 	margin-right: -15px;
+	margin-left: -15px;
 	/* border-top-left-radius:1em;*/
 	/* border-top-right-radius:1em;*/
 	border-radius:0.3em ;
@@ -165,6 +170,7 @@ body {
 	float: left;
 	vertical-align: middle;
 	background-color: #3797BF;
+	width: 100%;
 }
 
 section.content{
@@ -230,9 +236,10 @@ section.content{
 	margin: 0px;
 	padding-top: 5px;
 	text-align: center;
-	color: #fff;
+	color: yellow;
 	text-transform: uppercase;
 	font-size: 20px;
+	font-family: "DisneyParkRegular";
 }
 
 .body_panel{
@@ -459,4 +466,8 @@ section.content{
 	min-height: 20px;
 	text-align: center;
 	border-top: 1px dashed #fff
+}
+
+.footer_bottomline span {
+	font-size: 14px;
 }

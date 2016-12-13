@@ -257,10 +257,13 @@ section.content{
 }
 
 .body_panel ul a:hover {
-	background-color: #31B0D5;
+	background-color: #3779BF;
 	color: yellow;
 	text-decoration: none;
-	border-bottom: 1px solid yellow;
+	border-bottom: 1px dashed yellow;
+	-webkit-transition:all .35s ;
+	-o-transition:all .35s ;
+	transition:all .35s ;
 }
 
 .top_search{
@@ -367,4 +370,59 @@ section.content{
 }
 .post_category img{
 	margin-left: 10px;
+}
+
+.pag_block{
+	background-color: #fff;
+	border: 5px solid #3797BF;
+	border-radius: 45px;
+	margin: 10px auto;
+	padding: 0;
+}
+
+.pages {
+	display: block;
+	margin: 5px auto;
+	width: 98%;
+	border: 1px solid grey;
+	border-radius: 35px;
+}
+
+.wraper_ul{
+	display: block;
+	margin: 0 auto ;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pages ul{
+	padding: 0;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.pages ul li{
+	display: block;
+	float: left;
+	padding: 5px;
+	margin: 0 auto;
+}
+
+.pages ul li a{
+	display: block;
+	background-color: #43484C;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	border: 3px solid grey;
+	border-radius: 25px;
+	font-size: 18px;
+	width: 50px;
+}
+
+.pages ul li a:hover{
+	text-decoration: none;
+	color: yellow;
+	background-color:#3779BF;
+	border: 3px solid yellow;
 }

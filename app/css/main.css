@@ -29,7 +29,7 @@ body {
 }
 .header_topline{
 	background-color: #43484C;
-	padding: 10px 0;
+	padding: 10px 0 0;
 	color: #fff;
 }
 
@@ -41,7 +41,7 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	z-index: 10;
-	margin-bottom: 10px;
+	margin: 5px 0;
 }
 
 .top_links a:hover {
@@ -55,7 +55,7 @@ body {
 .soc_buttons{
 	float: right;
 	font-size:12px;
-	margin-bottom: 10px;
+	margin: 0px 5px;
 }
 
 .soc_buttons a {
@@ -366,7 +366,6 @@ section.content{
 	margin: 0 auto;
 	font-size: 0.85em;
 	line-height: 2.1em;
-
 }
 
 .post_metainfo li span{

@@ -432,3 +432,31 @@ section.content{
 	background-color:#000;
 	border: 3px solid yellow;
 }
+
+.footer_topline{
+	background-color: #43484C;
+	padding: 10px 0;
+	color: #fff;
+	min-height: 30px;
+}
+
+.footer_left_block{
+	float: left;
+}
+
+.footer_center_block{
+	text-align: center;
+}
+
+.footer_right_block{
+	float: right;
+}
+
+.footer_bottomline{
+	background-color: #43484C;
+	padding: 10px 0;
+	color: #fff;
+	min-height: 20px;
+	text-align: center;
+	border-top: 1px dashed #fff
+}

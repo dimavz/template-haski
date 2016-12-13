@@ -22,9 +22,17 @@
 		width: 100%;
 	}
 	.main_menu ul{
-		display: none;
+		display: block;
 		position: absolute;
 		margin-top: 40px;
+		background-color: #3797BF;
+		z-index: 10;
+		width: 100%;
+	}
+
+	.main_menu ul li{
+		display: block;
+		float: none;
 		background-color: #3797BF;
 		z-index: 10;
 	}

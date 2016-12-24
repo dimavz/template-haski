@@ -19,15 +19,15 @@
 		vertical-align: middle;
 		position: absolute;
 		width: 320px;
-		margin-left:-15px;
-		margin-top: 1px;
+		margin-left:-22px;
+		margin-top: 35px;
 	}
 	.main_menu ul{
-		display: block;
+		display: none;
 		position: absolute;
 		margin-top: 40px;
 		background-color: #3797BF;
-		z-index: 10;
+		z-index: 11;
 		width: 100%;
 	}
 
@@ -86,10 +86,12 @@
 		.top_links{
 		display: inline-block !important;
 	}
-
-	.main_menu ul{
+		.main_menu ul{
 		display: inline-block !important;
 	}
+
+}
+
 }
 
 /* Medium Devices, Desktops */

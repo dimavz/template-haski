@@ -20,7 +20,7 @@
 		position: absolute;
 		width: 320px;
 		margin-left:-22px;
-		margin-top: 35px;
+		margin-top: 1px;
 	}
 	.main_menu ul{
 		display: none;
@@ -37,12 +37,15 @@
 		background-color: #3797BF;
 		z-index: 10;
 	}
-
-
+	
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+	.greeting{
+		text-align: center;
+	}
 
 }
 

@@ -150,6 +150,11 @@ body {
 	color: #fff;
 }
 
+.path_links a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
 .main_menu a{
 	color: #fff;
 	padding: 10px  15px;

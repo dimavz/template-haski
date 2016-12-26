@@ -104,6 +104,15 @@ body {
 	font-size: 58px;
 }
 
+.logo_title a:hover{
+	text-decoration: none;
+}
+
+.logo_title h1:hover{
+	color: red;
+	text-decoration:underline;
+}
+
 .greeting h3 {
 	color: white;
 	font-family: "DisneyParkRegular";

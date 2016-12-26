@@ -9,7 +9,6 @@
 		width: 705px;
 		height: 250px;
 	}
-
 }
 
 /* Medium Devices, Desktops */
@@ -25,11 +24,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-		.logo_text{
+	.logo_text{
 		display: block;
 		float: left;
 		margin-top: 0px;
-		width: 300px;
+		width: 250px;
 		height: 250px;
 	}
 
@@ -71,7 +70,15 @@
 	
 }
 /* Для настройки отображения логотипа */
-@media only screen and (max-width : 567px) {
+@media only screen and (max-width : 545px) {
+
+	.main_menu ul li{
+		background-color: #3797bf;
+		display: block;
+		float: none;
+		margin-left: 10px;
+		z-index: 10;
+	}
 
 	.logo_text{
 		display: block;
@@ -91,16 +98,7 @@
 		width: 100%;
 		text-align: center;
 	}
-
-	.main_menu ul{
-		display: none;
-		position: absolute;
-		margin-top: 40px;
-		margin-left: 10px;
-		background-color: #3797BF;
-		z-index: 11;
-		width: 100%;
-	}
+}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -137,24 +135,22 @@
 	}
 
 	.post_metainfo li{
-	display: block;
-	float: none;
-	margin: 0 auto;
-	font-size: 0.85em;
-	line-height: 2.1em;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		font-size: 0.85em;
+		line-height: 2.1em;
 	}
-
 }
 
-	
+
 
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
-		
+	
 }
 
 /* Extra Small Devices, Phones */
@@ -164,32 +160,20 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-		.top_links{
+	.top_links{
 		display: inline-block !important;
 	}
-		.main_menu ul{
+	.main_menu ul{
 		display: inline-block !important;
 	}
-
-	.logo_text{
-		display: block;
-		float: left;
-		margin-top: -55px;
-		width: 485px;
-		height: 250px;
-	}
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.main_menu ul{
-		display: inline-block !important;
-	}
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }

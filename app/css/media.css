@@ -122,6 +122,52 @@
 	}
 	
 }
+
+/* Для настройки отображения навигатора страниц */
+@media only screen and (max-width : 580px) {
+	
+	.pages ul li a.first {
+		border: 1px solid grey;
+		border-radius: 15px 0 0 15px;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		padding: 5px;
+		text-align: center;
+		width: 30px;
+	}
+
+	.pages ul li a{
+		display: block;
+		background-color: #43484C;
+		padding: 5px;
+		text-align: center;
+		color: #fff;
+		border: 1px solid grey;
+		font-size: 14px;
+		width: 30px;
+	}
+
+	.pages ul li a.end {
+		display: block;
+		background-color: #43484C;
+		padding: 5px;
+		text-align: center;
+		color: #fff;
+		border: 1px solid grey;
+		font-size: 14px;
+		width: 30px;
+		border-radius: 0 15px 15px 0;
+	}
+
+	.pages ul li a:hover{
+		text-decoration: none;
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
+}
+
 /* Для настройки отображения логотипа */
 @media only screen and (max-width : 545px) {
 
@@ -176,6 +222,50 @@
 		text-align: center;
 	}
 
+}
+
+/* Изменение размеров панели навигации страниц */
+@media only screen and (max-width : 396px) {
+
+	.pages ul li{
+		padding: 3px;
+	}
+	
+	.pages ul li a.first {
+		border: 1px solid grey;
+		border-radius: 5px 0 0 5px;
+		display: block;
+		font-size: 10px;
+		padding: 2px;
+		text-align: center;
+		width: 22px;
+	}
+
+	.pages ul li a{
+		display: block;
+		background-color: #43484C;
+		padding: 2px;
+		border: 1px solid grey;
+		font-size: 10px;
+		width: 22px;
+	}
+
+	.pages ul li a.end {
+		display: block;
+		background-color: #43484C;
+		padding: 2px;
+		border: 1px solid grey;
+		font-size: 10px;
+		width: 22px;
+		border-radius: 0 5px 5px 0;
+	}
+
+	.pages ul li a:hover{
+		text-decoration: none;
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
 }
 
 /* Custom, iPhone Retina */

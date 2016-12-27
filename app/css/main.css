@@ -506,15 +506,91 @@ section.content{
 }
 
 .footer_left_block{
+	width: 100%;
 	float: left;
 }
 
+.footer_left_block li{
+	list-style-type: square;
+}
+
+.footer_left_block li:hover{
+	color: yellow;
+}
+
+.footer_left_block a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer_left_block a:hover{
+	text-decoration: none;
+	color:yellow;
+}
+
+
 .footer_center_block{
-	text-align: center;
+	width: 100%;
+	float: center;
+}
+
+.footer_center_block a{
+	color: yellow;
+}
+
+.footer_center_block span{
+	font-size: 18px;
+	color: yellow;
 }
 
 .footer_right_block{
+	width: 100%;
 	float: right;
+}
+
+.skype{
+	margin: 10px;
+}
+
+.skype i{
+	color: #31B0D5;
+	font-size: 20px;
+}
+
+.skype span{
+	margin-left: 10px;
+	font-size: 18px;
+	color: yellow;
+}
+
+.mobile{
+	margin: 10px;
+}
+
+.mobile i{
+	color: #31B0D5;
+	font-size: 24px;
+}
+
+.mobile span{
+	margin-left: 10px;
+	font-size: 18px;
+	color: yellow;
+}
+
+.email{
+	margin: 10px;
+}
+
+.email i{
+	color: #31B0D5;
+	font-size: 18px;
+}
+
+.email span{
+	margin-left: 10px;
+	font-size: 18px;
+	color: yellow;
 }
 
 .footer_bottomline{

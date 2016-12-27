@@ -11,6 +11,20 @@ $(document).ready(function() {
 		$(".top_links").slideToggle();
 	});
 
+	$(".add_ad").click(function(){
+		$(".footer_left_block ul").slideToggle();
+	});
+
+	$(".reclama").click(function(){
+		$(".rec_content").slideToggle();
+	});
+
+	$(".contacts").click(function(){
+		$(".contacts_content").slideToggle();
+	});
+
+	
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>

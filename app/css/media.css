@@ -20,6 +20,47 @@
 		width: 485px;
 		height: 250px;
 	}
+
+	.footer_left_block h3{
+		display: block;
+		padding: 15px;
+		border: 1px solid;
+		height: 80px;
+	}
+
+	.footer_left_block ul{
+		display: none;
+	}
+	
+	.footer_center_block {
+  text-align: left;
+	}
+
+	.footer_center_block h3{
+		display: block;
+		padding: 15px;
+		border: 1px solid;
+		height: 80px;
+	}
+
+	.rec_content{
+		display: none;
+	}
+
+	.footer_right_block {
+  float: left;
+	}
+	
+	.footer_right_block h3{
+		display: block;
+		padding: 15px;
+		border: 1px solid;
+		height: 80px;
+	}
+
+	.contacts_content{
+		display: none;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -66,6 +107,18 @@
 	}
 	.logo_img{
 		text-align: center;
+	}
+
+	.footer_left_block h3{
+		height: 50px;
+	}
+
+	.footer_center_block h3{
+		height: 50px;
+	}
+
+	.footer_right_block h3{
+		height: 50px;
 	}
 	
 }
@@ -170,7 +223,17 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+		.footer_left_block ul{
+		display: block !important;
+	}
 
+	.rec_content{
+		display: block !important;
+	}
+
+	.contacts_content{
+		display: block !important;
+	}
 }
 
 /* Large Devices, Wide Screens */

@@ -413,7 +413,7 @@ section.content{
 
 .pag_block{
 	background-color: #fff;
-	border: 5px solid #3797BF;
+	border: 3px solid #3797BF;
 	border-radius: 45px;
 	margin: 10px auto;
 	padding: 0;
@@ -434,9 +434,9 @@ section.content{
 }
 
 .pages ul{
-	padding: 0;
-	margin: 0 auto;
 	display: inline-block;
+	margin-bottom: -6px;
+	padding: 0;
 }
 
 .pages ul li {

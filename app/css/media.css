@@ -234,7 +234,7 @@
 @media only screen and (max-width : 396px) {
 
 	.pages ul li{
-		padding: 3px;
+		padding: 0px;
 	}
 	
 	.pages ul li a.first {
@@ -242,18 +242,18 @@
 		border-radius: 5px 0 0 5px;
 		display: block;
 		font-size: 10px;
-		padding: 2px;
+		padding: 5px;
 		text-align: center;
-		width: 22px;
+		width: 28px;
 	}
 
 	.pages ul li a{
 		display: block;
 		background-color: #43484C;
-		padding: 2px;
+		padding: 5px;
 		border: 1px solid grey;
 		font-size: 10px;
-		width: 22px;
+		width: 28px;
 	}
 
 	.pages ul li a.active{
@@ -265,10 +265,10 @@
 	.pages ul li a.end {
 		display: block;
 		background-color: #43484C;
-		padding: 2px;
+		padding: 5px;
 		border: 1px solid grey;
 		font-size: 10px;
-		width: 22px;
+		width: 28px;
 		border-radius: 0 5px 5px 0;
 	}
 

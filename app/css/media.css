@@ -241,7 +241,7 @@
 		border: 1px solid grey;
 		border-radius: 5px 0 0 5px;
 		display: block;
-		font-size: 10px;
+		font-size: 12px;
 		padding: 5px;
 		text-align: center;
 		width: 28px;
@@ -252,7 +252,7 @@
 		background-color: #43484C;
 		padding: 5px;
 		border: 1px solid grey;
-		font-size: 10px;
+		font-size: 12px;
 		width: 28px;
 	}
 
@@ -267,7 +267,7 @@
 		background-color: #43484C;
 		padding: 5px;
 		border: 1px solid grey;
-		font-size: 10px;
+		font-size: 12px;
 		width: 28px;
 		border-radius: 0 5px 5px 0;
 	}

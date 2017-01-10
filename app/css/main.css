@@ -505,6 +505,35 @@ section.content{
 	border: 3px solid yellow;
 }
 
+.footer_subscribe{
+	background-color: #43484C;
+	padding: 10px 0;
+	color: #fff;
+	min-height: 20px;
+	text-align: center;
+	border-bottom: 1px dashed #fff;
+}
+
+.footer_subscribe form{
+	margin-left: 250px;
+}
+
+	.footer_subscribe .form-group{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+.footer_subscribe label{
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.footer_subscribe button{
+	margin-left: 5px;
+}
+
+
 .footer_topline{
 	background-color: #43484C;
 	padding: 10px 0;
@@ -551,7 +580,6 @@ section.content{
 }
 
 .footer_right_block{
-	width: 100%;
 	float: right;
 }
 

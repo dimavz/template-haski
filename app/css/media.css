@@ -28,6 +28,11 @@
 		height: 80px;
 	}
 
+	.footer_left_block h3:hover {
+		background-color: #31B0D5;
+		color: #fff;
+	}
+
 	.footer_left_block ul{
 		display: none;
 	}
@@ -41,6 +46,11 @@
 		padding: 15px;
 		border: 1px solid;
 		height: 80px;
+	}
+
+	.footer_center_block h3:hover{
+		background-color: #31B0D5;
+		color: #fff;
 	}
 
 	.rec_content{
@@ -57,6 +67,11 @@
 		padding: 15px;
 		border: 1px solid;
 		height: 80px;
+	}
+
+	.footer_right_block h3:hover{
+		background-color: #31B0D5;
+		color: #fff;
 	}
 
 	.contacts_content{

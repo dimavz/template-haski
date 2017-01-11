@@ -506,7 +506,7 @@ section.content{
 }
 
 .footer_subscribe{
-	background-color: #43484C;
+	background-color: #1d1d1d;
 	padding: 10px 0;
 	color: #fff;
 	min-height: 20px;
@@ -537,7 +537,7 @@ section.content{
 .footer_topline{
 	background-color: #43484C;
 	padding: 10px 0;
-	color: #fff;
+	color: #31B0D5;
 	min-height: 30px;
 }
 
@@ -568,6 +568,10 @@ section.content{
 .footer_center_block{
 	width: 100%;
 	float: center;
+}
+
+.footer_center_block p{
+	color: #fff;
 }
 
 .footer_center_block a{
@@ -629,7 +633,7 @@ section.content{
 }
 
 .footer_bottomline{
-	background-color: #43484C;
+	background-color: #1d1d1d;
 	padding: 10px 0;
 	color: #fff;
 	min-height: 20px;

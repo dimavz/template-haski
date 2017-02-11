@@ -267,6 +267,7 @@ section.content{
 	text-transform: uppercase;
 	font-size: 20px;
 	font-family: "DisneyParkRegular";
+	/* font-family: "RobotoRegular",sans-serif; */
 }
 
 .body_panel{
@@ -643,4 +644,76 @@ section.content{
 
 .footer_bottomline span {
 	font-size: 14px;
+}
+
+/* Стили страницы main*/
+
+.modules{
+	margin-top: 5px 0;
+	border: #3797BF 3px solid;
+	border-radius:0.3em;
+	padding: 5px;
+	background-color: #fff;
+	width: 100%;
+}
+
+.latest_posts{
+	margin-top: 15px;
+	padding: 5px;
+	background-color: #fff;
+	width: 100%;
+}
+
+.wrap_latest{
+	display: inline-block;
+	width: 100%;
+	margin: 0 5px;
+
+}
+
+.latest_posts h1{
+	margin: 0;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	/* font-family: "DisneyParkRegular"; */
+	font-family: "RobotoRegular",sans-serif;
+	color: #3779BF;
+}
+
+.lpost{
+	display: block;
+	float: left;
+	border: 1px solid #8E9194;
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	margin: 5px;
+	text-align: center;
+}
+
+.lpost img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 60%;
+}
+
+.lpost h3{
+	display: block;
+	color: yellow;
+	padding: 5px;
+	font-size: 14px;
+	padding: 5px;
+	width: 100%;
+	height: 40%;
+	background-color: #43484C;
+	opacity: 0.6;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+.lpost a{
+	color: yellow;
 }

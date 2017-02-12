@@ -660,6 +660,7 @@ section.content{
 .post-row{
 	display: inline-block;
 	margin-top: 15px;
+	margin-bottom: 50px;
 	padding: 5px;
 	background-color: #fff;
 	width: 100%;
@@ -681,22 +682,37 @@ section.content{
 	padding-top: 0px;
 	text-align: center;
 	position: relative;
-	height: 215px;
+	height: 160px;
 	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 	transition: all .5s;
 }
 .post_widget:hover{
+	/* box-shadow: 0 0 16px rgba(0,0,0, .5); */
+	border: none;
+	overflow:visible;
+	z-index: 30;
+}
+.post_widget > div{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
 	box-shadow: 0 0 16px rgba(0,0,0, .5);
+}
+.post_widget > div:hover{
+	border: 1px solid #C0C0C0;
 }
 .post_widget h3{
 	background-color: #83C5FC;
 	font-size: 12px;
-	padding: 10px;
+	padding: 5px;
 	margin-top: 0px;
-	height: 40%;
+	margin-bottom: 0px;
+	min-height: 100px; 
+	max-height: 100px; 
 	width: 100%;
-	overflow: hidden;
 	text-align: auto;
+	overflow: hidden;
 }
 .post_widget h3 > a {
 	color: #fff;
@@ -706,7 +722,7 @@ section.content{
 	text-decoration: none;
 }
 .post_img{
-	height: 60%;
+	height: 120px;
 	padding-top: 0px;
 }
 .post_img img{

@@ -664,7 +664,7 @@ section.content{
 	padding-bottom: 55px;	
 	background-color: #fff;
 	width: 100%;
-	border-bottom: 1px dashed #3779BF;
+	/* border-bottom: 1px dashed #3779BF; */
 }
 .post-row h2{
 	font-size: 20px;

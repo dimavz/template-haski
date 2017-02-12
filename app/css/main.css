@@ -660,10 +660,11 @@ section.content{
 .post-row{
 	display: inline-block;
 	margin-top: 15px;
-	margin-bottom: 50px;
 	padding: 5px;
+	padding-bottom: 55px;	
 	background-color: #fff;
 	width: 100%;
+	border-bottom: 1px dashed #3779BF;
 }
 .post-row h2{
 	font-size: 20px;
@@ -708,8 +709,7 @@ section.content{
 	padding: 5px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	min-height: 100px; 
-	max-height: 100px; 
+	height: 100px; 	
 	width: 100%;
 	text-align: auto;
 	overflow: hidden;

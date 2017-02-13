@@ -831,7 +831,7 @@ section.content{
 	width: 100%;
 	top:0;
 	left:0;
-	box-shadow: 0 0 16px rgba(0,0,0, .5);
+	box-shadow: 0 0 24px rgba(255,0,0, .5);
 }
 #content_wanted .post_widget > div:hover{
 	border: 1px solid red;

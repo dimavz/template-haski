@@ -760,7 +760,7 @@ section.content{
 
 .nav-tabs > li > a:hover {
   background-color: #83C5FC;
-  color: yellow;
+  color: #fff;
 }
 
 .tab-content > .active {

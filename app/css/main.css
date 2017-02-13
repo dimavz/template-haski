@@ -744,10 +744,9 @@ section.content{
   border-style: solid;
   border-width: 1px;
   cursor: default;  color: yellow;
-
   font-size: 1.2em;
   background-color: #3779BF;
-  border-radius: 4px 4px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .nav-tabs > li > a {
@@ -757,11 +756,15 @@ section.content{
   margin-right: 2px;
   font-size: 1.2em;
   text-transform: uppercase;
+  background-color: #83C5FC;
+  border-radius: 15px 15px 0 0;
+  color: #fff;
 }
 
 .nav-tabs > li > a:hover {
   background-color: #83C5FC;
-  color: #fff;
+  color: yellow;
+  border-radius: 15px 15px 0 0;
 }
 
 .tab-content > .active {
@@ -785,7 +788,7 @@ section.content{
   cursor: default;  color: yellow;
   font-size: 1.2em;
   background-color: red;
-  border-radius: 4px 4px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
 .tab-content#content_wanted > .active {
@@ -794,9 +797,16 @@ section.content{
   border-radius: 0px 0px 10px 10px;
 }
 
-.nav-tabs#Wanted > li > a:hover {
+.nav-tabs#Wanted > li > a {
   background-color: #F77992;
   color: #fff;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.nav-tabs#Wanted > li > a:hover {
+  background-color: #F77992;
+  color: yellow;
+  border-radius: 15px 15px 0px 0px;
 }
 
 /* Виджет модуля розыска */

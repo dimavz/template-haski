@@ -812,7 +812,7 @@ section.content{
 /* Виджет модуля розыска */
 #content_wanted .post_widget{
 	margin-bottom: 10px;
-	border: 1px solid #F77992;
+	border: 1px solid red;
 	padding-top: 0px;
 	text-align: center;
 	position: relative;
@@ -834,10 +834,10 @@ section.content{
 	box-shadow: 0 0 16px rgba(0,0,0, .5);
 }
 #content_wanted .post_widget > div:hover{
-	border: 1px solid #F77992;
+	border: 1px solid red;
 }
 #content_wanted .post_widget h3{
-	background-color: #F77992;
+	background-color: red;
 	font-size: .95em;
 	font-weight: 300;
 	padding: 5px;

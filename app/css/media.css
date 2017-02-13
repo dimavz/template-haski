@@ -255,6 +255,7 @@
 		width: 100%;
 		text-align: center;
 	}
+	
 
 }
 
@@ -305,6 +306,9 @@
 		color: yellow;
 		background-color:#000;
 		border: 1px solid yellow;
+	}
+	.post-row .col-xs-6 {
+		width: 100%;
 	}
 }
 

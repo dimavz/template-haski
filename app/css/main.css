@@ -705,7 +705,8 @@ section.content{
 }
 .post_widget h3{
 	background-color: #83C5FC;
-	font-size: 12px;
+	font-size: .95em;
+	font-weight: 300;
 	padding: 5px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -720,6 +721,7 @@ section.content{
 .post_widget h3 > a:hover {
 	color: yellow;
 	text-decoration: none;
+	background-color: transparent;
 }
 .post_img{
 	height: 120px;
@@ -728,4 +730,35 @@ section.content{
 .post_img img{
 	width: 100%;
 	height: 100%;
+}
+
+/* Стиль Табов */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #fff;
+  border-color: #ddd #ddd transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: yellow;
+  cursor: default;
+  font-size: 1.6em;
+  background-color: #3779BF;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  line-height: 1.42857;
+  margin-right: 2px;
+  font-size: 1.6em;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #83C5FC;
+  color: yellow;
 }

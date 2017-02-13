@@ -676,7 +676,7 @@ section.content{
 	font-family: "RobotoRegular",sans-serif;
 }
 
-/* Виджет новости */
+/* Виджет модуля новости */
 .post_widget{
 	margin-bottom: 10px;
 	border: 1px solid #C0C0C0;
@@ -743,9 +743,9 @@ section.content{
   border-image: none;
   border-style: solid;
   border-width: 1px;
-  color: yellow;
-  cursor: default;
-  font-size: 1.4em;
+  cursor: default;  color: yellow;
+
+  font-size: 1.2em;
   background-color: #3779BF;
   border-radius: 4px 4px 0 0;
 }
@@ -755,7 +755,8 @@ section.content{
   border-radius: 4px 4px 0 0;
   line-height: 1.42857;
   margin-right: 2px;
-  font-size: 1.4em;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 .nav-tabs > li > a:hover {
@@ -764,7 +765,92 @@ section.content{
 }
 
 .tab-content > .active {
-  border: 3px solid #3779bf;
+  border: 1px solid #3779bf;
   display: block;
   border-radius: 0px 0px 10px 10px;
+}
+
+/* Стили модуля Розыск (wanted) */
+
+.nav-tabs#Wanted > li.active > a, .nav-tabs#Wanted > li.active > a:focus, .nav-tabs#Wanted > li.active > a:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #fff;
+  border-color: #ddd #ddd transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  cursor: default;  color: yellow;
+  font-size: 1.2em;
+  background-color: red;
+  border-radius: 4px 4px 0 0;
+}
+
+.tab-content#content_wanted > .active {
+  border: 1px solid red;
+  display: block;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.nav-tabs#Wanted > li > a:hover {
+  background-color: #F77992;
+  color: #fff;
+}
+
+/* Виджет модуля розыска */
+#content_wanted .post_widget{
+	margin-bottom: 10px;
+	border: 1px solid #F77992;
+	padding-top: 0px;
+	text-align: center;
+	position: relative;
+	height: 160px;
+	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
+	transition: all .5s;
+}
+#content_wanted .post_widget:hover{
+	/* box-shadow: 0 0 16px rgba(0,0,0, .5); */
+	border: none;
+	overflow:visible;
+	z-index: 30;
+}
+#content_wanted .post_widget > div{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+	box-shadow: 0 0 16px rgba(0,0,0, .5);
+}
+#content_wanted .post_widget > div:hover{
+	border: 1px solid #F77992;
+}
+#content_wanted .post_widget h3{
+	background-color: #F77992;
+	font-size: .95em;
+	font-weight: 300;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100px; 	
+	width: 100%;
+	text-align: auto;
+	overflow: hidden;
+}
+.post_widget h3 > a {
+	color: #fff;
+}
+.post_widget h3 > a:hover {
+	color: yellow;
+	text-decoration: none;
+	background-color: transparent;
+}
+.post_img{
+	height: 120px;
+	padding-top: 0px;
+}
+.post_img img{
+	width: 100%;
+	height: 100%;
 }

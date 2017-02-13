@@ -745,7 +745,7 @@ section.content{
   border-width: 1px;
   color: yellow;
   cursor: default;
-  font-size: 1.6em;
+  font-size: 1.4em;
   background-color: #3779BF;
   border-radius: 4px 4px 0 0;
 }
@@ -755,10 +755,16 @@ section.content{
   border-radius: 4px 4px 0 0;
   line-height: 1.42857;
   margin-right: 2px;
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 .nav-tabs > li > a:hover {
   background-color: #83C5FC;
   color: yellow;
+}
+
+.tab-content > .active {
+  border: 3px solid #3779bf;
+  display: block;
+  border-radius: 0px 0px 10px 10px;
 }

@@ -662,7 +662,7 @@ section.content{
 	margin-top: 15px;
 	padding: 5px;
 	padding-bottom: 55px;	
-	background-color: #fff;
+	/* background-color: #fff; */
 	width: 100%;
 	/* border-bottom: 1px dashed #3779BF; */
 }
@@ -756,14 +756,14 @@ section.content{
   margin-right: 2px;
   font-size: 1.2em;
   text-transform: uppercase;
-  background-color: #83C5FC;
+  background-color: #3797BF;
   border-radius: 15px 15px 0 0;
   color: #fff;
   padding: 3px 15px;
 }
 
 .nav-tabs > li > a:hover {
-  background-color: #83C5FC;
+  background-color: #3797BF;
   color: yellow;
   border-radius: 15px 15px 0 0;
 }
@@ -773,7 +773,12 @@ section.content{
   display: block;
   border-radius: 0px 0px 10px 10px;
 }
-
+.tab-content {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-radius: 0 0 15px 15px;
+  border-right: 1px solid #ddd;
+}
 /* Стили модуля Розыск (wanted) */
 
 .nav-tabs#Wanted > li.active > a, .nav-tabs#Wanted > li.active > a:focus, .nav-tabs#Wanted > li.active > a:hover {

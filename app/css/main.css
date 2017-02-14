@@ -759,6 +759,7 @@ section.content{
   background-color: #83C5FC;
   border-radius: 15px 15px 0 0;
   color: #fff;
+  padding: 3px 15px;
 }
 
 .nav-tabs > li > a:hover {
@@ -801,6 +802,7 @@ section.content{
   background-color: #F77992;
   color: #fff;
   border-radius: 15px 15px 0px 0px;
+  padding: 3px 15px;
 }
 
 .nav-tabs#Wanted > li > a:hover {

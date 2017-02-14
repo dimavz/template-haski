@@ -38,7 +38,7 @@
 	}
 	
 	.footer_center_block {
-  text-align: left;
+		text-align: left;
 	}
 
 	.footer_center_block h3{
@@ -58,7 +58,7 @@
 	}
 
 	.footer_right_block {
-  width: 100%;
+		width: 100%;
 	}
 
 	
@@ -79,7 +79,7 @@
 	}
 
 	.footer_subscribe form{
-	margin-left: 0px;
+		margin-left: 0px;
 	}
 }
 
@@ -173,10 +173,10 @@
 	}
 
 	.pages ul li a.active{
-	color: yellow;
-	background-color:#000;
-	border: 1px solid yellow;
-}
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
 
 	.pages ul li a.end {
 		display: block;
@@ -286,10 +286,10 @@
 	}
 
 	.pages ul li a.active{
-	color: yellow;
-	background-color:#000;
-	border: 1px solid yellow;
-}
+		color: yellow;
+		background-color:#000;
+		border: 1px solid yellow;
+	}
 
 	.pages ul li a.end {
 		display: block;
@@ -309,6 +309,9 @@
 	}
 	.post-row .col-xs-6 {
 		width: 100%;
+	}
+	.post-row{
+		padding-bottom: 95px;	
 	}
 }
 
@@ -357,7 +360,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-		.footer_left_block ul{
+	.footer_left_block ul{
 		display: block !important;
 	}
 

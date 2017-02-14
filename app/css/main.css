@@ -665,7 +665,7 @@ section.content{
 	/* background-color: #fff; */
 	width: 100%;
 	/* border-bottom: 1px dashed #3779BF; */
-	position: relative;
+	 position: relative; 
 }
 .post-row h2{
 	font-size: 20px;
@@ -873,8 +873,17 @@ section.content{
 	height: 100%;
 }
 
-.add_post_wanted{
+.butt_wanted {
+	/*padding-top: 0px;
+	padding-left: 15px;
+	margin: 0;*/
+	padding-top: 20px;
 	position: absolute;
-	bottom: 10px;
+	bottom: 0px;
 	left: 20px;
+}
+
+.butt_wanted button {
+	margin-top: 10px;
+	margin-right: 20px;
 }

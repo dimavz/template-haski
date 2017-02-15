@@ -947,7 +947,7 @@ section.content{
 	color: #fff;
 	font-size: 1.4em;
 	background-color: #EC971F;
-	border: 3px dashed #fff;
+	border: 2px dashed #fff;
 }
 
 /* Стили модулей категории "Спрос" */
@@ -969,5 +969,5 @@ section.content{
 	color: #fff;
 	font-size: 1.4em;
 	background-color: #449d44;
-	border: 3px dashed #fff;
+	border: 2px dashed #fff;
 }

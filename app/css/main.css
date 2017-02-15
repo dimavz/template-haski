@@ -519,7 +519,7 @@ section.content{
 }
 
 .footer_subscribe form{
-	margin-left: 250px;
+	/*margin-left: 250px;*/
 }
 
 	.footer_subscribe .form-group{
@@ -687,7 +687,7 @@ section.content{
 	padding-top: 0px;
 	text-align: center;
 	position: relative;
-	height: 160px;
+	height: 200px;
 	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 	transition: all .5s;
 }
@@ -728,7 +728,7 @@ section.content{
 	background-color: transparent;
 }
 .post_img{
-	height: 120px;
+	/*height: 160px;*/
 	padding-top: 0px;
 }
 .post_img img{
@@ -828,7 +828,7 @@ section.content{
 	padding-top: 0px;
 	text-align: center;
 	position: relative;
-	height: 160px;
+	height: 200px;
 	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 	transition: all .5s;
 }
@@ -869,7 +869,7 @@ section.content{
 	background-color: transparent;
 }
 .post_img{
-	height: 120px;
+	height: 160px;
 	padding-top: 0px;
 }
 .post_img img{
@@ -892,42 +892,7 @@ section.content{
 	margin-right: 20px;
 }
 
-/* Стили табов Объявлений (Adsense) */
 
-.nav-tabs#Adsense > li.active > a, .nav-tabs#Adsense > li.active > a:focus, .nav-tabs#Adsense > li.active > a:hover {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #fff;
-  border-color: #ddd #ddd transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 1px;
-  cursor: default;  color: yellow;
-  font-size: 1.2em;
-  background-color: #449D44;
-  /*border-radius: 15px 15px 0 0;*/
-}
-
-.tab-content#content_adsense > .active {
-  border: 1px solid #449D44;
-  display: block;
-  border-radius: 0px 0px 10px 10px;
-}
-
-.nav-tabs#Adsense > li > a {
-  background-color: #68C968;
-  color: #fff;
-  border-radius: 15px 15px 0px 0px;
-  padding: 3px 15px;
-}
-
-.nav-tabs#Adsense > li > a:hover {
-  background-color: #68C968;
-  color: yellow;
-  border-radius: 15px 15px 0px 0px;
-}
 
 
 /* Стили таба "Последние объявления" */

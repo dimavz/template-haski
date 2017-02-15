@@ -205,9 +205,12 @@ section.content{
 	background-color: #31B0D5;
 }
 
-.slider_container{
-	position: relative;
-	margin-top: 20px;
+.slider_container {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 20px;
+  position: relative;
+  border: 3px solid #3797BF;
 }
 
 .slider_container img{
@@ -747,7 +750,7 @@ section.content{
   cursor: default;  color: yellow;
   font-size: 1.2em;
   background-color: #3779BF;
-  border-radius: 15px 15px 0 0;
+  /*border-radius: 15px 15px 0 0;*/
 }
 
 .nav-tabs > li > a {
@@ -758,7 +761,7 @@ section.content{
   font-size: 1.2em;
   text-transform: uppercase;
   background-color: #3797BF;
-  border-radius: 15px 15px 0 0;
+  /*border-radius: 15px 15px 0 0;*/
   color: #fff;
   padding: 3px 15px;
 }
@@ -766,18 +769,19 @@ section.content{
 .nav-tabs > li > a:hover {
   background-color: #3797BF;
   color: yellow;
-  border-radius: 15px 15px 0 0;
+  /*border-radius: 15px 15px 0 0;*/
 }
 
 .tab-content > .active {
-  border: 1px solid #3779bf;
+  /*border-top: 1px solid #3779bf;*/
+  /*border-bottom: 1px solid #3779bf;*/
   display: block;
-  border-radius: 0px 0px 10px 10px;
+  /*border-radius: 0px 0px 10px 10px;*/
 }
 .tab-content {
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd;
-  border-radius: 0 0 15px 15px;
+  /*border-radius: 0 0 15px 15px;*/
   border-right: 1px solid #ddd;
 }
 /* Стили модуля Розыск (wanted) */
@@ -794,33 +798,33 @@ section.content{
   border-width: 1px;
   cursor: default;  color: yellow;
   font-size: 1.2em;
-  background-color: #EC971F;
-  border-radius: 15px 15px 0 0;
+  background-color: #3779BF;
+  /*border-radius: 15px 15px 0 0;*/
 }
 
 .tab-content#content_wanted > .active {
-  border: 1px solid #EC971F;
+  /*border-top: 1px solid #EC971F;*/
   display: block;
-  border-radius: 0px 0px 10px 10px;
+  /*border-radius: 0px 0px 10px 10px;*/
 }
 
 .nav-tabs#Wanted > li > a {
-  background-color: #F4B761;
+  background-color: #3797BF;
   color: #fff;
-  border-radius: 15px 15px 0px 0px;
+  /*border-radius: 15px 15px 0px 0px;*/
   padding: 3px 15px;
 }
 
 .nav-tabs#Wanted > li > a:hover {
-  background-color: #F4B761;
+  background-color: #3797BF;
   color: yellow;
-  border-radius: 15px 15px 0px 0px;
+  /*border-radius: 15px 15px 0px 0px;*/
 }
 
 /* Виджет модуля розыска */
 #content_wanted .post_widget{
 	margin-bottom: 10px;
-	border: 1px solid #EC971F;
+	border: 1px solid #3797BF;
 	padding-top: 0px;
 	text-align: center;
 	position: relative;
@@ -839,13 +843,13 @@ section.content{
 	width: 100%;
 	top:0;
 	left:0;
-	box-shadow: 0 0 24px rgba(255,255,0, .5);
+	box-shadow: 0 0 24px rgba(0,0,255, .5);
 }
 #content_wanted .post_widget > div:hover{
-	border: 1px solid #EC971F;
+	border: 1px solid #3797BF;
 }
 #content_wanted .post_widget h3{
-	background-color: #EC971F;
+	background-color: #3797BF;
 	font-size: .95em;
 	font-weight: 300;
 	padding: 5px;
@@ -890,7 +894,7 @@ section.content{
 
 /* Стили табов Объявлений (Adsense) */
 
-.nav-tabs#Adsense > li.active > a, .nav-tabs#Wanted > li.active > a:focus, .nav-tabs#Wanted > li.active > a:hover {
+.nav-tabs#Adsense > li.active > a, .nav-tabs#Adsense > li.active > a:focus, .nav-tabs#Adsense > li.active > a:hover {
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
@@ -903,7 +907,7 @@ section.content{
   cursor: default;  color: yellow;
   font-size: 1.2em;
   background-color: #449D44;
-  border-radius: 15px 15px 0 0;
+  /*border-radius: 15px 15px 0 0;*/
 }
 
 .tab-content#content_adsense > .active {

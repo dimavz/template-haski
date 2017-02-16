@@ -228,10 +228,10 @@ section.content{
 
 .main_slider .carousel-caption{
 	/*position: absolute;*/
-	top:-20px;
-	left: 600px;
+	top:-35px;
+	left: 550px;
 	text-align: left;
-	width: 400px;
+	width: 550px;
 }
 
 .main_slider .carousel-caption .item_text{
@@ -243,6 +243,9 @@ section.content{
 
 .main_slider .item h3{
 	color: #3779BF;
+	height: 55px;
+	width: 100%;
+	overflow: hidden;
 }
 .main_slider .item h3 > a:hover{
 	color: #3779BF;
@@ -300,6 +303,8 @@ margin-top: 20px;
   text-indent: -999px;
   width: 20px;
 }
+
+/* Конец стилей слайдера */
 
 .hidden{
 	display: none;

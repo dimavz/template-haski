@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<!-- <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" /> -->
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -143,17 +143,86 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="slider_container"><!-- Блок слайдера -->
-						<div class="carousel"> 
-							<div class="slide_item"><img src="img/slider/slide_1.jpg" class="img-thumbnail" alt="слайд"></div>
-							<div class="slide_item"><img src="img/slider/slide_2.jpg" class="img-thumbnail" alt="слайд"></div>
-							<div class="slide_item"><img src="img/slider/slide_3.jpg" class="img-thumbnail" alt="слайд"></div>
-							<div class="slide_item"><img src="img/slider/slide_1.jpg" class="img-thumbnail" alt="слайд"></div>
-							<div class="slide_item"><img src="img/slider/slide_2.jpg" class="img-thumbnail" aclass="img-thumbnail" lt="слайд"></div>
-							<div class="slide_item"><img src="img/slider/slide_3.jpg" class="img-thumbnail" alt="слайд"></div>
-						</div>
-						<button class="prev_button btn"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
-						<button class="next_button btn"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
+					<div class="main_slider"><!-- Блок слайдера -->
+						<div id="carousel-main" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-main" data-slide-to="1"></li>
+								<li data-target="#carousel-main" data-slide-to="2"></li>
+								<li data-target="#carousel-main" data-slide-to="3"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+								<a href="">
+									<img src="/img/slider/slide_1.jpg" alt="">
+								</a>
+									<div class="carousel-caption">
+										<h3><a href="">Заголовок слайда 1</a></h3>
+										<div class="item_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										</div>
+									<a href="" class="btn btn-info">Подробнее...</a>
+									</div>
+								</div>
+								<div class="item">
+								<a href="">
+									<img src="/img/slider/slide_2.jpg" alt="">
+								</a>
+									<div class="carousel-caption">
+										<h3><a href="">Заголовок слайда 2</a></h3>
+										<div class="item_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										</div>
+									<a href="" class="btn btn-info">Подробнее...</a>
+									</div>
+								</div>
+								<div class="item">
+								<a href="">
+									<img src="/img/slider/slide_3.jpg" alt="">
+								</a>
+									<div class="carousel-caption">
+										<h3><a href="">Заголовок слайда 3</a></h3>
+										<div class="item_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										</div>
+									<a href="" class="btn btn-info">Подробнее...</a>
+									</div>
+								</div>
+								<div class="item">
+								<a href="">
+									<img src="/img/slider/slide_1.jpg" alt="">
+								</a>
+									<div class="carousel-caption">
+										<h3><a href="">Заголовок слайда 4</a></h3>
+										<div class="item_text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+										</div>
+									<a href="" class="btn btn-info">Подробнее...</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Предыдущий</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Следующий</span>
+							</a>
+						</div><!-- /#carousel-main -->
 					</div>
 					<div class="conteiner">
 						<div class="row">
@@ -455,81 +524,51 @@
 								<div class="tab-content" id="content_wanted">
 									<div class="tab-pane active" id="wanted_pet">
 										<div class="post-row">
-											<!-- <h2>Новоcти</h2> -->
-											<div class="col-sm-3 col-xs-6">
-												<div class="post_widget">
-													<div>
-														<div class="post_img">
-															<a href="#">
-																<img src="img/slider/slide_2.jpg" alt="заголовок статьи" title="Подробнее">
-															</a>
-														</div><!-- end /.post_img -->
-														<h3>
-															<a href="#">
-																Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи.Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи
-															</a>
-														</h3>
+											<div id="carousel-wanted" class="carousel slide" data-ride="carousel">
+												<!-- Indicators -->
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-wanted" data-slide-to="0" class="active"></li>
+													<li data-target="#carousel-wanted" data-slide-to="1"></li>
+													<li data-target="#carousel-wanted" data-slide-to="2"></li>
+												</ol>
+
+												<!-- Wrapper for slides -->
+												<div class="carousel-inner" role="listbox">
+													<div class="item active">
+														<img src="/img/slider/slide_1.jpg" alt="">
+														<div class="carousel-caption">
+															<h3>Заголовок слайда 1</h3>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+														</div>
 													</div>
-												</div><!-- end /.post_widget -->
-											</div>
-											<div class="col-sm-3 col-xs-6">
-												<div class="post_widget">
-													<div>
-														<div class="post_img">
-															<a href="#">
-																<img src="img/slider/slide_3.jpg" alt="заголовок статьи" title="Подробнее">
-															</a>
-														</div><!-- end /.post_img -->
-														<h3>
-															<a href="#">
-																Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи.
-															</a>
-														</h3>
+													<div class="item">
+														<img src="/img/slider/slide_2.jpg" alt="">
+														<div class="carousel-caption">
+															<h3>Заголовок слайда 2</h3>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+														</div>
 													</div>
-												</div><!-- end /.post_widget -->
-											</div>
-											<div class="col-sm-3 col-xs-6">
-												<div class="post_widget">
-													<div>
-														<div class="post_img">
-															<a href="#">
-																<img src="img/slider/slide_1.jpg" alt="заголовок статьи" title="Подробнее">
-															</a>
-														</div><!-- end /.post_img -->
-														<h3>
-															<a href="#">
-																Очень длинный при длинный заголовок статьи.
-															</a>
-														</h3>
+													<div class="item">
+														<img src="/img/slider/slide_3.jpg" alt="">
+														<div class="carousel-caption">
+															<h3>Заголовок слайда 3</h3>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+														</div>
 													</div>
-												</div><!-- end /.post_widget -->
-											</div>
-											<div class="col-sm-3 col-xs-6">
-												<div class="post_widget">
-													<div>
-														<div class="post_img">
-															<a href="#">
-																<img src="img/slider/slide_1.jpg" alt="заголовок статьи" title="Подробнее">
-															</a>
-														</div><!-- end /.post_img -->
-														<h3>
-															<a href="#">
-																Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи. Очень длинный при длинный заголовок статьи
-															</a>
-														</h3>
-													</div>
-												</div><!-- end /.post_widget -->
-											</div>
-											<div class="butt_wanted">
-												<button class="btn btn-info">
-													Подать объявление
-												</button>
-												<button class="btn btn-success">
-													Смотреть все...
-												</button>
-											</div>	
-										</div><!-- end /.post-row -->
-									</div>
+												</div>
+
+												<!-- Controls -->
+												<a class="left carousel-control" href="#carousel-wanted" role="button" data-slide="prev">
+													<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+													<span class="sr-only">Предыдущий</span>
+												</a>
+												<a class="right carousel-control" href="#carousel-wanted" role="button" data-slide="next">
+													<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+													<span class="sr-only">Следующий</span>
+												</a>
+											</div><!-- /#carousel-wanted -->
+										</div><!-- /.post-row -->
+									</div><!-- /#wanted_pet -->
 									<div class="tab-pane" id="wanted_person">
 										<div class="post-row">
 											<!-- <h2>Новоcти</h2> -->
@@ -625,10 +664,10 @@
 										<div class="row">
 											<div class="col-md-6">
 												<div class="modules_offer">
-														<h2>Предложения</h2>
-														<div class="mod_sell">
-															
-														</div>
+													<h2>Предложения</h2>
+													<div class="mod_sell">
+
+													</div>
 
 												</div><!-- /.modules_offer -->
 											</div><!-- /.col-md-6 -->
@@ -790,17 +829,18 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<!-- <script src="libs/owl-carousel/owl.carousel.min.js"></script> -->
 	<script src="libs/countdown/jquery.plugin.js"></script>
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

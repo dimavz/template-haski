@@ -208,13 +208,13 @@ section.content{
 /*Стиль слайдера*/
 
 .main_slider {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  padding: 5px;
-  background-color: #fff;
-  border: 3px solid #3797BF;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #fff;
+	border: 3px solid #3797BF;
 }
 
 .main_slider img{
@@ -258,50 +258,50 @@ section.content{
 }
 
 .main_slider .carousel-caption a.btn {
-margin-top: 20px;
+	margin-top: 20px;
 }
 
 /* Элементы управления слайдером */
 
 .carousel-indicators {
 	position: absolute;
-  bottom: -47px;
-  left: 70%;
-  list-style: outside none none;
-  margin-left: -30%;
-  padding-left: 0;
-  text-align: center;
-  width: 20%;
-  z-index: 15;
-  background-color: #3797bf;
-  border-bottom-right-radius:1em;
+	bottom: -47px;
+	left: 70%;
+	list-style: outside none none;
+	margin-left: -30%;
+	padding-left: 0;
+	text-align: center;
+	width: 20%;
+	z-index: 15;
+	background-color: #3797bf;
+	border-bottom-right-radius:1em;
 	border-bottom-left-radius:1em;
 	border-top-left-radius:0em;
 	border-top-right-radius:0em;
 }
 
 .carousel-indicators li {
-  background-color: rgba(0, 0, 0, 0);
-  border: 2px solid #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  display: inline-block;
-  height: 20px;
-  margin: 1px;
-  text-indent: -999px;
-  width: 20px;
-  margin-top: 5px;
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin: 1px;
+	text-indent: -999px;
+	width: 20px;
+	margin-top: 5px;
 }
 .carousel-indicators li.active{
 	background-color: yellow;
 	border: 2px solid #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  display: inline-block;
-  height: 20px;
-  margin: 1px;
-  text-indent: -999px;
-  width: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin: 1px;
+	text-indent: -999px;
+	width: 20px;
 }
 
 /* Конец стилей слайдера */
@@ -593,10 +593,10 @@ margin-top: 20px;
 	/*margin-left: 250px;*/
 }
 
-	.footer_subscribe .form-group{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+.footer_subscribe .form-group{
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 .footer_subscribe label{
 	margin-top: 5px;
@@ -739,7 +739,7 @@ margin-top: 20px;
 	/* background-color: #fff; */
 	width: 100%;
 	/* border-bottom: 1px dashed #3779BF; */
-	 position: relative; 
+	position: relative; 
 }
 .post-row h2{
 	font-size: 20px;
@@ -809,87 +809,87 @@ margin-top: 20px;
 
 /* Стиль Табов */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #fff;
-  border-color: #ddd #ddd transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 1px;
-  cursor: default;  color: yellow;
-  font-size: 1.2em;
-  background-color: #3779BF;
-  /*border-radius: 15px 15px 0 0;*/
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #fff;
+	border-color: #ddd #ddd transparent;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;  color: yellow;
+	font-size: 1.2em;
+	background-color: #3779BF;
+	/*border-radius: 15px 15px 0 0;*/
 }
 
 .nav-tabs > li > a {
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-  line-height: 1.42857;
-  margin-right: 2px;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  background-color: #3797BF;
-  /*border-radius: 15px 15px 0 0;*/
-  color: #fff;
-  padding: 3px 15px;
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+	line-height: 1.42857;
+	margin-right: 2px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #3797BF;
+	/*border-radius: 15px 15px 0 0;*/
+	color: #fff;
+	padding: 3px 15px;
 }
 
 .nav-tabs > li > a:hover {
-  background-color: #3797BF;
-  color: yellow;
-  /*border-radius: 15px 15px 0 0;*/
+	background-color: #3797BF;
+	color: yellow;
+	/*border-radius: 15px 15px 0 0;*/
 }
 
 .tab-content > .active {
-  /*border-top: 1px solid #3779bf;*/
-  /*border-bottom: 1px solid #3779bf;*/
-  display: block;
-  /*border-radius: 0px 0px 10px 10px;*/
+	/*border-top: 1px solid #3779bf;*/
+	/*border-bottom: 1px solid #3779bf;*/
+	display: block;
+	/*border-radius: 0px 0px 10px 10px;*/
 }
 .tab-content {
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  /*border-radius: 0 0 15px 15px;*/
-  border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	/*border-radius: 0 0 15px 15px;*/
+	border-right: 1px solid #ddd;
 }
 /* Стили модуля Розыск (wanted) */
 
 .nav-tabs#Wanted > li.active > a, .nav-tabs#Wanted > li.active > a:focus, .nav-tabs#Wanted > li.active > a:hover {
-  -moz-border-bottom-colors: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #fff;
-  border-color: #ddd #ddd transparent;
-  border-image: none;
-  border-style: solid;
-  border-width: 1px;
-  cursor: default;  color: yellow;
-  font-size: 1.2em;
-  background-color: #3779BF;
-  /*border-radius: 15px 15px 0 0;*/
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #fff;
+	border-color: #ddd #ddd transparent;
+	border-image: none;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;  color: yellow;
+	font-size: 1.2em;
+	background-color: #3779BF;
+	/*border-radius: 15px 15px 0 0;*/
 }
 
 .tab-content#content_wanted > .active {
-  /*border-top: 1px solid #EC971F;*/
-  display: block;
-  /*border-radius: 0px 0px 10px 10px;*/
+	/*border-top: 1px solid #EC971F;*/
+	display: block;
+	/*border-radius: 0px 0px 10px 10px;*/
 }
 
 .nav-tabs#Wanted > li > a {
-  background-color: #3797BF;
-  color: #fff;
-  /*border-radius: 15px 15px 0px 0px;*/
-  padding: 3px 15px;
+	background-color: #3797BF;
+	color: #fff;
+	/*border-radius: 15px 15px 0px 0px;*/
+	padding: 3px 15px;
 }
 
 .nav-tabs#Wanted > li > a:hover {
-  background-color: #3797BF;
-  color: yellow;
-  /*border-radius: 15px 15px 0px 0px;*/
+	background-color: #3797BF;
+	color: yellow;
+	/*border-radius: 15px 15px 0px 0px;*/
 }
 
 /* Виджет модуля розыска */
@@ -1014,7 +1014,155 @@ margin-top: 20px;
 
 /* Стили слайдера модуля поиска собаки  */
 #carousel-wanted_pets{
-	border: 1px dashed #3779BF;
+	/*border: 1px dashed #3779BF;*/
+	background-color: #fff;
+}
+#carousel-wanted_pets .carousel-inner{
+	padding: 5px;
+	height: 400px;
+	background-color: #fff;
+}
+
+#carousel-wanted_pets .carousel-inner .item{
+	height: 300px;
+}
+#carousel-wanted_pets .carousel-inner .item img{
+	margin: 0;
+	padding: 0;
+	border: 1px solid #c1c1c1 ;
+	height: 300px;
+	width: 450px;
+
+}
+#carousel-wanted_pets .carousel-inner .item .carousel-caption {
+	padding: 0px;
+	top:0px;
+	left:50%;
+	color: #000;
+	text-align: left;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	z-index: 10;
+	display: block;
+	width: 500px;
+}
+#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
+	margin: 0;
+	padding-bottom: 25px;
+	color: red;
+}
+.caption-content{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+.contact-info{
+	margin-top: 10px;
+	margin-left: -45px;
+	width: 600px;
+	/*height: 30px;*/
+	border: 1px solid #c1c1c1;
+	display: inline-block;
+}
+.phone{
+	display: block;
+	padding: 5px;
+	float: left;
+	font-size: 16px;
+}
+.phone span{
+	padding-right:10px ;
+}
+#carousel-wanted_pets .contact-info .skype{
+	display: block;
+	margin: 0;
+	padding: 0px;
+	padding-right: 10px;
+	float: left;
+	font-size: 16px;
+}
+#carousel-wanted_pets .contact-info .skype i{
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #000;
+}
+.mail{
+	display: block;
+	padding: 5px;
+	float: left;
+	font-size: 16px;
+}
+.mail span{
+	padding-right:10px ;
+}
+
+.mail a{
+	color: #000;
+}
+.mail a:hover{
+	color: red;
+	background-color: transparent;
+}
+
+#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
+	margin-top: 10px;
+}
+#carousel-wanted_pets .carousel-control.right {
+	left: 30%;
+}
+
+	/* Стили контролов*/
+#carousel-wanted_pets .carousel-control.right {
+	top: 5px;
+	left: 394px;
+	height: 300px;
+	width: 60px;
+}
+
+#carousel-wanted_pets .carousel-control.left {
+	top: 5px;
+	left: 5px;
+	height: 300px;
+	width: 60px;
+}
+
+#carousel-wanted_pets .carousel-control.right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+}
+
+
+	/* Стили индикатора слайдера модуля поиска собаки*/
+
+#carousel-wanted_pets.carousel.slide{
+	position: relative;
+}
+
+#carousel-wanted_pets.carousel.slide ul.carousel-indicators{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 465px;
+	height: 150px;
+	bottom: 0;
+	background-color: transparent;
+	border:none;
+	position: relative;
+}
+#carousel-wanted_pets.carousel.slide ul.carousel-indicators li {
+	float: left;
+	width: 150px;
+	height: 80px;
+	margin: 0;
+	margin-right: 5px;
+}
+#carousel-wanted_pets.carousel.slide ul.carousel-indicators li > img{
+	margin: 0;
+	padding: 0;
+	width: 140px;
+	height: 90px;
+	border-radius:5px;
+	border:1px solid #c1c1c1;
 }
 
 /* Конец стилей слайдера модуля поиска собаки  */

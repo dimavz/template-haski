@@ -1011,3 +1011,11 @@ margin-top: 20px;
 	background-color: #449d44;
 	border: 2px dashed #fff;
 }
+
+/* Стили слайдера модуля поиска собаки  */
+#carousel-wanted_pets{
+	border: 1px dashed #3779BF;
+}
+
+/* Конец стилей слайдера модуля поиска собаки  */
+

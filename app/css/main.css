@@ -1043,7 +1043,7 @@ section.content{
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	z-index: 10;
 	display: block;
-	width: 500px;
+	width: 550px;
 }
 #carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
 	margin: 0;
@@ -1111,17 +1111,17 @@ section.content{
 	margin-top: 10px;
 	margin-left: -40px;
 }
-#carousel-wanted_pets .carousel-control.right {
-	left: 30%;
-}
 
 	/* Стили контролов*/
-#carousel-wanted_pets .carousel-control.right {
-	top: 15px;
-	/*left: 394px;*/
-	height: 270px;
-	width: 90px;
-}
+	#carousel-wanted_pets .carousel-control.right {
+		left: 30%;
+		top: 15px;
+		/*left: 394px;*/
+		height: 270px;
+		width: 90px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
+		background-repeat: repeat-x;
+	}
 
 #carousel-wanted_pets .carousel-control.left {
 	top: 15px;
@@ -1130,10 +1130,7 @@ section.content{
 	width: 90px;
 }
 
-#carousel-wanted_pets .carousel-control.right {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
-  background-repeat: repeat-x;
-}
+
 
 
 	/* Стили индикатора слайдера модуля поиска собаки*/
@@ -1161,6 +1158,9 @@ section.content{
 	border-radius:5px;
 	border:1px solid #c1c1c1;
 	cursor: pointer;
+}
+#carousel-wanted_pets.carousel.slide ul.carousel-indicators img:hover{
+	background-color: yellow;
 }
 #carousel-wanted_pets.carousel.slide ul.carousel-indicators img.active{
 	/*border:1px solid yellow;*/

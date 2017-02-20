@@ -31,13 +31,13 @@
 		overflow: hidden;
 	}
 
-.main_slider .item h3{
-	font-size: 18px;
-	color: #3779BF;
-	height: 40px;
-	width: 100%;
-	overflow: hidden;
-}
+	.main_slider .item h3{
+		font-size: 18px;
+		color: #3779BF;
+		height: 40px;
+		width: 100%;
+		overflow: hidden;
+	}
 
 	.main_slider .item p{
 		color: #000;
@@ -48,6 +48,37 @@
 		margin-top: 10px;
 	}
 	/* Конец стиль слайдера*/
+
+	/* Стили слайдера розыска */
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption {
+		width: 500px;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
+	margin-left: -20px;
+}
+	.caption-content{
+		margin-left: -20px;
+	}
+
+	.contact-info{
+	margin-left: -30px;
+	width: 550px;
+}
+
+#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
+	margin-left: -30px;
+}
+
+#carousel-wanted_pets.carousel.slide ul.carousel-indicators img{
+	width: 130px;
+	height: 80px;
+}
+
+	#carousel-wanted_pets .carousel-control.right {
+		left: 36.2%;
+	}
+
+	/* Конец стилей слайдера розыска */
 }
 
 /* Medium Devices, Desktops */
@@ -144,10 +175,10 @@
 	}
 
 	.main_slider .item h3{
-	font-size: 16px;
-	height: 35px;
-	overflow: hidden;
-}
+		font-size: 16px;
+		height: 35px;
+		overflow: hidden;
+	}
 
 	.main_slider .item p{
 		color: #000;
@@ -162,6 +193,48 @@
 		padding-right: 15px;
 	}
 	/* Конец стиль слайдера*/
+
+	/* Стили слайдера модуля Розыска*/
+	#carousel-wanted_pets .carousel-inner .item{
+	height: 350px;
+}
+	#carousel-wanted_pets .carousel-inner .item img{
+	margin: 0px;
+	padding: 15px;
+	/*border: 1px solid #c1c1c1 ;*/
+	height: 250px;
+	width: 390px;
+}
+#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+	width: 300px;
+}
+.caption-content{
+	margin-left: 20px;
+	width: 100%;
+	height: 190px;
+	overflow: hidden;
+}
+#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
+	margin-top: -60px;
+	margin-left: 20px;
+}
+#carousel-wanted_pets .carousel-control.left {
+  height: 220px;
+}
+#carousel-wanted_pets .carousel-control.right {
+  height: 220px;
+  left:39%;
+}
+.contact-info {
+  margin-left: -485px;
+  width: 360px;
+}
+	/* Конец стилей слайдера модуля Розыска*/
 }
 
 /* Small Devices, Tablets */
@@ -249,10 +322,10 @@
 	}
 
 	.main_slider .item h3{
-	font-size: 16px;
-	height: 35px;
-	overflow: hidden;
-}
+		font-size: 16px;
+		height: 35px;
+		overflow: hidden;
+	}
 
 	.main_slider .item p{
 		color: #000;
@@ -293,298 +366,298 @@
 		bottom: 10px;
 		left: -350px;
 		height: 100%;
-	}*/
+		}*/
 
-	.main_slider .carousel-caption .item_text{
-		display:none;
+		.main_slider .carousel-caption .item_text{
+			display:none;
+		}
+
+		.main_slider .carousel-inner .item .carousel-caption h3{
+			display: block;
+			padding-top: 5px;
+			vertical-align: bottom;
+			font-size: 16px;
+			height: 60px;
+			overflow: hidden;
+			position: absolute;
+			bottom: -45px;
+			left: -370px;
+			text-align: center;
+			width: 100%;
+			background-color: yellow;
+			opacity: 0.5;
+		}
+
+		.main_slider .item p{
+			color: #000;
+			font-size: 12px;
+		}
+
+		.main_slider .carousel-caption a.btn {
+			display: none;
+		}
+
+		.carousel-indicators{
+			left: 65%;
+			width: 30%;
+		}
+		/* Конец стиль слайдера*/
 	}
 
-	.main_slider .carousel-inner .item .carousel-caption h3{
-	display: block;
-	padding-top: 5px;
-	vertical-align: bottom;
-	font-size: 16px;
-	height: 60px;
-	overflow: hidden;
-	position: absolute;
-	bottom: -45px;
-	left: -370px;
-	text-align: center;
-	width: 100%;
-	background-color: yellow;
-	opacity: 0.5;
-}
+	/* Для настройки отображения навигатора страниц */
+	@media only screen and (max-width : 580px) {
 
-	.main_slider .item p{
-		color: #000;
-		font-size: 12px;
+		.pages ul li a.first {
+			border: 1px solid grey;
+			border-radius: 15px 0 0 15px;
+			color: #fff;
+			display: block;
+			font-size: 14px;
+			padding: 5px;
+			text-align: center;
+			width: 30px;
+		}
+
+		.pages ul li a{
+			display: block;
+			background-color: #43484C;
+			padding: 5px;
+			text-align: center;
+			color: #fff;
+			border: 1px solid grey;
+			font-size: 14px;
+			width: 30px;
+		}
+
+		.pages ul li a.active{
+			color: yellow;
+			background-color:#000;
+			border: 1px solid yellow;
+		}
+
+		.pages ul li a.end {
+			display: block;
+			background-color: #43484C;
+			padding: 5px;
+			text-align: center;
+			color: #fff;
+			border: 1px solid grey;
+			font-size: 14px;
+			width: 30px;
+			border-radius: 0 15px 15px 0;
+		}
+
+		.pages ul li a:hover{
+			text-decoration: none;
+			color: yellow;
+			background-color:#000;
+			border: 1px solid yellow;
+		}
+
+		/* Слайдер */
+		.carousel-indicators{
+			left: 65%;
+			width: 30%;
+		}
 	}
 
-	.main_slider .carousel-caption a.btn {
-		display: none;
+	/* Для настройки отображения логотипа */
+	@media only screen and (max-width : 545px) {
+
+		.main_menu ul li{
+			background-color: #3797bf;
+			display: block;
+			float: none;
+			margin-left: 10px;
+			z-index: 10;
+		}
+
+		.logo_text{
+			display: block;
+			float: left;
+			margin-top: 0px;
+			width: 100%;
+			height: 250px;
+		}
+
+		.greeting{
+			text-align: center;
+		}
+		.logo_title{
+			text-align: center;
+		}
+		.logo_img{
+			width: 100%;
+			text-align: center;
+		}
+
+		.block_sidebar .col-xs-6{
+			width: 100%;
+		}
 	}
 
-	.carousel-indicators{
-		left: 65%;
-		width: 30%;
-	}
-	/* Конец стиль слайдера*/
-}
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
 
-/* Для настройки отображения навигатора страниц */
-@media only screen and (max-width : 580px) {
-	
-	.pages ul li a.first {
-		border: 1px solid grey;
-		border-radius: 15px 0 0 15px;
-		color: #fff;
-		display: block;
-		font-size: 14px;
-		padding: 5px;
-		text-align: center;
-		width: 30px;
-	}
+		.logo_text{
+			display: block;
+			float: left;
+			margin-top: 0px;
+			width: 100%;
+			height: 250px;
+			margin: 0 auto;
+		}
 
-	.pages ul li a{
-		display: block;
-		background-color: #43484C;
-		padding: 5px;
-		text-align: center;
-		color: #fff;
-		border: 1px solid grey;
-		font-size: 14px;
-		width: 30px;
+		.greeting{
+			text-align: center;
+		}
+		.logo_title{
+			text-align: center;
+		}
+		.logo_img{
+			width: 100%;
+			text-align: center;
+		}
+		/* Слайдер */
+		.carousel-indicators{
+			left: 63%;
+			width: 35%;
+		}
+
 	}
 
-	.pages ul li a.active{
-		color: yellow;
-		background-color:#000;
-		border: 1px solid yellow;
+	/* Изменение размеров панели навигации страниц */
+	@media only screen and (max-width : 396px) {
+
+		.pages ul li{
+			padding: 0px;
+		}
+
+		.pages ul li a.first {
+			border: 1px solid grey;
+			border-radius: 5px 0 0 5px;
+			display: block;
+			font-size: 12px;
+			padding: 5px;
+			text-align: center;
+			width: 28px;
+		}
+
+		.pages ul li a{
+			display: block;
+			background-color: #43484C;
+			padding: 5px;
+			border: 1px solid grey;
+			font-size: 12px;
+			width: 28px;
+		}
+
+		.pages ul li a.active{
+			color: yellow;
+			background-color:#000;
+			border: 1px solid yellow;
+		}
+
+		.pages ul li a.end {
+			display: block;
+			background-color: #43484C;
+			padding: 5px;
+			border: 1px solid grey;
+			font-size: 12px;
+			width: 28px;
+			border-radius: 0 5px 5px 0;
+		}
+
+		.pages ul li a:hover{
+			text-decoration: none;
+			color: yellow;
+			background-color:#000;
+			border: 1px solid yellow;
+		}
+		.post-row .col-xs-6 {
+			width: 100%;
+		}
+		.post-row{
+			padding-bottom: 95px;	
+		}
+		/* Элементы управления слайдера*/
+		.carousel-indicators{
+			left: 60%;
+			width: 40%;
+		}
 	}
 
-	.pages ul li a.end {
-		display: block;
-		background-color: #43484C;
-		padding: 5px;
-		text-align: center;
-		color: #fff;
-		border: 1px solid grey;
-		font-size: 14px;
-		width: 30px;
-		border-radius: 0 15px 15px 0;
+	@media only screen and (max-width : 347px) {
+		.carousel-indicators{
+			left: 55%;
+			width: 50%;
+		}
 	}
 
-	.pages ul li a:hover{
-		text-decoration: none;
-		color: yellow;
-		background-color:#000;
-		border: 1px solid yellow;
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+		.post_image img{
+			max-width: 230px;
+			max-height: 200px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+		}
+
+		.post_metainfo li{
+			display: block;
+			float: none;
+			margin: 0 auto;
+			font-size: 0.85em;
+			line-height: 2.1em;
+		}
+		/* Элементы управления слайдера*/
+		.carousel-indicators{
+			left: 55%;
+			width: 50%;
+		}
 	}
 
-	/* Слайдер */
-	.carousel-indicators{
-		left: 65%;
-		width: 30%;
-	}
-}
 
-/* Для настройки отображения логотипа */
-@media only screen and (max-width : 545px) {
 
-	.main_menu ul li{
-		background-color: #3797bf;
-		display: block;
-		float: none;
-		margin-left: 10px;
-		z-index: 10;
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
 	}
 
-	.logo_text{
-		display: block;
-		float: left;
-		margin-top: 0px;
-		width: 100%;
-		height: 250px;
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
 	}
 
-	.greeting{
-		text-align: center;
-	}
-	.logo_title{
-		text-align: center;
-	}
-	.logo_img{
-		width: 100%;
-		text-align: center;
-	}
-
-	.block_sidebar .col-xs-6{
-		width: 100%;
-	}
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-	.logo_text{
-		display: block;
-		float: left;
-		margin-top: 0px;
-		width: 100%;
-		height: 250px;
-		margin: 0 auto;
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+		.top_links{
+			display: inline-block !important;
+		}
+		.main_menu ul{
+			display: inline-block !important;
+		}
 	}
 
-	.greeting{
-		text-align: center;
-	}
-	.logo_title{
-		text-align: center;
-	}
-	.logo_img{
-		width: 100%;
-		text-align: center;
-	}
-	/* Слайдер */
-	.carousel-indicators{
-		left: 63%;
-		width: 35%;
-	}
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		.footer_left_block ul{
+			display: block !important;
+		}
 
-}
+		.rec_content{
+			display: block !important;
+		}
 
-/* Изменение размеров панели навигации страниц */
-@media only screen and (max-width : 396px) {
-
-	.pages ul li{
-		padding: 0px;
-	}
-	
-	.pages ul li a.first {
-		border: 1px solid grey;
-		border-radius: 5px 0 0 5px;
-		display: block;
-		font-size: 12px;
-		padding: 5px;
-		text-align: center;
-		width: 28px;
+		.contacts_content{
+			display: block !important;
+		}
 	}
 
-	.pages ul li a{
-		display: block;
-		background-color: #43484C;
-		padding: 5px;
-		border: 1px solid grey;
-		font-size: 12px;
-		width: 28px;
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
 	}
-
-	.pages ul li a.active{
-		color: yellow;
-		background-color:#000;
-		border: 1px solid yellow;
-	}
-
-	.pages ul li a.end {
-		display: block;
-		background-color: #43484C;
-		padding: 5px;
-		border: 1px solid grey;
-		font-size: 12px;
-		width: 28px;
-		border-radius: 0 5px 5px 0;
-	}
-
-	.pages ul li a:hover{
-		text-decoration: none;
-		color: yellow;
-		background-color:#000;
-		border: 1px solid yellow;
-	}
-	.post-row .col-xs-6 {
-		width: 100%;
-	}
-	.post-row{
-		padding-bottom: 95px;	
-	}
-	/* Элементы управления слайдера*/
-	.carousel-indicators{
-		left: 60%;
-		width: 40%;
-	}
-}
-
-@media only screen and (max-width : 347px) {
-	.carousel-indicators{
-		left: 55%;
-		width: 50%;
-	}
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	.post_image img{
-		max-width: 230px;
-		max-height: 200px;
-		margin-right: 20px;
-		margin-bottom: 20px;
-	}
-
-	.post_metainfo li{
-		display: block;
-		float: none;
-		margin: 0 auto;
-		font-size: 0.85em;
-		line-height: 2.1em;
-	}
-	/* Элементы управления слайдера*/
-	.carousel-indicators{
-		left: 55%;
-		width: 50%;
-	}
-}
-
-
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-	
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	.top_links{
-		display: inline-block !important;
-	}
-	.main_menu ul{
-		display: inline-block !important;
-	}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-	.footer_left_block ul{
-		display: block !important;
-	}
-
-	.rec_content{
-		display: block !important;
-	}
-
-	.contacts_content{
-		display: block !important;
-	}
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}

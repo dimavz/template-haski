@@ -1167,6 +1167,14 @@ section.content{
 	background-color: #3797BF;
 	cursor:auto;
 }
+.all_wanted_pets{
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	/*float: right;*/
+	text-align: center;
+}
 
 /* Конец стилей слайдера модуля поиска собаки  */
 

@@ -54,25 +54,25 @@
 		width: 500px;
 	}
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
-	margin-left: -20px;
-}
+		margin-left: -20px;
+	}
 	.caption-content{
 		margin-left: -20px;
 	}
 
 	.contact-info{
-	margin-left: -30px;
-	width: 550px;
-}
+		margin-left: -30px;
+		width: 550px;
+	}
 
-#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
-	margin-left: -30px;
-}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
+		margin-left: -30px;
+	}
 
-#carousel-wanted_pets.carousel.slide ul.carousel-indicators img{
-	width: 130px;
-	height: 80px;
-}
+	#carousel-wanted_pets.carousel.slide ul.carousel-indicators img{
+		width: 130px;
+		height: 80px;
+	}
 
 	#carousel-wanted_pets .carousel-control.right {
 		left: 36.2%;
@@ -196,44 +196,44 @@
 
 	/* Стили слайдера модуля Розыска*/
 	#carousel-wanted_pets .carousel-inner .item{
-	height: 350px;
-}
+		height: 350px;
+	}
 	#carousel-wanted_pets .carousel-inner .item img{
-	margin: 0px;
-	padding: 15px;
-	/*border: 1px solid #c1c1c1 ;*/
-	height: 250px;
-	width: 390px;
-}
-#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
-	margin-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 15px;
-}
-#carousel-wanted_pets .carousel-inner .item .carousel-caption{
-	width: 300px;
-}
-.caption-content{
-	margin-left: 20px;
-	width: 100%;
-	height: 190px;
-	overflow: hidden;
-}
-#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
-	margin-top: -60px;
-	margin-left: 20px;
-}
-#carousel-wanted_pets .carousel-control.left {
-  height: 220px;
-}
-#carousel-wanted_pets .carousel-control.right {
-  height: 220px;
-  left:39%;
-}
-.contact-info {
-  margin-left: -485px;
-  width: 360px;
-}
+		margin: 0px;
+		padding: 15px;
+		/*border: 1px solid #c1c1c1 ;*/
+		height: 250px;
+		width: 390px;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
+		margin-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+		width: 300px;
+	}
+	.caption-content{
+		margin-left: 20px;
+		width: 100%;
+		height: 190px;
+		overflow: hidden;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
+		margin-top: -60px;
+		margin-left: 20px;
+	}
+	#carousel-wanted_pets .carousel-control.left {
+		height: 220px;
+	}
+	#carousel-wanted_pets .carousel-control.right {
+		height: 220px;
+		left:39%;
+	}
+	.contact-info {
+		margin-left: -485px;
+		width: 360px;
+	}
 	/* Конец стилей слайдера модуля Розыска*/
 }
 
@@ -340,6 +340,64 @@
 		padding-right: 15px;
 	}
 	/* Конец стиль слайдера*/
+
+
+	/* Стили слайдера модуля розыска */
+
+	#carousel-wanted_pets.carousel.slide{
+		height: 600px;
+		position: relative;
+	}
+	#carousel-wanted_pets .carousel-inner{
+		height: 100%;
+	}
+
+	#carousel-wanted_pets .carousel-inner .item{
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+	/*#carousel-wanted_pets .carousel-inner .item a#link_img {
+		position: static;
+		margin: 0;
+		padding: 5px;
+		height: 250px;
+		width: 400px;
+		display: inline-block;
+	} */
+	#carousel-wanted_pets .carousel-inner .item img{
+		margin: 0;
+		padding:0;
+		height: 250px;
+		width: 400px;
+	}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+		display: inline-block;
+		height: 250px;
+		width: 95%;
+		position: static;
+		margin-top: 10px;
+	}
+	.contact-info{
+		margin-left: 20px;
+		width: 100%;
+	}
+
+	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+  background-color: transparent;
+  display: block;
+  left: 420px;
+  margin: 0;
+  top: 10px;
+  width: 150px;
+}
+
+#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
+	margin-top: 20px;
+}
+
+
+	/* Конец стилей слайдера модуля розыска */
 	
 }
 

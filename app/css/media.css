@@ -345,7 +345,7 @@
 	/* Стили слайдера модуля розыска */
 
 	#carousel-wanted_pets.carousel.slide{
-		height: 600px;
+		height: 630px;
 		position: relative;
 	}
 	#carousel-wanted_pets .carousel-inner{
@@ -357,17 +357,10 @@
 		padding: 0;
 		height: 100%;
 	}
-	/*#carousel-wanted_pets .carousel-inner .item a#link_img {
-		position: static;
-		margin: 0;
-		padding: 5px;
-		height: 250px;
-		width: 400px;
-		display: inline-block;
-	} */
+
 	#carousel-wanted_pets .carousel-inner .item img{
 		margin: 0;
-		padding:0;
+		padding:20px;
 		height: 250px;
 		width: 400px;
 	}
@@ -384,18 +377,30 @@
 	}
 
 	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-  background-color: transparent;
-  display: block;
-  left: 420px;
-  margin: 0;
-  top: 10px;
-  width: 150px;
-}
+		background-color: transparent;
+		display: block;
+		left: 410px;
+		margin: 0;
+		top: 10px;
+		width: 150px;
+	}
 
-#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
-	margin-top: 20px;
-}
+	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
+		margin-top: 20px;
+	}
 
+	#carousel-wanted_pets .carousel-control.left {
+		height: 210px;
+		left: 20px;
+		top: 20px;
+		width: 90px;
+	}
+
+	#carousel-wanted_pets .carousel-control.right {
+		height: 210px;
+		top:20px;
+		left: 290px;
+	}
 
 	/* Конец стилей слайдера модуля розыска */
 	
@@ -517,205 +522,273 @@
 			left: 65%;
 			width: 30%;
 		}
-	}
 
-	/* Для настройки отображения логотипа */
-	@media only screen and (max-width : 545px) {
+		/* Стили слайдера модуля розыска */
 
-		.main_menu ul li{
-			background-color: #3797bf;
-			display: block;
-			float: none;
-			margin-left: 10px;
-			z-index: 10;
+		#carousel-wanted_pets.carousel.slide{
+			height: 780px;
+			position: relative;
+		}
+		#carousel-wanted_pets .carousel-inner{
+			height: 100%;
 		}
 
-		.logo_text{
-			display: block;
-			float: left;
-			margin-top: 0px;
-			width: 100%;
-			height: 250px;
+		#carousel-wanted_pets .carousel-inner .item{
+			margin: 0;
+			padding: 0;
+			height: 100%;
 		}
 
-		.greeting{
-			text-align: center;
-		}
-		.logo_title{
-			text-align: center;
-		}
-		.logo_img{
-			width: 100%;
-			text-align: center;
-		}
-
-		.block_sidebar .col-xs-6{
-			width: 100%;
-		}
-	}
-
-	/* Extra Small Devices, Phones */
-	@media only screen and (max-width : 480px) {
-
-		.logo_text{
-			display: block;
-			float: left;
-			margin-top: 0px;
-			width: 100%;
-			height: 250px;
+		#carousel-wanted_pets .carousel-inner .item img{
 			margin: 0 auto;
+			padding:5px;
+			height: 200px;
+			width: 350px;
 		}
-
-		.greeting{
-			text-align: center;
+		#carousel-wanted_pets .carousel-inner .item .carousel-caption{
+			display: inline-block;
+			height: 300px;
+			width: 95%;
+			position: static;
+			margin-top: 100px;
 		}
-		.logo_title{
-			text-align: center;
-		}
-		.logo_img{
-			width: 100%;
-			text-align: center;
-		}
-		/* Слайдер */
-		.carousel-indicators{
-			left: 63%;
-			width: 35%;
-		}
-
-	}
-
-	/* Изменение размеров панели навигации страниц */
-	@media only screen and (max-width : 396px) {
-
-		.pages ul li{
-			padding: 0px;
-		}
-
-		.pages ul li a.first {
-			border: 1px solid grey;
-			border-radius: 5px 0 0 5px;
-			display: block;
-			font-size: 12px;
-			padding: 5px;
-			text-align: center;
-			width: 28px;
-		}
-
-		.pages ul li a{
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			border: 1px solid grey;
-			font-size: 12px;
-			width: 28px;
-		}
-
-		.pages ul li a.active{
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
-
-		.pages ul li a.end {
-			display: block;
-			background-color: #43484C;
-			padding: 5px;
-			border: 1px solid grey;
-			font-size: 12px;
-			width: 28px;
-			border-radius: 0 5px 5px 0;
-		}
-
-		.pages ul li a:hover{
-			text-decoration: none;
-			color: yellow;
-			background-color:#000;
-			border: 1px solid yellow;
-		}
-		.post-row .col-xs-6 {
+		.contact-info{
+			margin-left: 23px;
 			width: 100%;
 		}
-		.post-row{
-			padding-bottom: 95px;	
-		}
-		/* Элементы управления слайдера*/
-		.carousel-indicators{
-			left: 60%;
-			width: 40%;
-		}
-	}
 
-	@media only screen and (max-width : 347px) {
-		.carousel-indicators{
-			left: 55%;
-			width: 50%;
-		}
-	}
-
-	/* Custom, iPhone Retina */
-	@media only screen and (max-width : 320px) {
-		.post_image img{
-			max-width: 230px;
-			max-height: 200px;
-			margin-right: 20px;
-			margin-bottom: 20px;
-		}
-
-		.post_metainfo li{
+		#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+			background-color: transparent;
 			display: block;
-			float: none;
-			margin: 0 auto;
-			font-size: 0.85em;
-			line-height: 2.1em;
-		}
-		/* Элементы управления слайдера*/
-		.carousel-indicators{
-			left: 55%;
-			width: 50%;
-		}
-	}
-
-
-
-
-	/*==========  Mobile First Method  ==========*/
-
-	/* Custom, iPhone Retina */
-	@media only screen and (min-width : 320px) {
-
-	}
-
-	/* Extra Small Devices, Phones */
-	@media only screen and (min-width : 480px) {
-
-	}
-
-	/* Small Devices, Tablets */
-	@media only screen and (min-width : 768px) {
-		.top_links{
-			display: inline-block !important;
-		}
-		.main_menu ul{
-			display: inline-block !important;
-		}
-	}
-
-	/* Medium Devices, Desktops */
-	@media only screen and (min-width : 992px) {
-		.footer_left_block ul{
-			display: block !important;
+			left: 110px;
+			margin: 0;
+			top: 200px;
+			width: 450px;
 		}
 
-		.rec_content{
-			display: block !important;
+		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
+			margin-top: 20px;
+			}*/
+
+			#carousel-wanted_pets .carousel-control.left {
+				height: 190px;
+				left: 20%;
+				top: 5px;
+				width: 50px;
+			}
+
+			#carousel-wanted_pets .carousel-control.right {
+				height: 190px;
+				top:5px;
+				left: 71%;
+				width: 50px;
+			}
+
+			#carousel-wanted_pets.carousel.slide ul.carousel-indicators img {
+				height: 70px;
+				width: 114px;
+			}
+
+			/* Конец стилей слайдера модуля розыска */
 		}
 
-		.contacts_content{
-			display: block !important;
+		/* Для настройки отображения логотипа */
+		@media only screen and (max-width : 545px) {
+
+			.main_menu ul li{
+				background-color: #3797bf;
+				display: block;
+				float: none;
+				margin-left: 10px;
+				z-index: 10;
+			}
+
+			.logo_text{
+				display: block;
+				float: left;
+				margin-top: 0px;
+				width: 100%;
+				height: 250px;
+			}
+
+			.greeting{
+				text-align: center;
+			}
+			.logo_title{
+				text-align: center;
+			}
+			.logo_img{
+				width: 100%;
+				text-align: center;
+			}
+
+			.block_sidebar .col-xs-6{
+				width: 100%;
+			}
 		}
-	}
 
-	/* Large Devices, Wide Screens */
-	@media only screen and (min-width : 1200px) {
+		/* Extra Small Devices, Phones */
+		@media only screen and (max-width : 480px) {
 
-	}
+			.logo_text{
+				display: block;
+				float: left;
+				margin-top: 0px;
+				width: 100%;
+				height: 250px;
+				margin: 0 auto;
+			}
+
+			.greeting{
+				text-align: center;
+			}
+			.logo_title{
+				text-align: center;
+			}
+			.logo_img{
+				width: 100%;
+				text-align: center;
+			}
+			/* Слайдер */
+			.carousel-indicators{
+				left: 63%;
+				width: 35%;
+			}
+
+		}
+
+		/* Изменение размеров панели навигации страниц */
+		@media only screen and (max-width : 396px) {
+
+			.pages ul li{
+				padding: 0px;
+			}
+
+			.pages ul li a.first {
+				border: 1px solid grey;
+				border-radius: 5px 0 0 5px;
+				display: block;
+				font-size: 12px;
+				padding: 5px;
+				text-align: center;
+				width: 28px;
+			}
+
+			.pages ul li a{
+				display: block;
+				background-color: #43484C;
+				padding: 5px;
+				border: 1px solid grey;
+				font-size: 12px;
+				width: 28px;
+			}
+
+			.pages ul li a.active{
+				color: yellow;
+				background-color:#000;
+				border: 1px solid yellow;
+			}
+
+			.pages ul li a.end {
+				display: block;
+				background-color: #43484C;
+				padding: 5px;
+				border: 1px solid grey;
+				font-size: 12px;
+				width: 28px;
+				border-radius: 0 5px 5px 0;
+			}
+
+			.pages ul li a:hover{
+				text-decoration: none;
+				color: yellow;
+				background-color:#000;
+				border: 1px solid yellow;
+			}
+			.post-row .col-xs-6 {
+				width: 100%;
+			}
+			.post-row{
+				padding-bottom: 95px;	
+			}
+			/* Элементы управления слайдера*/
+			.carousel-indicators{
+				left: 60%;
+				width: 40%;
+			}
+		}
+
+		@media only screen and (max-width : 347px) {
+			.carousel-indicators{
+				left: 55%;
+				width: 50%;
+			}
+		}
+
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 320px) {
+			.post_image img{
+				max-width: 230px;
+				max-height: 200px;
+				margin-right: 20px;
+				margin-bottom: 20px;
+			}
+
+			.post_metainfo li{
+				display: block;
+				float: none;
+				margin: 0 auto;
+				font-size: 0.85em;
+				line-height: 2.1em;
+			}
+			/* Элементы управления слайдера*/
+			.carousel-indicators{
+				left: 55%;
+				width: 50%;
+			}
+		}
+
+
+
+
+		/*==========  Mobile First Method  ==========*/
+
+		/* Custom, iPhone Retina */
+		@media only screen and (min-width : 320px) {
+
+		}
+
+		/* Extra Small Devices, Phones */
+		@media only screen and (min-width : 480px) {
+
+		}
+
+		/* Small Devices, Tablets */
+		@media only screen and (min-width : 768px) {
+			.top_links{
+				display: inline-block !important;
+			}
+			.main_menu ul{
+				display: inline-block !important;
+			}
+		}
+
+		/* Medium Devices, Desktops */
+		@media only screen and (min-width : 992px) {
+			.footer_left_block ul{
+				display: block !important;
+			}
+
+			.rec_content{
+				display: block !important;
+			}
+
+			.contacts_content{
+				display: block !important;
+			}
+		}
+
+		/* Large Devices, Wide Screens */
+		@media only screen and (min-width : 1200px) {
+
+		}

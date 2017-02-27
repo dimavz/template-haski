@@ -50,19 +50,26 @@
 	/* Конец стиль слайдера*/
 
 	/* Стили слайдера розыска */
+	#carousel-wanted_pets .carousel-inner .item img {
+		height: 310px;
+		margin: 0;
+		padding: 15px;
+		width: 450px;
+	}
+
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption {
-		width: 500px;
+		width: 450px;
 	}
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
 		margin-left: -20px;
 	}
 	.caption-content{
 		margin-left: -20px;
+		height: 220px;
 	}
 
 	.contact-info{
 		margin-left: -30px;
-		width: 550px;
 	}
 
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
@@ -75,7 +82,7 @@
 	}
 
 	#carousel-wanted_pets .carousel-control.right {
-		left: 36.2%;
+		left: 88%;
 	}
 
 	/* Конец стилей слайдера розыска */
@@ -657,21 +664,21 @@
 
 			/* Стили слайдера модуля розыска */
 
-		#carousel-wanted_pets .carousel-inner .item img{
-			margin: 0 auto;
-			padding:5px;
-			height: 250px;
-			width: 100%;
-		}
+			#carousel-wanted_pets .carousel-inner .item img{
+				margin: 0 auto;
+				padding:5px;
+				height: 250px;
+				width: 100%;
+			}
 
-		#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-			background-color: transparent;
-			display: block;
-			left: 10%;
-			margin: 0;
-			top: 280px;
-			width: 400px;
-		}
+			#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+				background-color: transparent;
+				display: block;
+				left: 10%;
+				margin: 0;
+				top: 280px;
+				width: 400px;
+			}
 
 		/*#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
 			margin-top: 20px;

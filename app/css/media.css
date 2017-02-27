@@ -73,7 +73,11 @@
 	}
 
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
-		margin-left: -30px;
+		margin-left: -20px;
+	}
+
+	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+		top: 320px;
 	}
 
 	#carousel-wanted_pets.carousel.slide ul.carousel-indicators img{
@@ -202,44 +206,77 @@
 	/* Конец стиль слайдера*/
 
 	/* Стили слайдера модуля Розыска*/
+	#carousel-wanted_pets.carousel.slide {
+  height: 350px;
+}
 	#carousel-wanted_pets .carousel-inner .item{
 		height: 350px;
 	}
 	#carousel-wanted_pets .carousel-inner .item img{
 		margin: 0px;
 		padding: 15px;
-		/*border: 1px solid #c1c1c1 ;*/
-		height: 250px;
-		width: 390px;
+		height: 200px;
+		width: 330px;
 	}
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption h3 {
-		margin-left: 20px;
+		margin-left: -20px;
 		padding-top: 10px;
 		padding-bottom: 15px;
 	}
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption{
-		width: 300px;
+		width: 350px;
 	}
 	.caption-content{
-		margin-left: 20px;
+		margin-left: -20px;
 		width: 100%;
 		height: 190px;
 		overflow: hidden;
 	}
 	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn {
-		margin-top: -60px;
-		margin-left: 20px;
+		margin-top: 35px;
+		margin-left: -20px;
 	}
 	#carousel-wanted_pets .carousel-control.left {
-		height: 220px;
+		height: 250px;
+		width: 60px;
 	}
 	#carousel-wanted_pets .carousel-control.right {
-		height: 220px;
-		left:39%;
+		height: 250px;
+		width: 60px;
+		left:92%;
 	}
 	.contact-info {
-		margin-left: -485px;
-		width: 360px;
+		position: absolute;
+		margin-left: -350px;
+		width: 300px;
+		bottom: 65px;
+		display: block;
+		height: 80px;
+	}
+	.phone {
+		display: block;
+		width: 300px;
+		height: 25px;
+	}
+	#carousel-wanted_pets .contact-info .skype {
+		display: block;
+		float: left;
+		width: 300px;
+		height: 25px;
+	}
+	.mail {
+  display: block;
+  float: left;
+  width: 300px;
+  height: 25px;
+}
+	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
+		top: 270px;
+		left: 2%;
+	}
+	#carousel-wanted_pets.carousel.slide ul.carousel-indicators img {
+		height: 60px;
+		width: 100px;
 	}
 	/* Конец стилей слайдера модуля Розыска*/
 }

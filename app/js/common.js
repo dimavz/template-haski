@@ -23,6 +23,10 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
+		$(".top_search button").click(function(){
+		$(".form_find").fadeToggle();
+	});
+
 	
 
 	//Таймер обратного отсчета

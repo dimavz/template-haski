@@ -24,39 +24,50 @@
 </head>
 <body>
 	<header class="top_header">
-		<nav class="header_topline">
+		<nav id="header_topline" class="navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-2 col-sm-6 col-md-4">
-						<button class="auth_button hidden-sm hidden-md hidden-lg">
-							<span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> 
-							<!-- <i class="fa fa-key fa-lg"></i> -->
-						</button>
+					<div class="col-md-8">
+						<div class="top_brand">
+							<button class="menu_button hidden-sm hidden-md hidden-lg">
+								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+							</button>
+							<h1>Pro-Haski.By</h1>
+						</div>
+					</div>
+					<div class="col-md-4">
 						<div class="top_links">
-							<a href="#login" class="fancybox">Вход</a>
-							<span>|</span>
-							<a href="#register" class="fancybox">Регистрация</a>
-							<span>|</span>
-							<a href="#">Забыли пароль?</a>
-						</div>
-					</div>
-					<div class="col-xs-10 col-sm-6 col-md-3 col-md-push-5">
-
-					</div>
-					<div class="col-xs-12 col-md-5 col-md-pull-3">
-						<div class="top_search">
-							<form id="top_search" class="form-horizontal" role="form">
-								<div class="input-group">
-
-									<input type="text" class="form-control" id="inputSearch" placeholder="Что ищем?">
-									<span class="input-group-addon">
-										<i class="fa fa-search fa-lg" aria-hidden="true" role="button"></i>
-									</span>
+							<div class="top_search">
+								<button type="button" class="btn btn-warning" aria-label="Left Align">
+									<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+									<!-- <label>Поиск</label> -->
+								</button>
+								<div class="form_find">
+									<form class="form-inline ">
+									<div class="form-group">
+									<label class="sr-only" for="InputSearch">Поиск</label>
+										<div class="input-group">
+											<input type="text" class="form-control" id="InputSearch" placeholder="Что ищем?">
+											<div class="input-group-addon btn btn-warning" type="submit">Найти</div>
+										</div>
+									</div>
+								</form>
 								</div>
-							</form>						
-						</div>
+
+							</div><!-- /.top_search -->
+							<div class="top_login">
+								<button class="auth_button hidden-sm hidden-md hidden-lg">
+									<span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> 
+									<!-- <i class="fa fa-key fa-lg"></i> -->
+								</button>
+								<a href="#login" class="fancybox">Вход</a>
+								<span>|</span>
+								<a href="#register" class="fancybox">Регистрация</a>
+							</div>
+						</div><!-- /.top_links -->
 					</div>
-				</div>
+					
+				</div><!-- /.row -->
 			</div>
 		</nav>
 		<div class="container">
@@ -71,11 +82,11 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="logo_text">
-						<div class="logo_title">
+						<!-- <div class="logo_title">
 							<a href="/"><h1>Pro-Haski.By</h1></a>
-						</div>
+						</div> -->
 						<div class="greeting">
-							<h3>Cайт любителей сибирских хаски!</h3> 
+							<h3>Cайт для любителей сибирских хаски!</h3> 
 						</div>
 					</div>
 				</div>

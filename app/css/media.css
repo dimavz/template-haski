@@ -384,69 +384,6 @@
 		padding-right: 15px;
 	}
 	/* Конец стиль слайдера*/
-
-
-	/* Стили слайдера модуля розыска */
-
-	#carousel-wanted_pets.carousel.slide{
-		height: 630px;
-		position: relative;
-	}
-	#carousel-wanted_pets .carousel-inner{
-		height: 100%;
-	}
-
-	#carousel-wanted_pets .carousel-inner .item{
-		margin: 0;
-		padding: 0;
-		height: 100%;
-	}
-
-	#carousel-wanted_pets .carousel-inner .item img{
-		margin: 0;
-		padding:20px;
-		height: 250px;
-		width: 400px;
-	}
-	#carousel-wanted_pets .carousel-inner .item .carousel-caption{
-		display: inline-block;
-		height: 250px;
-		width: 95%;
-		position: static;
-		margin-top: 10px;
-	}
-	.contact-info{
-		margin-left: 20px;
-		width: 100%;
-	}
-
-	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
-		background-color: transparent;
-		display: block;
-		left: 410px;
-		margin: 0;
-		top: 10px;
-		width: 150px;
-	}
-
-	#carousel-wanted_pets .carousel-inner .item .carousel-caption a.btn{
-		margin-top: 20px;
-	}
-
-	#carousel-wanted_pets .carousel-control.left {
-		height: 210px;
-		left: 20px;
-		top: 20px;
-		width: 90px;
-	}
-
-	#carousel-wanted_pets .carousel-control.right {
-		height: 210px;
-		top:20px;
-		left: 290px;
-	}
-
-	/* Конец стилей слайдера модуля розыска */
 	
 }
 

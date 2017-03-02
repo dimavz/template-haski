@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 
 	$(".auth_button").click(function(){
-		$(".top_links").slideToggle();
+		$(".top_login").slideToggle();
 	});
 
 	$(".add_ad").click(function(){
@@ -24,7 +24,7 @@ $(document).ready(function() {
 	});
 
 		$(".top_search button").click(function(){
-		$(".form_find").fadeToggle();
+		$(".form_find").slideToggle();
 	});
 
 	

@@ -310,7 +310,7 @@ background: url('../img/AjaxLoader.gif') no-repeat center center #aebab6;
 }
 @media (max-width: 768px) {
 	.navbar.navbar-fixed-top{
-		position: static;
+		position: fixed;
 	}
 	.btn.btn-navbar{
 		margin: 9px 20px 9px 8px;

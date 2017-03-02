@@ -6,8 +6,12 @@
 		display: block;
 		float: left;
 		margin-top: -55px;
-		width: 705px;
+		/*width: 705px;*/
 		height: 250px;
+	}
+	/* Форма поиска */ 
+	.form_find{
+		left: 0px;
 	}
 	/*Стиль слайдера*/
 
@@ -94,12 +98,51 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.logo_img {
+		width: 200px;
+		height: 200px;
+	}
+	.logo_img img {
+		width: 200px;
+		height: 200px;
+	}
+
 	.logo_text{
 		display: block;
 		float: left;
-		margin-top: -55px;
-		width: 485px;
-		height: 250px;
+		margin-top: -75px;
+		width: 100%;
+		height: 200px;
+	}
+
+	.top_brand h1 {
+		font-size: 42px;
+		margin-top: -12px;
+	}
+
+	.form_find{
+		left: -110px;
+	}
+	.top_login{
+		display: inline-block;
+		position: static;
+	}
+
+	.greeting h3 {
+		color: white;
+		font-family: "DisneyParkRegular";
+		font-size: 32px;
+		margin-top: 110px;
+	}
+
+	.main_adsense {
+		height: 170px;
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	.main_menu a {
+		padding: 5px 10px;
 	}
 
 	.footer_left_block h3{
@@ -207,8 +250,8 @@
 
 	/* Стили слайдера модуля Розыска*/
 	#carousel-wanted_pets.carousel.slide {
-  height: 350px;
-}
+		height: 350px;
+	}
 	#carousel-wanted_pets .carousel-inner .item{
 		height: 350px;
 	}
@@ -265,11 +308,11 @@
 		height: 25px;
 	}
 	.mail {
-  display: block;
-  float: left;
-  width: 300px;
-  height: 25px;
-}
+		display: block;
+		float: left;
+		width: 300px;
+		height: 25px;
+	}
 	#carousel-wanted_pets.carousel.slide > ul.carousel-indicators {
 		top: 270px;
 		left: 2%;
@@ -287,20 +330,49 @@
 		display: block;
 		float: left;
 		margin-top: 0px;
-		width: 250px;
-		height: 250px;
+		width: 100%;
+		height: 100%;
 	}
 
-	.top_links{
+	.top_login{
 		display: none;
-		background-color: #585d61;
-		padding: 10px;
-		vertical-align: middle;
 		position: absolute;
-		width: 320px;
-		margin-left:-22px;
-		margin-top: 1px;
+		right: -30px;
+		top:40px;
+		background-color: #43484C;
+		height: 40px;
+		width: 200px;
+		padding: 10px;
+		text-align: center;
 	}
+	
+	.top_search button {
+		background-color: transparent;
+		border: medium none;
+		height: 30px;
+		margin-top: -10px;
+		position: relative;
+		width: 35px;
+		z-index: 40;
+	}
+	.top_search button span {
+		top: 3px;
+	}
+
+	.form_find {
+		position: absolute;
+		display: none;
+		padding: 5px;
+		height: 45px;
+		right: 0px;
+		top: 40px;
+		width: 250px;
+		z-index: 30;
+		background-color: #43484C;
+		border-radius: 0 0 5px 5px;
+		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+
 	.main_menu ul{
 		display: none;
 		position: absolute;
@@ -319,6 +391,9 @@
 
 	.greeting{
 		text-align: center;
+	}
+	.greeting h3 {
+		margin-top: 10px;
 	}
 	.logo_title{
 		text-align: center;
@@ -793,6 +868,9 @@
 				display: inline-block !important;
 			}
 			.main_menu ul{
+				display: inline-block !important;
+			}
+			.top_login{
 				display: inline-block !important;
 			}
 		}

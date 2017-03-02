@@ -54,6 +54,12 @@ body {
 	display: inline-block;
 }
 
+.menu_button{
+	background-color: transparent;
+	font-size: 24px;
+	border:none;
+}
+
 
 .top_links{
 	float: right;
@@ -92,19 +98,19 @@ body {
 	display: none;
 	position: absolute;
 	top:-3px;
-	left: -90px;
+	left: 100px;
 	width: 250px;
 	height: 50px;
 	z-index: 30;
 }
 
 .form_find .form-group{
-	border: 1px solid #EC971F;
+	border: 1px solid #31b0d5;
 	border-radius:5px;
 }
 
 .form_find .form-group .input-group-addon{
-	background-color: #EC971F;
+	background-color: #31b0d5;
 	color: #fff;
 }
 
@@ -160,11 +166,8 @@ body {
 }
 
 .logo_text{
-	/*display: block;*/
-	/*float: left;*/
-	/*padding: 0;*/
 	margin-top: -55px;
-	/*height: 250px;*/
+	text-align: center;
 }
 
 .logo_title h1{

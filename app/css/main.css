@@ -125,9 +125,11 @@ body {
 
 
 .soc_buttons{
-	float: right;
+	/*float: right;*/
 	font-size:12px;
+	margin-top: 30px;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .soc_buttons a {

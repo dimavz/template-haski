@@ -28,6 +28,40 @@ body {
 	font-size: 16px;
 }
 
+/* Верхнее меню */
+.top_main_menu{
+	display: none;
+	position: absolute;
+	top:50px;
+	left: 0px;
+	padding: 10px;
+	background-color: #505559;
+	width: 100%;
+	z-index: 20;
+}
+
+.top_main_menu ul li{
+	display: block;
+	margin-left: -20px;
+	padding: 10px;
+	list-style-type: none;
+	width: 100%;
+	height: 40px;
+	cursor: pointer;
+	border-bottom: 1px dashed #fff;
+	text-transform: uppercase;
+}
+
+.top_main_menu ul li:hover{
+	background-color: #31B0D5;
+}
+
+.top_main_menu ul li.active{
+	background-color: #31B0D5;
+}
+
+/* Окончание верхнего меню */
+
 .top_header > .container{
 	margin-top: 50px;
 }
@@ -116,6 +150,7 @@ body {
 
 .top_login{
 	display: inline-block;
+	background-color: #505559;
 }
 
 .top_links a:hover {
@@ -204,6 +239,8 @@ body {
 	margin-top: 20px;
 	margin-right: -10px;
 	border:2px solid #3797BF ;
+	overflow: hidden;
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .main_menu{
@@ -213,6 +250,7 @@ body {
 	margin-left: -15px;
 	margin-bottom: 20px;
 	border-radius:0.3em ;
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .path_links{
@@ -468,11 +506,14 @@ section.content{
 
 }
 .ad_posts {
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border: #3797BF 3px solid;
 	border-radius:0.3em;
 	padding: 5px;
+	height: 200px;
 	background-color: #fff;
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 .list_posts{
 	margin-top: 10px;
@@ -891,6 +932,9 @@ section.content{
 }
 
 /* Стиль Табов */
+.tab-content{
+	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 	-moz-border-bottom-colors: none;
 	-moz-border-left-colors: none;
@@ -1196,25 +1240,25 @@ section.content{
 	margin-left: -80px;
 }
 
-	/* Стили контролов*/
-	#carousel-wanted_pets .carousel-control.right {
-		left: 90%;
-		top: 15px;
-		height: 280px;
-		width: 100px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.3) 100%);
-		background-repeat: repeat-x;
-		border-bottom-left-radius:0;
-		border-top-left-radius:0;
-		
-	}
-	#carousel-wanted_pets .carousel-control.right:hover {
-		background-color: white;
-		border-top-right-radius:0.2em;
-		border-bottom-right-radius:0.2em;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
-		background-repeat: repeat-x;
-	}
+/* Стили контролов*/
+#carousel-wanted_pets .carousel-control.right {
+	left: 90%;
+	top: 15px;
+	height: 280px;
+	width: 100px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.3) 100%);
+	background-repeat: repeat-x;
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+
+}
+#carousel-wanted_pets .carousel-control.right:hover {
+	background-color: white;
+	border-top-right-radius:0.2em;
+	border-bottom-right-radius:0.2em;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
+	background-repeat: repeat-x;
+}
 
 #carousel-wanted_pets .carousel-control.left {
 	top: 15px;
@@ -1224,15 +1268,15 @@ section.content{
 	background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.3) 100%);
 }
 #carousel-wanted_pets .carousel-control.left:hover {
-		background-color: white;
-		background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
-		background-repeat: repeat-x;
-	}
+	background-color: white;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
+	background-repeat: repeat-x;
+}
 
 
 
 
-	/* Стили индикатора слайдера модуля поиска собаки*/
+/* Стили индикатора слайдера модуля поиска собаки*/
 
 #carousel-wanted_pets.carousel.slide{
 	/*position: relative;*/

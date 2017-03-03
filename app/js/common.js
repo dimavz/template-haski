@@ -23,10 +23,17 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-		$(".top_search button").click(function(){
+	$(".top_search button").click(function(){
 		$(".form_find").slideToggle();
 	});
 
+		$(".menu_button").click(function(){
+		$(".top_main_menu").slideToggle();
+	});
+
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip('show');
+	});
 	
 
 	//Таймер обратного отсчета

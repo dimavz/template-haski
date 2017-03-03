@@ -56,6 +56,16 @@ body {
 	background-color: #31B0D5;
 }
 
+.top_main_menu ul li a{
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.top_main_menu ul li a:hover{
+	text-decoration: none;
+	background-color: transparent;
+}
+
 .top_main_menu ul li.active{
 	background-color: #31B0D5;
 }

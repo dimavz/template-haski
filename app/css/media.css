@@ -14,9 +14,8 @@
 		margin-top: 80px;
 	}
 	/* Форма поиска */ 
-	.form_find{
-		left: 0px;
-	}
+
+
 	/*Стиль слайдера*/
 
 	.main_slider img{
@@ -124,12 +123,17 @@
 		margin-top: -12px;
 	}
 
-	.form_find{
-		left: -110px;
-	}
 	.top_login{
-		display: inline-block;
-		position: static;
+		display: none;
+		position: absolute;
+		right: -5px;
+		top:40px;
+		background-color: #505559;
+		height: 40px;
+		width: 200px;
+		padding: 10px;
+		text-align: center;
+		z-index: 40;
 	}
 
 	.greeting h3 {
@@ -347,6 +351,14 @@
 		padding: 10px;
 		text-align: center;
 	}
+
+	.top_links{
+		padding-right: 0px;
+	}
+
+	.top_search{
+		display: none;
+	}
 	
 	.top_search button {
 		background-color: transparent;
@@ -361,19 +373,6 @@
 		top: 3px;
 	}
 
-	.form_find {
-		position: absolute;
-		display: none;
-		padding: 5px;
-		height: 45px;
-		left: 0px;
-		top: -7px;
-		width: 250px;
-		z-index: 30;
-		background-color: #43484C;
-		border-radius: 0 0 5px 5px;
-		/*box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
-	}
 
 	.main_adsense {
 		color: #000;
@@ -914,9 +913,7 @@
 			.main_menu ul{
 				display: inline-block !important;
 			}
-			.top_login{
-				display: inline-block !important;
-			}
+			
 			.top_main_menu{
 				display: none !important;
 			}
@@ -934,6 +931,10 @@
 
 			.contacts_content{
 				display: block !important;
+			}
+
+			.top_login{
+				display: inline-block !important;
 			}
 		}
 

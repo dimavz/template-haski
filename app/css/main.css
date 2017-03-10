@@ -142,6 +142,10 @@ ul.profil_menu li i{
 	color: yellow;
 }
 
+.top_brand{
+	display: inline-block;
+}
+
 .top_brand h1{
 	margin-top: -12px;
 	font-family:"DisneyParkRegular";
@@ -163,38 +167,24 @@ ul.profil_menu li i{
 
 .top_search{
 	display: inline-block;
-	margin-right: 20px;
-}
-
-.top_search button {
-	height: 30px;
-	position: relative;
-	width: 35px;
-	background-color: transparent;
-	border:none;
-	z-index: 40;
-}
-
-.top_search button span {
-	font-size: 24px;
-	display: inline-block;
 	position: absolute;
-	top:3px;
-	left: 5px;
+	padding-left: 20px;
 }
 
-.top_search button label {
-	position: absolute;
-	top:0px;
-	left: 35px;
-	font-size: 20px;
+.top_search  span {
+	font-size: 28px;
+	cursor:pointer;
+}
+
+.top_search  span:hover{
+	color: yellow;
 }
 
 .form_find{
 	display: none;
 	position: absolute;
 	top:-3px;
-	left: 100px;
+	left: 60px;
 	width: 250px;
 	height: 50px;
 	z-index: 30;
@@ -557,10 +547,6 @@ section.content{
 	-webkit-transition:all .35s ;
 	-o-transition:all .35s ;
 	transition:all .35s ;
-}
-
-.top_search{
-	margin-bottom: 10px;
 }
 
 .wrap_panel{

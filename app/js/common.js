@@ -23,8 +23,8 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-	$(".top_search button").click(function(){
-		$(".form_find").slideToggle();
+	$(".top_search span").click(function(){
+		$(".form_find").fadeToggle();
 	});
 
 		$(".menu_button").click(function(){

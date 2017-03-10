@@ -42,7 +42,7 @@ body {
 
 .top_main_menu ul li{
 	display: block;
-	margin-left: -20px;
+	margin-left: 0px;
 	padding: 10px;
 	list-style-type: none;
 	width: 100%;
@@ -59,6 +59,8 @@ body {
 .top_main_menu ul li a{
 	text-decoration: none;
 	background-color: transparent;
+	display: block;
+	width: 100%;
 }
 
 .top_main_menu ul li a:hover{
@@ -68,6 +70,27 @@ body {
 
 .top_main_menu ul li.active{
 	background-color: #31B0D5;
+}
+
+#accordion .panel-info > .panel-heading {
+  background-color: #3797BF;
+  border-color: #fff;
+}
+
+#accordion .panel-info > .panel-heading > .panel-title a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+}
+#accordion .panel-info .panel-body{
+	background-color: #31B0D5;
+}
+#accordion .panel-info .panel-body ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 .user_info{
@@ -209,10 +232,11 @@ ul.profil_menu li i{
 .top_links a:hover {
 	text-decoration: none;
 	color: yellow;
+	text-decoration: underline;
 }
 
 .top_links a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 

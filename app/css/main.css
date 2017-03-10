@@ -82,7 +82,13 @@ body {
 	text-transform: uppercase;
 	text-decoration: none;
 	border: none;
+	/*font-size: 24px;*/
 }
+#accordion .panel-info > .panel-heading > .panel-title a i {
+	float: right;
+	font-size: 22px;
+}
+
 #accordion .panel-info .panel-body{
 	background-color: #31B0D5;
 }

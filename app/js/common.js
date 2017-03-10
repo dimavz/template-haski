@@ -31,10 +31,12 @@ $(document).ready(function() {
 		$(".top_main_menu").slideToggle();
 	});
 
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip('show');
+$(function(){
+		$('#accordion').on('show.bs.collapse', function(){
+			console.log($(this));
+			// $(this).next().find('.fa').removeClass().addClass('fa fa-chevron-circle-up');
+		});
 	});
-	
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html

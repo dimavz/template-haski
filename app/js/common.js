@@ -31,6 +31,8 @@ $(document).ready(function() {
 		$(".top_main_menu").slideToggle();
 	});
 
+		new WOW().init();
+
 $(function(){
 		$('#accordion').on('show.bs.collapse', function(){
 			console.log($(this));

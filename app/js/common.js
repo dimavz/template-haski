@@ -31,7 +31,11 @@ $(document).ready(function() {
 		$(".top_main_menu").slideToggle();
 	});
 
-		new WOW().init();
+		new WOW(
+			{
+				offset:100
+			}
+			).init();
 
 $(function(){
 		$('#accordion').on('show.bs.collapse', function(){

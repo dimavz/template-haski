@@ -198,25 +198,29 @@ ul.profil_menu li i{
 	display: inline-block;
 	position: absolute;
 	padding-left: 20px;
+	left: 370px;
 }
 
 .top_search  span {
 	font-size: 28px;
-	cursor:pointer;
+	/*cursor:pointer;*/
 }
 
-.top_search  span:hover{
+/*.top_search  span:hover{
 	color: yellow;
-}
+}*/
 
 .form_find{
-	display: none;
 	position: absolute;
 	top:-3px;
 	left: 60px;
 	width: 250px;
 	height: 50px;
 	z-index: 30;
+}
+
+.form_find .form-inline .form-group  input{
+	width: 300px;
 }
 
 .form_find .form-group{

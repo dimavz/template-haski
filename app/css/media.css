@@ -14,7 +14,9 @@
 		margin-top: 80px;
 	}
 	/* Форма поиска */ 
-
+	.top_search{
+		left: 300px;
+	}
 
 	/*Стиль слайдера*/
 
@@ -108,6 +110,11 @@
 	.logo_img img {
 		width: 200px;
 		height: 200px;
+	}
+
+		/* Форма поиска */ 
+	.top_search{
+		left: 210px;
 	}
 
 	.logo_text{
@@ -934,6 +941,9 @@
 			}
 
 			.top_login{
+				display: inline-block !important;
+			}
+			.form_find{
 				display: inline-block !important;
 			}
 		}

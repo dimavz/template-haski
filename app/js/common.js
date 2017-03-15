@@ -23,9 +23,9 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-	$(".top_search span").click(function(){
-		$(".form_find").fadeToggle();
-	});
+	// $(".top_search span").click(function(){
+	// 	$(".form_find").fadeToggle();
+	// });
 
 		$(".menu_button").click(function(){
 		$(".top_main_menu").slideToggle();

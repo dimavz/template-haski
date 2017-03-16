@@ -29,6 +29,12 @@ body {
 }
 
 /* Верхнее меню */
+.form_search .form-inline .input-group-addon{
+  background-color:#31B0D5;
+  color: #fff;
+  font-size: 18px;
+}
+
 .top_main_menu{
 	display: none;
 	position: absolute;
@@ -192,6 +198,7 @@ ul.profil_menu li i{
 
 .top_links{
 	float: right;
+	padding-top: 5px;
 }
 
 .top_search{
@@ -252,7 +259,7 @@ ul.profil_menu li i{
 }
 
 .top_links a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 

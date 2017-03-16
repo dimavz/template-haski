@@ -202,8 +202,13 @@ ul.profil_menu li i{
 }
 
 .top_search  span {
-	font-size: 28px;
+	font-size: 24px;
+	position: absolute;
+	left: 70px;
+	top:3px;
 	/*cursor:pointer;*/
+	z-index: 40;
+	color: #31B0D5;
 }
 
 /*.top_search  span:hover{
@@ -221,6 +226,7 @@ ul.profil_menu li i{
 
 .form_find .form-inline .form-group  input{
 	width: 300px;
+	padding-left: 45px;
 }
 
 .form_find .form-group{

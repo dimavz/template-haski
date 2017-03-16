@@ -162,6 +162,10 @@
 		padding: 5px 10px;
 	}
 
+	.main_menu ul li span.header {
+	padding: 5px 10px;
+}
+
 	.footer_left_block h3{
 		display: block;
 		padding: 15px;
@@ -922,9 +926,9 @@
 			.top_links{
 				display: inline-block !important;
 			}
-			.main_menu ul{
-				display: inline-block !important;
-			}
+		/*	.main_menu ul{
+				display: inline-block;
+			}*/
 			
 			.top_main_menu{
 				display: none !important;

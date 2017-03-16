@@ -342,6 +342,7 @@ ul.profil_menu li i{
 	box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
+/*====== Главное меню ======== */
 .main_menu{
 	background-color: #3797BF;
 	color: #fff;
@@ -399,6 +400,26 @@ ul.profil_menu li i{
 	border-bottom-left-radius:0.3em;
 }
 
+.main_menu ul li span.header {
+	color: #fff;
+	padding: 10px 15px;
+/*	display: block;*/
+	-webkit-transition:all .25s;
+	-o-transition:all .25s ;
+	transition:all .25s ;
+	cursor: pointer;
+}
+
+.main_menu ul li span.header > i{
+	padding-left: 3px;
+}
+
+.main_menu ul li span.header:hover{
+	background-color: #3779BF;
+	color: yellow;
+	text-decoration: none;
+}
+
 .main_menu ul{
 	margin: 0;
 	padding: 0;
@@ -409,7 +430,31 @@ ul.profil_menu li i{
 
 .main_menu ul li{
 	display: inline-block;
+	position: relative;
+}
 
+.main_menu ul li ul{
+	background-color: #3797BF;
+	left: 0;
+	top: 40px;
+	border: 2px solid #237F9A;
+}
+
+.main_menu ul li ul li{
+	display: inline-block;
+	width: 100%;
+}
+
+.main_menu ul li ul li a{
+	display: block;
+	width: 100%;
+	float: left;
+	background-color: #fff;
+}
+
+.main_menu ul li ul li a:hover{
+	background-color: #3779BF;
+	color: yellow;
 }
 
 .main_menu_bt {

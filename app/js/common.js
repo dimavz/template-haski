@@ -23,19 +23,11 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-	// $(".top_search span").click(function(){
-	// 	$(".form_find").fadeToggle();
-	// });
-
 		$(".menu_button").click(function(){
 		$(".top_main_menu").slideToggle();
 	});
 
-		new WOW(
-			{
-				offset:100
-			}
-			).init();
+new WOW({offset:100}).init();
 
 $(function(){
 		$('#accordion').on('show.bs.collapse', function(){

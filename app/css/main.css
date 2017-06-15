@@ -1124,6 +1124,25 @@ section.content{
 .article_main_widget > div:hover .article_main_img {
 	border: none;
 }
+
+.article_main_widget > div:hover .article_main_post {
+	display: block;
+	position: absolute;
+	top:80px;
+	/*transition: all 1.5s;*/
+}
+
+.article_main_widget > div:hover .article_main_img img{
+	opacity: .2;
+	/*visibility:  hidden;*/
+
+}
+
+.article_main_widget > div:hover .article_main_header {
+	position: absolute;
+	top:0px;
+	opacity: 1;
+}
 .article_main_widget h3{
 	font-size: 1.25em;
 	font-weight: 300;
@@ -1160,18 +1179,26 @@ section.content{
 
 .article_main_header{
 	position: absolute;
-	bottom: 100px;
+	bottom: 0px;
 	padding: 3px;
 	height: 80px;
-	/*width: 100%;*/
 	padding: 5px;
 	background-color: yellow;
 	opacity:.5;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
 .article_main_post{
-	height: 100px;
+	position: absolute;
+	/*top: 10px;*/
+	height: 250px;
 	padding: 7px;
 	overflow: hidden;
+	display: none;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
 /*Конец вида главной статьи */
 

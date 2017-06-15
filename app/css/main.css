@@ -1016,6 +1016,26 @@ section.content{
 	font-family: "RobotoRegular",sans-serif;
 }
 
+.article-row{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 5px;
+	padding-bottom: 55px;	
+	/* background-color: #fff; */
+	width: 100%;
+	/* border-bottom: 1px dashed #3779BF; */
+	position: relative; 
+}
+.article-row h2{
+	font-size: 20px;
+	color: #3779BF;
+	padding-left: 15px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-family: "RobotoRegular",sans-serif;
+}
+
 /* Виджет модуля новости */
 .post_widget{
 	margin-bottom: 10px;
@@ -1070,6 +1090,177 @@ section.content{
 .post_img img{
 	width: 100%;
 	height: 100%;
+}
+
+
+/* Виджет модуля главной статьи */
+.article_main_widget{
+	margin-bottom: 20px;
+	padding-top: 0px;
+	text-align: left;
+	position: relative;
+	height: 350px;
+	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
+	transition: all .5s;
+	z-index: 10;
+}
+.article_main_widget:hover{
+	border: none;
+	overflow:visible;
+	z-index: 30;
+}
+.article_main_widget > div{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+	box-shadow: 0 0 16px rgba(0,0,255, .5);
+}
+.article_main_widget > div:hover{
+	border: 1px solid #3779BF;
+	background-color: #fff;
+}
+
+.article_main_widget > div:hover .article_main_img {
+	border: none;
+}
+.article_main_widget h3{
+	font-size: 1.25em;
+	font-weight: 300;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100px;
+	text-align: center;
+	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
+}
+.article_main_widget h3 > a {
+	color: black;
+}
+.article_main_widget h3 > a:hover {
+	color:#3779BF;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.article_main_img{
+	border: 1px solid #43484C;
+}
+.article_main_img img{
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+.article_main_img a{
+	display: block;
+}
+.article_main_img a:hover {
+	background-color:#fff;
+}
+
+.article_main_header{
+	position: absolute;
+	bottom: 100px;
+	padding: 3px;
+	height: 80px;
+	/*width: 100%;*/
+	padding: 5px;
+	background-color: yellow;
+	opacity:.5;
+}
+.article_main_post{
+	height: 100px;
+	padding: 7px;
+	overflow: hidden;
+}
+/*Конец вида главной статьи */
+
+/* Виджет модуля статьи */
+.article_widget{
+	margin-bottom: 20px;
+	/*border: 1px solid #3779BF;*/
+	padding-top: 0px;
+	text-align: left;
+	position: relative;
+	height: 100px;
+	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
+	transition: all .5s;
+	z-index: 10;
+}
+.article_widget:hover{
+	/* box-shadow: 0 0 16px rgba(0,0,0, .5); */
+	border: none;
+	overflow:visible;
+	z-index: 30;
+	/*background-color: #3797BF;*/
+}
+.article_widget > div{
+	position: absolute;
+	width: 100%;
+	top:0;
+	left:0;
+	box-shadow: 0 0 16px rgba(0,0,255, .5);
+}
+.article_widget > div:hover{
+	border: 1px solid #3779BF;
+	background-color: #fff;
+}
+
+.article_widget > div:hover .article_img {
+	border: none;
+}
+.article_widget h3{
+	/* background-color: #3779BF; */
+	font-size: 1.25em;
+	font-weight: 300;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100px;
+	/*width: 100%;*/
+	text-align: left;
+	overflow: hidden; /* Скрытие контента, если он превышает размер блока */
+}
+.article_widget h3 > a {
+	color: #000000;
+}
+.article_widget h3 > a:hover {
+	color:#3779BF;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.article_img{
+	border: 1px solid #43484C;
+	padding-top: 0px;
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+.article_img img{
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+.article_img a{
+	display: block;
+	width: 150px;
+	height: 100px;
+}
+.article_img a:hover {
+	background-color:#fff;
+}
+
+.article_header{
+	float: left;
+	height: 100px;
+	width: 70%;
+	padding: 5px;
+}
+.article_post{
+	height: 100px;
+	padding: 7px;
+	overflow: hidden;
 }
 
 /* Стиль Табов */

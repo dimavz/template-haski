@@ -344,6 +344,9 @@ ul.profil_menu li i{
 
 	/*====== Главное меню ======== */
 	.main_menu{
+		z-index: 100;
+		width: 1170px;
+		top:50px;
 		background-color: #3797BF;
 		color: #fff;
 		margin-right: -15px;

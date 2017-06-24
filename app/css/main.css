@@ -609,6 +609,20 @@ ul.profil_menu li i{
 		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 	}
 
+	#bottom_baners.owl-carousel{
+		height: 195px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-left: 65px;
+		padding-right: 40px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #fff;
+		border: 3px solid #3797bf;
+		border-radius: 0.3em;
+		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	}
+
 	.owl-carousel .item img{
 		width: 180px;
 		height: 150px;
@@ -647,6 +661,16 @@ ul.profil_menu li i{
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		z-index: 100;
 		cursor: pointer;
+	}
+
+	#ban_prev.owl-prev{
+		height: 195px;
+		top: -215px;
+	}
+
+	#ban_next.owl-next{
+		height: 195px;
+		top: -215px;
 	}
 
 	.owl-prev:hover{

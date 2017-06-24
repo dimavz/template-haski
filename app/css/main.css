@@ -596,7 +596,7 @@ ul.profil_menu li i{
 
 	/* Слайдер рекламных банеров */
 	.owl-carousel{
-		height: 230px;
+		height: 195px;
 		margin-top: 20px;
 		margin-bottom: 20px;
 		padding-left: 65px;
@@ -637,29 +637,29 @@ ul.profil_menu li i{
 
 	.owl-prev{
 		position: absolute;
-		top: -250px;
+		top: -215px;
 		left: 0;
-		height: 230px;
+		height: 195px;
 		width: 170px;
 		opacity: .5;
 		text-align: center;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0) 100%);
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-		z-index: 100;
+		z-index: 90;
 		cursor: pointer;
 	}
 
 	.owl-next{
 		position: absolute;
-		top: -250px;
+		top: -215px;
 		right: 0;
-		height: 230px;
+		height: 195px;
 		width: 170px;
 		opacity: .5;
 		text-align: center;
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.5) 100%);
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-		z-index: 100;
+		z-index: 90;
 		cursor: pointer;
 	}
 
@@ -693,7 +693,7 @@ ul.profil_menu li i{
 		margin-top: 85px;
 		margin-left: -85px;
 		color:#3797BF;
-		z-index: 100;
+		z-index: 90;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
@@ -701,7 +701,7 @@ ul.profil_menu li i{
 		margin-top: 85px;
 		margin-right: -85px;
 		color:#3797BF;
-		z-index: 100;
+		z-index: 90;
 		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
@@ -716,7 +716,7 @@ ul.profil_menu li i{
 		position: absolute;
 		left: 45%;
 		bottom: 30px;
-		z-index: 100;
+		z-index: 20;
 	}
 
 	/* Конец стилей Слайдера рекламных банеров */

@@ -88,8 +88,8 @@ $(document).ready(function() {
 				items:1
 			},
 			480 : {
-        items:2
-    	},
+				items:2
+			},
 			768:{
 				items:3
 			},
@@ -110,24 +110,24 @@ $(document).ready(function() {
 	});
 
 	owl.on('mousewheel', '.owl-stage', function (e) {
-    if (e.deltaY>0) {
-        owl.trigger('next.owl');
-    } else {
-        owl.trigger('prev.owl');
-    }
-    e.preventDefault();
-});
+		if (e.deltaY>0) {
+			owl.trigger('next.owl');
+		} else {
+			owl.trigger('prev.owl');
+		}
+		e.preventDefault();
+	});
 
 	// Переход с следующему элементу слайдера
-$('.owl-next').click(function() {
-    owl.trigger('next.owl.carousel');
-});
-// Переход к предыдущему элементу слайдера
-$('.owl-prev').click(function() {
+	$('.owl-next').click(function() {
+		owl.trigger('next.owl.carousel');
+	});
+	// Переход к предыдущему элементу слайдера
+	$('.owl-prev').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl.trigger('prev.owl.carousel', [300]);
-});
+  });
 
 	//Кнопка "Наверх"
 	//Документация:

@@ -23,13 +23,13 @@ $(document).ready(function() {
 		$(".contacts_content").slideToggle();
 	});
 
-		$(".menu_button").click(function(){
+	$(".menu_button").click(function(){
 		$(".top_main_menu").slideToggle();
 	});
 
-new WOW({offset:100}).init();
+	new WOW({offset:100}).init();
 
-$(function(){
+	$(function(){
 		$('#accordion').on('show.bs.collapse', function(){
 			console.log($(this));
 			// $(this).next().find('.fa').removeClass().addClass('fa fa-chevron-circle-up');
@@ -72,30 +72,22 @@ $(function(){
 	});
 
 	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 2,
-		autoHeight: true,
-		autoPlay: 3000,
-		stopOnHover: true,
-		paginationSpeed : 1000,
-		singleItem:false
-
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
+	//Документация: https://owlcarousel2.github.io/OwlCarousel2/
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:10,
+		nav:true,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
 		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
 	});
 
 	//Кнопка "Наверх"

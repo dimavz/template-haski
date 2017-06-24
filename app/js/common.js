@@ -73,22 +73,61 @@ $(document).ready(function() {
 
 	//Каруселька
 	//Документация: https://owlcarousel2.github.io/OwlCarousel2/
-	$('.owl-carousel').owlCarousel({
+	var owl = $('.owl-carousel');
+	owl.owlCarousel({
 		loop:true,
 		margin:10,
-		nav:true,
+		// nav:true,
+		// autoHeight:true,
+		autoplay:true,
+		autoplayTimeout:2000,
+		autoplayHoverPause:true,
+		dots:false,
 		responsive:{
 			0:{
 				items:1
 			},
-			600:{
+			480 : {
+        items:2
+    	},
+			768:{
 				items:3
 			},
-			1000:{
+			1024:{
+				items:4
+			},
+			1200:{
 				items:5
 			}
 		}
 	});
+
+	$('.play').on('click',function(){
+		owl.trigger('play.owl.autoplay',[1000])
+	});
+	$('.stop').on('click',function(){
+		owl.trigger('stop.owl.autoplay')
+	});
+
+	owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
+
+	// Переход с следующему элементу слайдера
+$('.owl-next').click(function() {
+    owl.trigger('next.owl.carousel');
+});
+// Переход к предыдущему элементу слайдера
+$('.owl-prev').click(function() {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
+});
 
 	//Кнопка "Наверх"
 	//Документация:

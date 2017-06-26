@@ -248,8 +248,7 @@ ul.profil_menu li i{
 	}
 
 	.top_login{
-		/*display: inline-block;*/
-		/*background-color: #505559;*/
+		margin-top: -5px;
 	}
 	.top_login a{
 		display: inline-block;
@@ -259,7 +258,7 @@ ul.profil_menu li i{
 	}
 	.top_login a i{
 		padding-right: 5px;
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 
@@ -645,8 +644,10 @@ ul.profil_menu li i{
 	}
 
 	.owl-carousel .item img{
+		padding: 3px;
 		width: 180px;
 		height: 150px;
+		border: 1px solid #3797BF ;
 	}
 
 	.owl-controls{

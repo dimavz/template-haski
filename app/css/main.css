@@ -1234,62 +1234,86 @@ ul.profil_menu li i{
 		text-align: center;
 	}
 
-	/* Виджет модуля новости */
+	/* Виджет модуля объявления */
 	.post_widget{
 		margin-bottom: 10px;
 		border: 1px solid #31B0D5;
 		padding-top: 0px;
 		text-align: center;
 		position: relative;
-		height: 200px;
+		height: 270px;
 		overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 		transition: all .5s;
 	}
-	.post_widget:hover{
-		/* box-shadow: 0 0 16px rgba(0,0,0, .5); */
-		border: none;
-		overflow:visible;
-		z-index: 30;
+	.post_widget:hover .post_content{
+		top:0px;
 	}
-	.post_widget > div{
-		position: absolute;
-		width: 100%;
-		top:0;
-		left:0;
-		box-shadow: 0 0 16px rgba(0,0,255, .5);
-	}
-	.post_widget > div:hover{
-		border: 1px solid #3779BF;
-	}
-	.post_widget h3{
-		background-color: #31B0D5;
-		font-size: .95em;
-		font-weight: 300;
-		padding: 5px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		height: 100px; 	
-		width: 100%;
-		text-align: auto;
-		overflow: hidden;
-	}
-	.post_widget h3 > a {
-		color: #fff;
-	}
-	.post_widget h3 > a:hover {
-		color: yellow;
-		text-decoration: none;
-		background-color: transparent;
+	.post_widget:hover .post_img{
+		opacity: .3;
 	}
 	.post_img{
-		/*height: 160px;*/
-		padding-top: 0px;
+		margin:5px;
 	}
 	.post_img img{
 		width: 100%;
+		height: 150px;
+	}
+	.post_content{
+		position: absolute;
+		margin: 0;
+		top:170px;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+	.post_content .header{
+		margin: 0;
+		width: 100%;
+		height: 50px;
+		display: inline-block;
+		background-color: #31B0D5;
+	}
+	.post_content .header .price{
+		padding: 5px;
+		float: left;
+		width: 30%;
 		height: 100%;
+		line-height: 40px; 
+		text-align: center;
+		background-color: #3779BF;
+		opacity: .7;
+		color:yellow;
+		font-size: 21px;
+		display: block;
+	}
+	
+	.post_content .header .breed{
+		padding: 5px;
+		padding-left: 10px;
+		float: left;
+		width: 70%;
+		text-align: left;
+		font-size: 18px;
+		color:white;
+		line-height: 40px; 
+	}
+	.post_content .geo{
+		margin-top: -5px;
+		height: 50px;
+		background-color: #36dbd5;
+		color:white;
+		cursor:pointer;
+		line-height: 20px; 
+	}
+	.post_content .geo a{
+		color:white;
+	}
+	.post_content .cont{
+		padding: 5px;
+		text-align: left;
 	}
 
+	/* Конец стилей Виджета модуля объявления */
 
 	/* Виджет модуля главной статьи */
 	.article_main_widget{

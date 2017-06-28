@@ -425,17 +425,41 @@ ul.profil_menu li i{
 		text-decoration: none;
 	}
 
-	.active a:hover {
-		/*background-color: #3779BF;*/
-		text-decoration: none;
-		/*border-top-left-radius:0.3em;
-		border-bottom-left-radius:0.3em;*/
+	.main_menu .home.active >a{
+	background-color: #337ab7;
+  color: yellow;
+  outline: 0 none;
+  text-decoration: none;
+  border:1px solid yellow;
+  border-bottom-left-radius:0.3em;
+  border-top-left-radius:0.3em;
 	}
+	
+
+	.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+  background-color: #337ab7;
+  color: yellow;
+  outline: 0 none;
+  text-decoration: none;
+  border:1px solid yellow;
+}
+
+.dropdown.active >span, .dropdown.active > span:focus, .dropdown.active > span:hover {
+  background-color: #337ab7;
+  color: yellow;
+  outline: 0 none;
+  text-decoration: none;
+  border:1px solid yellow;
+}
+
+	/*.active a:hover {
+		text-decoration: none;
+	}*/
 
 	.main_menu ul li span.header {
-		color: #fff;
+		/*color: #fff;*/
 		padding: 10px 15px;
-		/*	display: block;*/
+		margin: 0;
 		-webkit-transition:all .25s;
 		-o-transition:all .25s ;
 		transition:all .25s ;
@@ -464,6 +488,7 @@ ul.profil_menu li i{
 		display: inline-block;
 		position: relative;
 	}
+	
 
 	.main_menu ul li ul{
 		background-color: #3797BF;

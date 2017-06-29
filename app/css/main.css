@@ -389,8 +389,9 @@ ul.profil_menu li i{
 		color: #fff;
 		width: 100%;
 		padding: 5px;
-		border-bottom-left-radius:1em;
-		border-bottom-right-radius:1em;
+		border-radius:.3em;
+		box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+		border: 1px solid #fff;
 	}
 
 	.path_links p{
@@ -786,31 +787,34 @@ ul.profil_menu li i{
 			background-color: #3797BF;
 			height: 40px;
 			border: #3799BF 1px solid;
-			border-bottom-right-radius:1em;
-			border-bottom-left-radius:1em;
+			border-bottom-right-radius:.5em;
+			border-bottom-left-radius:.5em;
 			border-top-left-radius:0.3em;
 			border-top-right-radius:0.3em;
-
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.title_panel{
 			margin: 0px;
-			padding-top: 5px;
+			padding-top: 8px;
 			text-align: center;
-			color: yellow;
+			color: white;
 			text-transform: uppercase;
 			font-size: 20px;
-			font-family: "DisneyParkRegular";
-			/* font-family: "RobotoRegular",sans-serif; */
+			/*font-family: "DisneyParkRegular";*/
+			 font-family: "RobotoRegular",sans-serif;
+			 text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		}
 
 		.body_panel{
 			border: #3797BF 1px solid;
-			border-bottom-right-radius:1em;
-			border-bottom-left-radius:1em;
+			border-bottom-right-radius:.5em;
+			border-bottom-left-radius:.5em;
 			margin: -1px 10px;
 			padding: 15px;
 			background-color: #fff;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
 		}
 
 		.body_panel ul{
@@ -1190,14 +1194,11 @@ ul.profil_menu li i{
 			width: 100%;
 		}
 		.mod_content{
-			position: inherit;
 			margin-top: 5px;
-			margin-bottom: 5px;
 			border: #3797BF 3px solid;
 			border-radius:0.3em;
 			padding: 5px;
 			background-color: #fff;
-			width: 100%;
 		}
 
 

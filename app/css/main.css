@@ -333,6 +333,7 @@ ul.profil_menu li i{
 		font-family: "DisneyParkRegular";
 		font-size: 48px;
 		margin-top: 110px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 	.top_header{
@@ -415,6 +416,7 @@ ul.profil_menu li i{
 		-webkit-transition:all .25s ;
 		-o-transition:all .25s ;
 		transition:all .25s ;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 
@@ -463,6 +465,7 @@ ul.profil_menu li i{
 			-o-transition:all .25s ;
 			transition:all .25s ;
 			cursor: pointer;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		}
 
 		.main_menu ul li span.header > i{
@@ -796,7 +799,7 @@ ul.profil_menu li i{
 
 		.title_panel{
 			margin: 0px;
-			padding-top: 5px;
+			padding-top: 8px;
 			text-align: center;
 			color: white;
 			text-transform: uppercase;
@@ -854,8 +857,15 @@ ul.profil_menu li i{
 			background-color: #fff;
 			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
+		.block_ads{
+			height: 150px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border:1px solid #3797BF ;
+		}
+
 		.list_posts{
-			margin-top: 10px;
+			margin-top: 20px;
 			border: #3797BF 3px solid;
 			border-radius:0.3em;
 			padding: 5px;
@@ -898,10 +908,6 @@ ul.profil_menu li i{
 			text-decoration: underline;
 		}
 
-		.post_content{
-			display: block;
-			margin: 20px;
-		}
 		.post_image{
 			display: block;
 			float: left;
@@ -915,6 +921,10 @@ ul.profil_menu li i{
 
 		.post_text{
 			display: block;
+		}
+
+		.post_info{
+			padding: 20px;
 		}
 
 		.post_metainfo{
@@ -1192,6 +1202,7 @@ ul.profil_menu li i{
 			padding: 5px;
 			background-color: #fff;
 			width: 100%;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 		.mod_content{
 			margin-top: 5px;
@@ -1199,6 +1210,7 @@ ul.profil_menu li i{
 			border-radius:0.3em;
 			padding: 5px;
 			background-color: #fff;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 

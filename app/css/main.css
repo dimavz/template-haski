@@ -984,10 +984,11 @@ ul.profil_menu li i{
 
 		.pag_block{
 			background-color: #fff;
-			border: 3px solid #3797BF;
+			border: 2px solid #3797BF;
 			border-radius: 45px;
 			margin: 10px auto;
 			padding: 0;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.pages {

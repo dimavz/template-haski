@@ -188,6 +188,7 @@ ul.profil_menu li i{
 	color: white;
 	font-size: 48px;
 	display: inline-block;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .menu_button{
@@ -398,6 +399,7 @@ ul.profil_menu li i{
 	.path_links p{
 		padding-top: 5px;
 		margin-left: 40px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 	.path_links a{
@@ -810,7 +812,7 @@ ul.profil_menu li i{
 		}
 
 		.body_panel{
-			border: #3797BF 1px solid;
+			border: #3797BF 2px solid;
 			border-bottom-right-radius:.5em;
 			border-bottom-left-radius:.5em;
 			margin: -1px 10px;
@@ -861,15 +863,18 @@ ul.profil_menu li i{
 			height: 150px;
 			margin-top: 20px;
 			margin-bottom: 20px;
-			border:1px solid #3797BF ;
+			border:2px solid #3797BF ;
+			border-radius:.3em;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.list_posts{
 			margin-top: 20px;
-			border: #3797BF 3px solid;
+			border: #3797BF 2px solid;
 			border-radius:0.3em;
 			padding: 5px;
 			background-color: #fff;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.post{
@@ -877,6 +882,7 @@ ul.profil_menu li i{
 			padding: 5px;
 			background-color: #fff;
 			margin-bottom: 20px;
+			/*box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);*/
 		}
 
 		.post_header{
@@ -885,6 +891,7 @@ ul.profil_menu li i{
 			border-radius:0.1em;
 			margin: 0px;
 			padding: 10px;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.post_header h1{
@@ -897,6 +904,7 @@ ul.profil_menu li i{
 			padding-top: 5px;
 			text-align: left;
 			text-transform: uppercase;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 		}
 
 		.post_header a{
@@ -917,18 +925,31 @@ ul.profil_menu li i{
 			max-height: 200px;
 			margin-right: 20px;
 			margin-bottom: 20px;
+			border: 1px solid #31B0D5 ;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
-		.post_text{
-			display: block;
-		}
 
 		.post_info{
+			position: relative;
 			padding: 20px;
+		}
+		.post_text{
+			display: block;
+			margin-bottom: 40px;
+		}
+		button.seemore{
+			position: absolute;
+			bottom: 20px;
+			right:20px;
+			/*float: right;*/
 		}
 
 		.post_metainfo{
 			border: #3797BF 2px solid;
+			/*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);*/
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+			margin-bottom: 10px;
 		}
 
 		.post_metainfo ul{

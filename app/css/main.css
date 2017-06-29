@@ -343,7 +343,7 @@ ul.profil_menu li i{
 
 	/*====== Верхний блок подписки на рассылку ======== */
 	.main_subscribe{
-		background-image: url("img/disign/post_office.jpg");
+		/*background-image: url(/img/disign/post_office.jpg);*/
 		background-color: #fff;
 		color: #000;
 		height: 200px;

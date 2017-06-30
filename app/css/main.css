@@ -973,6 +973,7 @@ ul.profil_menu li i{
 		}
 
 		.post_category{
+			position: relative;
 			display: block;
 			margin: 5px auto;
 			border-bottom: #31B0D5 1px solid ;
@@ -980,7 +981,52 @@ ul.profil_menu li i{
 			width: 95%;
 		}
 		.post_category img{
-			margin-left: 10px;
+			margin-left: 0px;
+		}
+		.post_category span.category{
+			float: left;
+		}
+		.post_category span.category a:hover{
+			color: red;
+		}
+		.post_category span.setting{
+			color:#337ab7;
+			cursor:pointer;
+		}
+		.post_category span.setting:hover{
+			color:red;
+		}
+		.post_category .settings_menu{
+			position: absolute;
+			top: 25px;
+			right: -5px;
+			display:none;
+			background-color: #31B0D5;
+			z-index: 30;
+			border-radius:.3em;
+		}
+		.post_category .settings_menu ul{
+			padding-left: 0px;
+			/*margin-top: 10px;*/
+			list-style-type:none;
+
+		}
+		.post_category .settings_menu ul li{
+			/*display: inline-block;*/
+			padding: 5px;
+			text-align: center;
+		}
+		.post_category .settings_menu ul li a{
+			color: #fff;
+			padding: 5px;
+			float: left;
+		}
+		.post_category .settings_menu ul li a:hover{
+			color:yellow;
+		}
+
+		.post_category .settings_menu ul li a i{
+			margin-right: 5px;
 		}
 
 		.pag_block{

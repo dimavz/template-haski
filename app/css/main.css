@@ -843,6 +843,7 @@ ul.profil_menu li i{
 			-webkit-transition:all .35s ;
 			-o-transition:all .35s ;
 			transition:all .35s ;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
 
 		.wrap_panel{

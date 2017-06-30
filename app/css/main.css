@@ -1022,43 +1022,48 @@ ul.profil_menu li i{
 
 		.pages ul li a{
 			display: block;
-			background-color: #43484C;
+			background-color: #31B0D5;
 			padding: 10px;
 			text-align: center;
 			color: #fff;
-			border: 3px solid grey;
+			border: 3px solid #3797BF;
 			font-size: 18px;
 			width: 50px;
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+			border-bottom-left-radius:2em;
+			border-top-left-radius: 2em;
+			border-bottom-right-radius:2em;
+			border-top-right-radius: 2em;
 		}
 
 		.pages ul li a.first {
 			display: block;
-			background-color: #43484C;
+			background-color: #31B0D5;
 			padding: 10px;
 			text-align: center;
 			color: #fff;
-			border: 3px solid grey;
+			border: 3px solid #3797BF;
 			font-size: 18px;
 			width: 50px;
-			border-top-left-radius:25px ;
-			border-bottom-left-radius:25px ;
-			border-top-right-radius:0px ;
-			border-bottom-right-radius:0px ;
+			border-bottom-left-radius:2em;
+			border-top-left-radius: 2em;
+			border-bottom-right-radius:2em;
+			border-top-right-radius: 2em;
 		}
 
 		.pages ul li a.end {
 			display: block;
-			background-color: #43484C;
+			background-color: #31B0D5;
 			padding: 10px;
 			text-align: center;
 			color: #fff;
-			border: 3px solid grey;
+			border: 3px solid #3797BF;
 			font-size: 18px;
 			width: 50px;
-			border-top-left-radius:0px ;
-			border-bottom-left-radius:0px ;
-			border-top-right-radius:25px ;
-			border-bottom-right-radius:25px ;
+			border-bottom-left-radius:2em;
+			border-top-left-radius: 2em;
+			border-bottom-right-radius:2em;
+			border-top-right-radius: 2em;
 		}
 
 
@@ -1066,14 +1071,14 @@ ul.profil_menu li i{
 		.pages ul li a:hover {
 			text-decoration: none;
 			color: yellow;
-			background-color:#000;
-			border: 3px solid yellow;
+			background-color:#337ab7;
+			border: 3px dashed yellow;
 		}
 
 		.pages ul li a.active{
 			color: yellow;
-			background-color:#000;
-			border: 3px solid yellow;
+			background-color:#337ab7;
+			border: 3px dashed yellow;
 		}
 
 		.footer_subscribe{

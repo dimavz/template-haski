@@ -36,6 +36,11 @@ $(document).ready(function() {
 		});
 	});
 
+	//Активация tooltip (Подсказок при наведении на кнопку)
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	});
+
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
 	//<div class="countdown" date-time="2015-01-07"></div>

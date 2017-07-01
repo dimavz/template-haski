@@ -934,6 +934,15 @@ ul.profil_menu li i{
 			position: relative;
 			padding: 20px;
 		}
+		.post_info button{
+			border:1px solid white;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+		}
+		.post_info button:hover{
+			border:1px solid white;
+			color:yellow;
+		}
 		.post_tags{
 			padding: 5px;
 			padding-bottom: 30px;

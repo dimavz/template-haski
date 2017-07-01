@@ -26,9 +26,6 @@ $(document).ready(function() {
 	$(".menu_button").click(function(){
 		$(".top_main_menu").slideToggle();
 	});
-	$(".setting").click(function(){
-		$(".settings_menu").slideToggle();
-	});
 
 	new WOW({offset:100}).init();
 

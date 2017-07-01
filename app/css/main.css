@@ -950,6 +950,7 @@ ul.profil_menu li i{
 			margin: 5px;
 			border-bottom-left-radius:3em;
 			border-top-right-radius:3em;
+			border: 1px solid white;
 			background-color: #31B0D5;
 			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 		}
@@ -1002,60 +1003,31 @@ ul.profil_menu li i{
 		}
 
 		.post_category{
-			position: relative;
-			display: block;
 			margin: 5px auto;
 			border-bottom: #31B0D5 1px solid ;
 			text-align:right;
 			width: 95%;
 		}
-		.post_category img{
-			margin-left: 0px;
-		}
-		.post_category span.category{
-			float: left;
-		}
-		.post_category span.category a:hover{
+		.post_category a:hover{
 			color: red;
 		}
-		.post_category span.setting{
-			color:#337ab7;
-			cursor:pointer;
-		}
-		.post_category span.setting:hover{
-			color:red;
-		}
-		.post_category .settings_menu{
-			position: absolute;
-			top: 25px;
-			right: -5px;
-			display:none;
-			background-color: #31B0D5;
-			z-index: 30;
-			border-radius:.3em;
-		}
-		.post_category .settings_menu ul{
-			padding-left: 0px;
-			/*margin-top: 10px;*/
-			list-style-type:none;
-
-		}
-		.post_category .settings_menu ul li{
-			/*display: inline-block;*/
-			padding: 5px;
-			text-align: center;
-		}
-		.post_category .settings_menu ul li a{
-			color: #fff;
-			padding: 5px;
+		.post_category span.category{
+			position: relative;
+			height: 40px;
+			width: 70%;
 			float: left;
 		}
-		.post_category .settings_menu ul li a:hover{
-			color:yellow;
+		.post_category span.category a{
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			height: 30px;
 		}
-
-		.post_category .settings_menu ul li a i{
-			margin-right: 5px;
+		.post_category .btn-group >button i{
+			color:#3797BF;
+		}
+		.post_category .btn-group >button span{
+			color:#3797BF;
 		}
 
 		.pag_block{

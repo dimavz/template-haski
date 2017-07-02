@@ -792,7 +792,7 @@ ul.profil_menu li i{
 		.header_panel{
 			background-color: #3797BF;
 			height: 40px;
-			border: #3799BF 1px solid;
+			border: 1px solid white;
 			border-bottom-right-radius:.5em;
 			border-bottom-left-radius:.5em;
 			border-top-left-radius:0.3em;
@@ -814,13 +814,13 @@ ul.profil_menu li i{
 
 		.body_panel{
 			border: #3797BF 2px solid;
+			border-top: none;
 			border-bottom-right-radius:.5em;
 			border-bottom-left-radius:.5em;
-			margin: -1px 10px;
+			margin: 1px 10px;
 			padding: 15px;
 			background-color: #fff;
 			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-
 		}
 
 		.body_panel ul{
@@ -942,6 +942,10 @@ ul.profil_menu li i{
 		.post_info button:hover{
 			border:1px solid white;
 			color:yellow;
+			background-color: #337ab7;
+		}
+		.post_rating{
+			margin: 20px;
 		}
 		.post_tags{
 			padding: 5px;

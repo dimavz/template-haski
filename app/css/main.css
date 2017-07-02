@@ -933,6 +933,7 @@ ul.profil_menu li i{
 		.post_info{
 			position: relative;
 			padding: 20px;
+			padding-top: 5px;
 		}
 		.post_info button{
 			border:1px solid white;
@@ -945,7 +946,7 @@ ul.profil_menu li i{
 			background-color: #337ab7;
 		}
 		.post_rating{
-			margin: 20px;
+			margin-left: 20px;
 		}
 		.post_tags{
 			padding: 5px;

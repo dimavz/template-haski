@@ -880,7 +880,7 @@ ul.profil_menu li i{
 		}
 
 		.post{
-			border: #3797BF 1px solid;
+			border: 1px dashed #3797BF;
 			padding: 5px;
 			background-color: #fff;
 			margin-bottom: 20px;

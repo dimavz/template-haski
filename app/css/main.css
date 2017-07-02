@@ -953,7 +953,8 @@ ul.profil_menu li i{
 		}
 		.post_tags ul li{
 			display: inline-block;
-			padding: 5px;
+			padding-top: 1px;
+			padding-bottom: 1px;
 			padding-left: 25px;
 			padding-right: 15px;
 			margin: 5px;

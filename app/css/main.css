@@ -888,12 +888,19 @@ ul.profil_menu li i{
 		}
 
 		.post_header{
-			display: block;
 			background-color: #3797BF;
 			border-radius:0.1em;
 			margin: 0px;
 			padding: 10px;
 			box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+			border:1px solid white;
+		}
+		.post_header:hover{
+			background-color: #337ab7;
+		}
+		.post_header:hover .post_header > a > h1{
+			color:yellow;
+			background-color: #337ab7;
 		}
 
 		.post_header h1{
@@ -916,6 +923,7 @@ ul.profil_menu li i{
 		.post_header a h1:hover{
 			color: yellow;
 			text-decoration: underline;
+			text-decoration: none;
 		}
 
 		.post_image{
@@ -1037,6 +1045,10 @@ ul.profil_menu li i{
 			top: 5px;
 			left: 5px;
 			height: 30px;
+			color:#31B0D5;
+		}
+		.post_category span.category a:hover{
+			color:#337ab7;
 		}
 		.post_category .btn-group >button i{
 			color:#3797BF;

@@ -428,7 +428,9 @@ ul.profil_menu li i{
 		color: yellow;
 		text-decoration: none;
 	}
-
+	.main_menu .home{
+		margin-left: 0;
+	}
 	.main_menu .home.active >a{
 		background-color: #337ab7;
 		color: yellow;
@@ -448,9 +450,14 @@ ul.profil_menu li i{
 		border:1px solid yellow;
 	}
 
-	.dropdown.active >span{
+	/*.dropdown.active >span{
 		display: block;
 		width: 100%;
+		background-color: #337ab7;
+		color: yellow;
+	}*/
+	.dropdown.active{
+		padding: 10px 5px;
 		background-color: #337ab7;
 		color: yellow;
 	}
@@ -459,7 +466,20 @@ ul.profil_menu li i{
 		text-decoration: none;
 		}*/
 
+		.main_menu ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			vertical-align: middle;
+			text-transform: uppercase;
+		}
 
+		.main_menu ul li{
+			display: inline-block;
+			position: relative;
+			/*border:1px solid white;*/
+			margin-left: -5px;
+		}
 		.main_menu ul li span.header {
 			/*color: #fff;*/
 			padding: 10px 15px;
@@ -481,18 +501,6 @@ ul.profil_menu li i{
 			text-decoration: none;
 		}
 
-		.main_menu ul{
-			margin: 0;
-			padding: 0;
-			list-style-type: none;
-			vertical-align: middle;
-			text-transform: uppercase;
-		}
-
-		.main_menu ul li{
-			display: inline-block;
-			position: relative;
-		}
 		.main_menu ul li ul{
 			background-color: #3797BF;
 			left: 0;
@@ -503,6 +511,7 @@ ul.profil_menu li i{
 		.main_menu ul li ul li{
 			display: inline-block;
 			width: 100%;
+			margin-left: 0;
 		}
 
 		.main_menu ul li ul li a{

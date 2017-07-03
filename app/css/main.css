@@ -450,14 +450,14 @@ ul.profil_menu li i{
 		border:1px solid yellow;
 	}
 
-	/*.dropdown.active >span{
-		display: block;
-		width: 100%;
-		background-color: #337ab7;
-		color: yellow;
-	}*/
 	.dropdown.active{
 		padding: 10px 5px;
+		background-color: #337ab7;
+		color: yellow;
+		/*border-left: 1px solid white;
+		border-right: 1px solid white;*/
+	}
+	.main_menu ul li.active > a{
 		background-color: #337ab7;
 		color: yellow;
 	}

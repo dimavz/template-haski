@@ -1033,6 +1033,11 @@ ul.profil_menu li i{
 			padding-right: 10px;
 			padding-left: 10px;
 		}
+		.post_comments{
+			margin: 20px;
+			padding: 10px;
+			border:1px dotted #3797BF;
+		}
 
 		.post_category{
 			margin: 5px auto;

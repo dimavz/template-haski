@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Сайт Хаски</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel2/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/owl-carousel2/assets/owl.theme.default.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+</head>
+<body>
+	<header class="top_header">
+		<nav id="header_topline" class="navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="top_main_menu">
+						<div class="form_search">
+							<form class="form-inline ">
+								<div class="form-group">
+									<label class="sr-only" for="InputFind">Поиск</label>
+									<div class="input-group">
+										<input type="text" class="form-control" id="InputFind" placeholder="Что ищем?">
+										<div class="input-group-addon btn btn-info" type="submit">Найти</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-info">
+								<div class="panel-heading" >
+									<h4 class="panel-title">
+										<a href="#">
+											Главная
+										</a>
+									</h4>
+								</div>
+							</div>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false">
+											Новости
+										</a>
+									</h4>
+								</div>
+								<div id="collapse2" class="panel-collapse collapse">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false">
+											Объявления
+											<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+										</a>
+									</h4>
+								</div>
+								<div id="collapse3" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Продать/Купить Хаски</a></li>
+											<li><a href="#">Дрессировка собак</a></li>
+											<li><a href="#">Знакомства для вязки</a></li>
+											<li><a href="#">Медицина и ветеринария</a></li>
+											<li><a href="#">Гроуминг и стрижки</a></li>
+											<li><a href="#">Розыск собаки</a></li>
+											<li><a href="#">Ищу хозяина</a></li>
+											<li><a href="#">Прочее</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false">
+											Полезное
+											<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+										</a>
+									</h4>
+								</div>
+								<div id="collapse4" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="#">Продать/Купить Хаски</a></li>
+											<li><a href="#">Дрессировка собак</a></li>
+											<li><a href="#">Знакомства для вязки</a></li>
+											<li><a href="#">Медицина и ветеринария</a></li>
+											<li><a href="#">Гроуминг и стрижки</a></li>
+											<li><a href="#">Розыск собаки</a></li>
+											<li><a href="#">Ищу хозяина</a></li>
+											<li><a href="#">Прочее</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.top_main_menu -->
+					<div class="col-md-6 col-sm-6 col-xs-3">
+						<div class="top_brand">
+							<button class="menu_button hidden-sm hidden-md hidden-lg">
+								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+							</button>
+							<a href="/">
+								<h1 class="hidden-xs wow fadeInDown">ProDogs.Info</h1>
+							</a>
+						</div>
+						<div class="top_search">
+							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							<div class="form_find">
+								<form class="form-inline ">
+									<div class="form-group">
+										<label class="sr-only" for="InputSearch">Поиск</label>
+										<div class="input-group">
+											<input type="text" class="form-control" id="InputSearch" placeholder="Что ищем?" size="150" width="250px">
+											<div class="input-group-addon btn btn-info" type="submit">Найти</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div><!-- /.top_search -->
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-9">
+						<div class="top_links">
+							<button class="auth_button  hidden-md hidden-lg">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span> 
+							</button>
+							<div class="top_login">
+								
+								<a href="#login" class="fancybox"><i class="fa fa-key" aria-hidden="true"></i>Вход</a>
+								<a href="#register" class="fancybox"><i class="fa fa-user" aria-hidden="true"></i>Регистрация</a>
+							</div>
+						</div><!-- /.top_links -->
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-4">
+					<div class="logo_img wow bounceInDown" data-wow-delay="0.5s">
+						<a href="/">
+							<img src="img/logo.png" alt="Сообщество любителей собак. Всё о собаках.">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-2 col-xs-8">
+					<div class="logo_text">
+						<div class="logo_title visible-xs-block">
+							<a href="/"><h1>ProDogs.Info</h1></a>
+						</div>
+						<div class="greeting wow flipInX">
+							<h3>Сайт для любителей собак. Всё о собаках.</h3> 
+						</div>
+					</div><!-- /.logo_text -->
+				</div>
+				<div class="col-md-4 col-sm-7 col-xs-12">
+					<div class="main_subscribe wow slideInDown">
+						<h2>Подписка на новости</h2>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label for="inputName" class="col-sm-2 control-label">Имя</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="inputName" placeholder="Ваше Имя">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword3" class="col-sm-2 control-label">E-mail</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="inputPassword3" placeholder="Ваш e-mail">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-info">Получать новости</button>
+								</div>
+							</div>
+						</form>
+					</div><!-- /.main_subscribe -->
+				</div>
+			</div><!-- /.row -->
+			<div class="row">
+				<nav class="main_menu hidden-xs affix" data-spy="affix" data-offset-top="250">
+					<ul>
+						<li class="home active">
+							<a href="/" title="Главная">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</a>
+						</li>
+						<li class="dropdown">
+							<span id="dLabe1" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								События
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</span>
+							<ul class="dropdown-menu" aria-labelledby="dLabe1">
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Выставки</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<span id="dLabe4" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								О собаках
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</span>
+							<ul class="dropdown-menu" aria-labelledby="dLabe4">
+								<li><a href="#">Каталог собак</a></li>
+								<li><a href="#">Породы собаках</a></li>
+								<li><a href="#">Статьи о собаках</a></li>
+								<li><a href="#">Форум о собаках</a></li>
+								<li><a href="#">Словарь собаковода</a></li>
+								<li><a href="#">Библиотека собаковода</a></li>
+								<li><a href="#">Видеотека собаковода</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<span id="dLabe3" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Объявления
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</span>
+							<ul class="dropdown-menu" aria-labelledby="dLabe3">
+								<li><a href="#">Продать/Купить щенка</a></li>
+								<li><a href="#">Дрессировка собак</a></li>
+								<li><a href="#">Гроуминг и стрижка собак</a></li>
+								<li><a href="#">Знакомства для вязки</a></li>
+								<li><a href="#">Медицина и ветеринария</a></li>
+								<li><a href="#">Розыск собаки</a></li>
+								<li><a href="#">Ищу хозяина</a></li>
+								<li><a href="#">Прочее</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<span id="dLabe2" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Сообщество
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</span>
+							<ul class="dropdown-menu" aria-labelledby="dLabe2">
+								<li><a href="#">Питомники</a></li>
+								<li><a href="#">Клубы</a></li>
+								<li><a href="#">Приюты для собак</a></li>
+								<li><a href="#">Фонды помощи собакам</a></li>
+							</ul>
+						</li>
+						<li class="dropdown active">
+							<span id="dLabe5" class="header" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Справка
+								<i class="fa fa-caret-down" aria-hidden="true"></i>
+							</span>
+							<ul class="dropdown-menu" aria-labelledby="dLabe5">
+								<li><a href="#">Ветеринарные клинники</a></li>
+								<li class="active"><a href="#">Зоо Магазины</a></li>
+							</ul>
+						</li>
+						<li class="active">						
+							<a href="#">Карта сайта</a>
+						</li>
+					</ul>
+				</nav>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header>
+	<section class="content">
+		<div class="container">
+			<div class="main_slider"><!-- Блок слайдера -->
+				<div id="carousel-main" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-main" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-main" data-slide-to="1"></li>
+						<li data-target="#carousel-main" data-slide-to="2"></li>
+						<li data-target="#carousel-main" data-slide-to="3"></li>
+						<li data-target="#carousel-main" data-slide-to="4"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<a href="">
+								<img src="/img/slider/slide_1.jpg" alt="">
+							</a>
+							<div class="carousel-caption">
+								<h3>
+									<a href="">
+										Заголовок слайда 1.Заголовок слайда 1.Заголовок слайда 1.Заголовок слайда 1.Заголовок слайда 1.Заголовок слайда 1
+									</a>
+								</h3>
+								<div class="item_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+								</div>
+								<a href="" class="btn btn-info">Подробнее...</a>
+							</div><!-- /.carousel-caption -->
+						</div>
+						<div class="item">
+							<a href="">
+								<img src="/img/slider/slide_2.jpg" alt="">
+							</a>
+							<div class="carousel-caption">
+								<h3><a href="">Заголовок слайда 2</a></h3>
+								<div class="item_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+								</div>
+								<a href="" class="btn btn-info">Подробнее...</a>
+							</div><!-- /.carousel-caption -->
+						</div>
+						<div class="item">
+							<a href="">
+								<img src="/img/slider/slide_3.jpg" alt="">
+							</a>
+							<div class="carousel-caption">
+								<h3><a href="">Заголовок слайда 3</a></h3>
+								<div class="item_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+								</div>
+								<a href="" class="btn btn-info">Подробнее...</a>
+							</div>
+						</div>
+						<div class="item">
+							<a href="">
+								<img src="/img/slider/slide_1.jpg" alt="">
+							</a>
+							<div class="carousel-caption">
+								<h3><a href="">Заголовок слайда 4</a></h3>
+								<div class="item_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+								</div>
+								<a href="" class="btn btn-info">Подробнее...</a>
+							</div>
+						</div>
+						<div class="item">
+							<a href="">
+								<img src="/img/slider/slide_2.jpg" alt="">
+							</a>
+							<div class="carousel-caption">
+								<h3><a href="">Заголовок слайда 5</a></h3>
+								<div class="item_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis, natus repellendus, commodi labore ea dicta laboriosam corrupti, quaerat voluptates sed non nesciunt fugiat vitae corporis ullam dolorum incidunt, ducimus.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, perspiciatis, aspernatur. Cumque fugit, animi ducimus rem optio excepturi repudiandae, eligendi, ex perferendis minus, dignissimos a cum aliquid neque delectus recusandae.</p>
+								</div>
+								<a href="" class="btn btn-info">Подробнее...</a>
+							</div>
+						</div>
+					</div><!-- /.carousel-inner -->
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Предыдущий</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-main" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Следующий</span>
+					</a>
+				</div><!-- /#carousel-main -->
+			</div><!-- /.main_slider -->
+			<div class="row">
+				<div id="top_banners" class="owl-carousel owl-theme">
+					<div class="item"><a href="#"><img src="img/baners/chappi.jpg" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/Canidae_Logo.jpg" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/darling1.gif" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/hills.jpg" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/logo2.jpg.png" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/Orijen_Logo.jpg" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/Pedigree11.jpg" alt="Alt"></a></div>
+					<div class="item"><a href="#"><img src="img/baners/Proplan_Logo_140x97.JPG" alt="Alt"></a></div>
+				</div><!-- end /.owl-carousel owl-theme -->
+				<div class="owl-controls">
+					<div class="owl-nav">
+						<a class="owl-prev"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i>
+						</a>
+						<a class="owl-next"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i>
+						</a>
+					</div>
+								<!-- <div class="btn-control">
+									<button class="play btn btn-info">Старт</button>
+									<button class="stop btn btn-info">Стоп</button>
+								</div> -->
+							</div><!-- end /.owl-controls -->
+						</div><!-- end /.row -->
+						<div class="row mod_content">
+							<nav class="path_links">
+								<p>
+									Вы здесь:
+									<a href="#">
+										Главная > 
+									</a>
+									<a href="#">Каталог Хаски ></a>
+									<a href="#">Очень длинное название статьи</a>
+								</p>
+							</nav><!-- /.path_links -->
+							<div class="col-md-9 col-md-push-3">
+								<!-- Правая колонка -->
+								<div class="block_ads">
+									<!-- Блок рекламы -->
+								</div>
+								<div class="list_posts">
+									<div class="post">
+										<div class="post_header">
+											<a href="#"><h1>Очень длинный  заголовок статьи. Очень длинный  заголовок статьи. Очень длинный  заголовок статьи. </h1></a> 
+										</div>
+										<div class="post_category">
+											<span class="category">
+												<a href="#" title="Категория">
+													<i class="fa fa-hashtag" aria-hidden="true"></i>
+													Новости
+												</a>
+											</span>
+											<div class="btn-group" role="group">
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Добавить в закладки"><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Следить за изменениями"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Распечатать"><a href="#"><i class="fa fa-print" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Отправить ссылку"><a href="#">
+													<i class="fa fa-envelope-o" aria-hidden="true"></i>
+												</a></button>
+												<div class="btn-group" role="group" data-toggle="tooltip" data-placement="bottom" title="Настройки">
+													<button button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<i class="fa fa-cog" aria-hidden="true"></i>
+														<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu dropdown-menu-right">
+														<li>
+															<a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+																Изменить
+															</a>
+														</li>
+														<li role="separator" class="divider"></li>
+														<li>
+															<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i>
+																В избранное
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																<i class="fa fa-ban" aria-hidden="true"></i>
+																Деактивировать
+															</a>
+														</li>
+														<li>
+															<a href="#"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+																Удалить
+															</a>
+														</li>
+														<li>
+															<a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+																Установить модератора
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>				
+										</div><!-- /.post_category -->
+										<div class="post_rating">
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+										</div>
+										<div class="post_info">
+											<div class="post_image">
+												<a href="#" title="Название статьи" alt="Название статьи">
+													<img class="img-thumbnail" src="img/slider/slide_1.jpg" alt="" title="">
+												</a>
+											</div>
+											<div class="post_text">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita, quas ab adipisci, vero molestias nisi blanditiis quasi doloribus omnis eligendi excepturi!</p>
+												<p>Deserunt perspiciatis quod fugit ex, odit quis numquam aspernatur provident vitae placeat vero illo aliquid, nulla, obcaecati minima ratione harum similique culpa ea itaque mollitia explicabo! Temporibus ratione, quod assumenda?
+
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolorem quas, esse necessitatibus accusamus ducimus, placeat blanditiis tempore impedit vel doloribus, quibusdam quam! Provident eum, nulla. Doloremque, nobis quidem praesentium.
+												</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, porro ipsa perspiciatis modi corporis nesciunt necessitatibus reprehenderit dolorem cum cumque id a, saepe est ducimus. Perferendis, consectetur molestiae ullam inventore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio a omnis praesentium quis facilis saepe commodi eveniet beatae tempora illum repudiandae in reiciendis quasi nostrum voluptatum ipsam culpa id, accusamus.</p>
+											</div>
+											<button class="seemore btn btn-info">Подробнее...</button>
+										</div><!-- /.post_info -->
+										<div class="post_tags">
+											<!-- Тэги статьи -->
+											<ul>
+												<a href="#">
+													<li>Метка статьи Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												
+											</ul>
+										</div>
+										<div class="post_metainfo">
+											<ul>
+												<li><img src="img/content/article/icons_metainfo/calendar.png" alt="Дата публикации" title="Дата публикации" width="24px" height="24px"><span id="data_publish" title="Дата публикации">26.11.2016</span></li>
+												<li><img src="img/content/article/icons_metainfo/calendar_edit.png" alt="Дата редактирования" title="Дата редактирования" width="24px" height="24px"><span id="data_edit" title="Дата редактирования">29.12.2016</span></li>
+												<li><img src="img/content/article/icons_metainfo/eye.png" alt="Просмотров" title="Просмотров" width="24px" height="24px"><span title="Просмотров">256</span></li>
+												<li><img src="img/content/article/icons_metainfo/comments.png" alt="Комментариев" title="Комментариев" width="24px" height="24px"><span title="Комментариев">145</span></li>
+												<li><img src="img/content/article/icons_metainfo/star.png" alt="Оценок" title="Оценок" width="24px" height="24px"><span title="Оценок">15</span></li>
+												<li><img src="img/content/article/icons_metainfo/favorite.png" alt="В избранном" title="В избранном" width="24px" height="24px"><span title="В избранном">45</span></li>
+												<li><img src="img/content/article/icons_metainfo/autor.png" alt="Автор" title="Автор" width="24px" height="24px"><span id="autor" title="Автор">Николай Кузнецов</span></li>
+											</ul>
+										</div><!-- /.post_metainfo -->
+									</div><!-- /.post -->
+									<div class="post">
+										<div class="post_header">
+											<a href="#"><h1>Очень длинный  заголовок статьи. Очень длинный  заголовок статьи. Очень длинный  заголовок статьи. </h1></a> 
+										</div>
+										<div class="post_category">
+											<span class="category">
+												<a href="#" title="Категория">
+													<i class="fa fa-hashtag" aria-hidden="true"></i>
+													Название Категории
+												</a>
+											</span>
+											<div class="btn-group" role="group">
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Добавить в закладки"><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Следить за изменениями"><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Распечатать"><a href="#"><i class="fa fa-print" aria-hidden="true"></i>
+												</a></button>
+												<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Отправить ссылку"><a href="#">
+													<i class="fa fa-envelope-o" aria-hidden="true"></i>
+												</a></button>
+												<div class="btn-group" role="group" data-toggle="tooltip" data-placement="bottom" title="Настройки">
+													<button button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														<i class="fa fa-cog" aria-hidden="true"></i>
+														<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu dropdown-menu-right">
+														<li>
+															<a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+																Изменить
+															</a>
+														</li>
+														<li role="separator" class="divider"></li>
+														<li>
+															<a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i>
+																В избранное
+															</a>
+														</li>
+														<li>
+															<a href="#">
+																<i class="fa fa-ban" aria-hidden="true"></i>
+																Деактивировать
+															</a>
+														</li>
+														<li>
+															<a href="#"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+																Удалить
+															</a>
+														</li>
+														<li>
+															<a href="#"><i class="fa fa-user" aria-hidden="true"></i>
+																Установить модератора
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>	
+										</div><!-- /.post_category -->
+										<div class="post_rating">
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+											<span><i class="fa fa-star-o"></i></span>
+										</div>
+										<div class="post_info">
+											<div class="post_image">
+												<a href="#" title="Название статьи" alt="Название статьи">
+													<img class="img-thumbnail" src="img/slider/slide_2.jpg" alt="" title="">
+												</a>
+											</div>
+											<div class="post_text">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita, quas ab adipisci, vero molestias nisi blanditiis quasi doloribus omnis eligendi excepturi!</p>
+												<p>Deserunt perspiciatis quod fugit ex, odit quis numquam aspernatur provident vitae placeat vero illo aliquid, nulla, obcaecati minima ratione harum similique culpa ea itaque mollitia explicabo! Temporibus ratione, quod assumenda?
+
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolorem quas, esse necessitatibus accusamus ducimus, placeat blanditiis tempore impedit vel doloribus, quibusdam quam! Provident eum, nulla. Doloremque, nobis quidem praesentium.
+												</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, porro ipsa perspiciatis modi corporis nesciunt necessitatibus reprehenderit dolorem cum cumque id a, saepe est ducimus. Perferendis, consectetur molestiae ullam inventore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio a omnis praesentium quis facilis saepe commodi eveniet beatae tempora illum repudiandae in reiciendis quasi nostrum voluptatum ipsam culpa id, accusamus.</p>
+											</div>
+											<button class="seemore btn btn-info">Подробнее...</button>
+										</div><!-- /.post_info -->
+										<div class="post_tags">
+											<!-- Тэги статьи -->
+											<ul>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+												<a href="#">
+													<li>Метка статьи
+														<i class="fa fa-tag fa-lg" aria-hidden="true"></i>
+													</li>
+												</a>
+
+											</ul>
+										</div>
+										<div class="post_metainfo">
+											<ul>
+												<li><img src="img/content/article/icons_metainfo/calendar.png" alt="Дата публикации" title="Дата публикации" width="24px" height="24px"><span id="data_publish" title="Дата публикации">26.11.2016</span></li>
+												<li><img src="img/content/article/icons_metainfo/calendar_edit.png" alt="Дата редактирования" title="Дата редактирования" width="24px" height="24px"><span id="data_edit" title="Дата редактирования">29.12.2016</span></li>
+												<li><img src="img/content/article/icons_metainfo/eye.png" alt="Просмотров" title="Просмотров" width="24px" height="24px"><span title="Просмотров">256</span></li>
+												<li><img src="img/content/article/icons_metainfo/comments.png" alt="Комментариев" title="Комментариев" width="24px" height="24px"><span title="Комментариев">145</span></li>
+												<li><img src="img/content/article/icons_metainfo/star.png" alt="Оценок" title="Оценок" width="24px" height="24px"><span title="Оценок">15</span></li>
+												<li><img src="img/content/article/icons_metainfo/favorite.png" alt="В избранном" title="В избранном" width="24px" height="24px"><span title="В избранном">45</span></li>
+												<li><img src="img/content/article/icons_metainfo/autor.png" alt="Автор" title="Автор" width="24px" height="24px"><span id="autor" title="Автор">Николай Кузнецов</span></li>
+											</ul>
+										</div><!-- /.post_metainfo -->
+									</div><!-- /.post -->
+								</div><!-- /.list_posts -->
+								<div class="pag_block">
+									<div class="pages">
+										<div class="wraper_ul">
+											<ul>
+												<li><a class="first" href="#" title="в начало">| <</a></li>
+												<li><a href="#" title="предыдущий"><</a></li>
+												<li><a href="#" id="1">1</a></li>
+												<li><a href="#" id="2">2</a></li>
+												<li ><a class="active" href="#" id="3">3</a></li>
+												<li><a href="#" id="4">4</a></li>
+												<li><a href="#" id="5">5</a></li>
+												<li><a href="#" title="следующий">></a></li>
+												<li><a class="end" href="#" title="в конец">> |</a></li>
+											</ul>
+										</div>
+									</div>
+								</div><!-- /.pag_block -->
+								<div class="block_ads">
+									<!-- Блок рекламы -->
+								</div>
+							</div><!-- col-md-9 col-md-push-3 -->
+							<div class="col-md-3 col-md-pull-9">
+								<!-- Левая колонка -->
+								<div class="block_sidebar">
+									<div class="row">
+										<div class="col-xs-6 col-md-12">
+											<div class="wrap_panel">
+												<div class="header_panel">
+													<h3 class="title_panel">Личный кабинет</h3>
+												</div>
+												<div class="body_panel">
+													<ul>
+														<li><a href="#">Главная</a></li>
+														<li><a href="#">Новости</a></li>
+														<li><a href="#">Каталог Хаски</a></li>
+														<li><a href="#">Объявления</a></li>
+														<li><a href="#">Полезное</a></li>
+														<li><a href="#">Очень длинное название пункта меню</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-xs-6 col-md-12">
+											<div class="wrap_panel">
+												<div class="header_panel">
+													<h3 class="title_panel">Мои публикации</h3>
+												</div>
+												<div class="body_panel">
+													<ul>
+														<li><a href="#">Главная</a></li>
+														<li><a href="#">Новости</a></li>
+														<li><a href="#">Каталог Хаски</a></li>
+														<li><a href="#">Объявления</a></li>
+														<li><a href="#">Полезное</a></li>
+													</ul>
+												</div>
+											</div><!-- /.wrap_panel -->
+										</div>
+										<div class="clearfix"></div>
+									</div><!-- /.row -->
+								</div><!-- /.block_sidebar -->
+							</div><!-- /.col-md-3 col-md-pull-9 -->
+							<div class="clearfix"></div>
+							<nav class="path_links">
+								<p>
+									Вы здесь:
+									<a href="#">
+										Главная > 
+									</a>
+									<a href="#">Каталог Хаски ></a>
+									<a href="#">Очень длинное название статьи</a>
+								</p>
+							</nav><!-- /.path_links -->
+						</div><!-- /.row mod_content-->
+						<div class="row">
+							<div id="bottom_baners" class="owl-carousel owl-theme">
+								<div class="item"><a href="#"><img src="img/baners/chappi.jpg" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/Canidae_Logo.jpg" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/darling1.gif" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/hills.jpg" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/logo2.jpg.png" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/Orijen_Logo.jpg" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/Pedigree11.jpg" alt="Alt"></a></div>
+								<div class="item"><a href="#"><img src="img/baners/Proplan_Logo_140x97.JPG" alt="Alt"></a></div>
+							</div><!-- end /.owl-carousel owl-theme -->
+							<div class="owl-controls">
+								<div class="owl-nav">
+									<a id="ban_prev" class="owl-prev"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i>
+									</a>
+									<a id="ban_next" class="owl-next"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i>
+									</a>
+								</div>
+								<!-- <div class="btn-control">
+									<button class="play btn btn-info">Старт</button>
+									<button class="stop btn btn-info">Стоп</button>
+								</div> -->
+							</div><!-- end /.owl-controls -->	
+						</div>
+
+						<!-- /.conteiner -->
+					</div>
+				</section>
+				<footer class="wow pulse">
+					<div class="main_footer">
+						<div class="footer_subscribe">
+							<div class="container">
+								<div class="row">
+									<form class="form-inline">
+										<div class="form-group">
+											<label for="Name">Имя:</label>
+											<input type="text" class="form-control" id="Name" placeholder="Введите ваше Имя">
+										</div>
+										<div class="form-group">
+											<label for="Email">Email:</label>
+											<input type="email" class="form-control" id="Email" placeholder="Введите ваш Email">
+										</div>
+										<button type="submit" class="btn btn-info">Получать новости</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="footer_topline">
+							<div class="container">
+								<div class="row">
+									<!-- <div class="col-md-12"> -->
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="footer_left_block wow fadeInDown" data-wow-delay="0.2s">
+									<!-- <button id="add_ad" class="btn btn-info hidden-md hidden-lg">
+										<i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+										<span>Подать объявление</span>
+									</button> -->
+									<h3 class="add_ad" role="button">Подать объявление</h3>
+									<ul>
+										<li><a href="#">Продать/Купить Хаски</a></li>
+										<li><a href="#">Дрессировка собак</a></li>
+										<li><a href="#">Гроуминг и стрижки собак</a></li>
+										<li><a href="#">Знакомство для вязки</a></li>
+										<li><a href="#">Медицина и ветеринария</a></li>
+										<li><a href="#">Розыск собаки</a></li>
+										<li><a href="#">Ищу хозяина</a></li>
+										<li><a href="#">Прочее</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="footer_center_block wow fadeInDown"data-wow-delay="0.4s">
+									<h3 class="reclama" role="button">Разместить рекламу</h3>
+									<div class="rec_content">
+										<p>Здесь Вы можете узнать <a href="">условия и тарифы по размещению рекламы</a> на нашем сайте.</p>
+										<p>Если у вас возникли дополнительные вопросы или предложения по размещению рекламы, то свяжитесь с нами по указанным контактам и мы постараемся максимально быстро ответить на них.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="footer_right_block wow fadeInDown" data-wow-delay="0.6s">
+									<h3 class="contacts" role="button">Контакты</h3>
+									<div class="contacts_content">
+										<div class="skype">
+											<i class="fa fa-skype" aria-hidden="true"></i>
+											<span>pro-dogs</span>
+										</div>
+										<div class="mobile">
+											<i class="fa fa-mobile" aria-hidden="true"></i>
+											<span>+375 (29) 608-89-63</span>
+										</div>
+										<div class="email">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+											<span>info@pro-dogs.by</span>
+										</div>
+										<div class="soc_buttons">
+											<a href="#" title="Фэйсбук">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-square-o fa-stack-2x" ></i>
+													<i class="fa fa-facebook fa-stack-1x btn-primary"></i>
+												</span>
+											</a>
+											<a href="#" title="Твиттер">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-square-o fa-stack-2x"></i>
+													<i class="fa fa-twitter fa-stack-1x btn-info"></i>
+												</span>
+											</a>
+											<a href="#" title="Гугл Плюс">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-square-o fa-stack-2x"></i>
+													<i class="fa fa-google-plus fa-stack-1x btn-danger"></i>
+												</span>
+											</a>
+											<a href="#" title="В контакте">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-square-o fa-stack-2x"></i>
+													<i class="fa fa-vk fa-stack-1x btn-success"></i>
+												</span>
+											</a>
+											<a href="#" title="Одноклассники">
+												<span class="fa-stack fa-lg">
+													<i class="fa fa-square-o fa-stack-2x"></i>
+													<i class="fa fa-odnoklassniki fa-stack-1x btn-warning"></i>
+												</span>
+											</a>
+										</div><!-- /.soc_buttons --> 
+									</div>
+								</div>
+							</div>
+							<!-- </div> -->
+						</div>
+					</div>
+				</div>
+				<div class="footer_bottomline">
+					<div class="conteiner">
+						<div class="row">
+							<div class="col-md-12">
+								<span>Все права защищены. 2016 год.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="hidden">
+			<form action="" id="login" class="login_form">
+				<h3>Вход на сайт</h3>
+				<div class="form-group has-success has-feedback">
+					<label for="inputEmail" class="col-sm-3 control-label">Email</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail" placeholder="Введите Ваш Email" required>
+					</div>
+				</div>
+				<div class="form-group has-success has-feedback">
+					<label for="inputPassword" class="col-sm-3 control-label">Пароль</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Введите Ваш Пароль" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Запомнить меня
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-info">Войти</button>
+					</div>
+				</div>
+			</form>
+			<form id="register" class="form-horizontal" role="form">
+				<div class="form-group has-success has-feedback">
+					<label class="control-label col-sm-3" for="inputSuccess3">Input with success</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="inputSuccess3">
+						<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+					</div>
+				</div>
+			</form>
+		</div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel2/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/common.js"></script>
+	
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

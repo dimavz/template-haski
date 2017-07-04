@@ -460,6 +460,11 @@
 		text-align: center;
 	}
 
+	/*Адаптация рекламного банера*/
+	.owl-item .item{
+		padding: 0 15%;
+	}
+
 	.footer_left_block h3{
 		height: 50px;
 	}
@@ -579,11 +584,30 @@
 			width: 30%;
 		}
 		/* Конец стиль слайдера*/
+
+	}
+	@media only screen and (max-width : 700px) {
+		/* Начало стилей слайдера банеров*/
+		.owl-item .item{
+			padding: 0 10%;
+		}
+		/* Конец стилей слайдера банеров*/
+	}
+	@media only screen and (max-width : 600px) {
+		/* Начало стилей слайдера банеров*/
+		.owl-item .item{
+			padding: 0 5%;
+		}
+		/* Конец стилей слайдера банеров*/
 	}
 
 	/* Для настройки отображения навигатора страниц */
 	@media only screen and (max-width : 580px) {
-
+		/* Начало стилей слайдера банеров*/
+		.owl-item .item{
+			padding: 0;
+		}
+		/* Конец стилей слайдера банеров*/
 		.form_find {
 			left: -20px;
 			top: 40px;
@@ -713,6 +737,14 @@
 
 		/* Для настройки отображения логотипа */
 		@media only screen and (max-width : 545px) {
+			/* Начало стилей слайдера банеров*/
+			/*.owl-item !important {
+				width: 201px;
+			}*/
+			.owl-item .item {
+				padding: 1 5%;
+			}
+			/* Конец стилей слайдера банеров*/
 
 			.logo_img{
 				width: 150px;
@@ -762,6 +794,11 @@
 		/* Extra Small Devices, Phones */
 		@media only screen and (max-width : 480px) {
 
+			/* Начало стилей слайдера банеров*/
+			.owl-item .item {
+				padding: 0 23%;
+			}
+			/* Конец стилей слайдера банеров*/
 			.logo_text{
 				display: block;
 				float: left;
@@ -854,6 +891,10 @@
 
 		/* Изменение размеров панели навигации страниц */
 		@media only screen and (max-width : 396px) {
+			.owl-item .item {
+				padding: 0 5%;
+				margin-left: 0px;
+			}
 
 			.form_find {
 				left: -55px;
@@ -919,6 +960,10 @@
 		}
 
 		@media only screen and (max-width : 347px) {
+			.owl-item .item {
+				padding: 0;
+				margin-left: 0px;
+			}
 			.carousel-indicators{
 				left: 55%;
 				width: 50%;
@@ -932,6 +977,9 @@
 
 		/* Custom, iPhone Retina */
 		@media only screen and (max-width : 320px) {
+			.owl-item .item {
+				padding: 0;
+			}
 			.post_image img{
 				max-width: 230px;
 				max-height: 200px;

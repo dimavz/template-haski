@@ -11,11 +11,20 @@
 	}
 	.greeting h3 {
 		font-size: 44px;
-		margin-top: 80px;
+		/*margin-top: 80px;*/
 	}
 	/* Форма поиска */ 
 	.top_search{
 		left: 300px;
+	}
+	.top_login a {
+		font-size: 16px;
+	}
+	.main_menu{
+		width: 970px;
+	}
+	.main_subscribe label{
+		font-size: 15px;
 	}
 
 	/*Стиль слайдера*/
@@ -112,7 +121,7 @@
 		height: 200px;
 	}
 
-		/* Форма поиска */ 
+	/* Форма поиска */ 
 	.top_search{
 		left: 210px;
 	}
@@ -133,38 +142,48 @@
 	.top_login{
 		display: none;
 		position: absolute;
-		right: -5px;
-		top:40px;
+		right: 5px;
+		top:45px;
 		background-color: #505559;
 		height: 40px;
-		width: 200px;
+		/*width: 200px;*/
 		padding: 10px;
 		text-align: center;
 		z-index: 40;
+		border-radius:0.3em;
 	}
-
 	.top_links{
-	padding-top: 0px;
-}
-
-	.greeting h3 {
-		font-size: 30px;
-		margin-top: 100px;
+		padding-top: 0px;
 	}
 
+	
+	.main_subscribe h2 {
+		color: #3797bf;
+		font-size: 17px;
+		margin-top: 0;
+		padding: 5px;
+	}
+	.main_subscribe label {
+		display: none;
+	}
+	.form-control{
+		width: 180px;
+	}
 	.main_adsense {
 		height: 170px;
 		margin-top: 20px;
 		padding: 10px;
 	}
-
+	.main_menu{
+		width: 750px;
+	}
 	.main_menu a {
 		padding: 5px 5px;
 	}
 
 	.main_menu ul li span.header {
-	padding: 5px 10px;
-}
+		padding: 5px 10px;
+	}
 
 	.footer_left_block h3{
 		display: block;
@@ -359,10 +378,10 @@
 		display: none;
 		position: absolute;
 		right: -30px;
-		top:40px;
+		top:45px;
 		background-color: #505559;
 		height: 40px;
-		width: 200px;
+		/*width: 200px;*/
 		padding: 10px;
 		text-align: center;
 	}
@@ -388,8 +407,16 @@
 	.top_search button span {
 		top: 3px;
 	}
+	.logo_title h1 {
+		color: yellow;
+		font-family: "RobotoRegular", sans-serif;
+		font-size: 58px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	}
 
-
+	.form-control{
+		width: 100%;
+	}
 	.main_adsense {
 		color: #000;
 		height: 200px;
@@ -701,6 +728,9 @@
 			.logo_title h1 {
 				font-size: 38px;
 			}
+			.greeting h3 {
+				font-size: 35px;
+			}
 
 			.main_menu ul li{
 				background-color: #3797bf;
@@ -798,9 +828,18 @@
 			/* Конец стилей слайдера модуля розыска */
 
 		}
+		@media only screen and (max-width : 442px) {
+			.greeting h3 {
+				font-size: 30px;
+			}
+		}
 
 		/* Изменение отображения логотипа */ 
 		@media only screen and (max-width : 410px) {
+			.top_header .container .row .col-md-5.col-sm-5.col-xs-8{
+				text-align: center;
+				width: 100%;
+			}
 			.top_header .container .row .col-md-3.col-sm-3.col-xs-4{
 				width: 100%;
 			}
@@ -881,6 +920,11 @@
 				left: 55%;
 				width: 50%;
 			}
+			.top_login{
+				width: 250px;
+				padding: 10px;
+				text-align: center;
+			}
 		}
 
 		/* Custom, iPhone Retina */
@@ -928,36 +972,36 @@
 			}
 		/*	.main_menu ul{
 				display: inline-block;
-			}*/
-			
-			.top_main_menu{
-				display: none !important;
-			}
-		}
+				}*/
 
-		/* Medium Devices, Desktops */
-		@media only screen and (min-width : 992px) {
-			.footer_left_block ul{
-				display: block !important;
+				.top_main_menu{
+					display: none !important;
+				}
 			}
 
-			.rec_content{
-				display: block !important;
+			/* Medium Devices, Desktops */
+			@media only screen and (min-width : 992px) {
+				.footer_left_block ul{
+					display: block !important;
+				}
+
+				.rec_content{
+					display: block !important;
+				}
+
+				.contacts_content{
+					display: block !important;
+				}
+
+				.top_login{
+					display: inline-block !important;
+				}
+				.form_find{
+					display: inline-block !important;
+				}
 			}
 
-			.contacts_content{
-				display: block !important;
-			}
+			/* Large Devices, Wide Screens */
+			@media only screen and (min-width : 1200px) {
 
-			.top_login{
-				display: inline-block !important;
 			}
-			.form_find{
-				display: inline-block !important;
-			}
-		}
-
-		/* Large Devices, Wide Screens */
-		@media only screen and (min-width : 1200px) {
-
-		}

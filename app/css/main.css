@@ -1020,6 +1020,10 @@ ul.profil_menu li i{
 				display: block;
 				margin-bottom: 40px;
 			}
+			.tab-content > .tab-pane {
+				display: none;
+				padding: 10px;
+			}
 			button.seemore{
 				position: absolute;
 				bottom: 20px;

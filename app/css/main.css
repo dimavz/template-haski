@@ -1442,7 +1442,7 @@ ul.profil_menu li i{
 				padding-top: 0px;
 				text-align: center;
 				position: relative;
-				height: 385px;
+				height: 383px;
 				overflow: hidden; /* Скрытие контента, если он превышает размер блока */
 				transition: all .5s;
 			}

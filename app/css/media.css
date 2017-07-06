@@ -67,6 +67,21 @@
 	}
 	/* Конец стиль слайдера*/
 
+	/* Cтили модуля объявлений*/
+	.post_widget {
+		height: 338px;
+	}
+	.post_content {
+		top: 220px;
+	}
+	.post_content .geo a {
+		font-size: 0.9em;
+	}
+	.post_content .cont {
+		font-size: .9em;
+	}
+	/* Конец стилей модуля объявлений*/
+
 	/* Стили слайдера розыска */
 	#carousel-wanted_pets .carousel-inner .item img {
 		height: 310px;
@@ -187,6 +202,25 @@
 	.main_menu ul li span.header {
 		padding: 10px 10px;
 	}
+
+	/* Cтили модуля объявлений*/
+	.post_widget {
+		height: 287px;
+	}
+	.post_content {
+		top: 170px;
+	}
+	.post_content .geo a {
+		font-size: 0.9em;
+	}
+	.post_content .cont {
+		font-size: .9em;
+	}
+	.post_content .header .breed {
+		font-size: 0.85em;
+		padding: 0px;
+	}
+	/* Конец стилей модуля объявлений*/
 
 	.footer_left_block h3{
 		display: block;
@@ -465,6 +499,15 @@
 		padding: 0 15%;
 	}
 
+	/* Cтили модуля объявлений*/
+	.post_widget {
+		height: 367px;
+	}
+	.post_content {
+		top: 250px;
+	}
+	/* Конец стилей модуля объявлений*/
+
 	.footer_left_block h3{
 		height: 50px;
 	}
@@ -599,6 +642,14 @@
 			padding: 0 5%;
 		}
 		/* Конец стилей слайдера банеров*/
+		/* Cтили модуля объявлений*/
+				.post_widget {
+					height: 298px;
+				}
+				.post_content {
+					top: 180px;
+				}
+				/* Конец стилей модуля объявлений*/
 	}
 
 	@media only screen and (max-width : 618px) {
@@ -830,6 +881,14 @@
 					left: 63%;
 					width: 35%;
 				}
+				/* Cтили модуля объявлений*/
+				.post_widget {
+					height: 272px;
+				}
+				.post_content {
+					top: 155px;
+				}
+				/* Конец стилей модуля объявлений*/
 
 				/* Стили слайдера модуля розыска */
 
@@ -911,6 +970,15 @@
 				top: 40px;
 			}
 
+			/* Cтили модуля объявлений*/
+				.post_widget {
+					height: 353px;
+				}
+				.post_content {
+					top: 235px;
+				}
+				/* Конец стилей модуля объявлений*/
+
 			.pages ul li{
 				padding: 0px;
 			}
@@ -961,6 +1029,14 @@
 			.owl-item .item {
 				padding: 0;
 			}
+			/* Cтили модуля объявлений*/
+				.post_widget {
+					height: 298px;
+				}
+				.post_content {
+					top: 180px;
+				}
+				/* Конец стилей модуля объявлений*/
 			.post_image img{
 				max-width: 200px;
 				max-height: 200px;

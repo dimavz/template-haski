@@ -997,7 +997,7 @@
 					width: 35%;
 				}
 
-				/* Cтили модуля объявлений*/
+				/* Cтили модуля новостей*/
 				.post_widget {
 					height: 272px;
 				}
@@ -1077,7 +1077,7 @@
 					padding: 7px;
 					transition: all 0.5s ease 0s;
 				}
-				/* Конец стилей модуля объявлений*/
+				/* Конец стилей модуля новостей*/
 
 				/* Стили слайдера модуля розыска */
 
@@ -1226,6 +1226,79 @@
 				top: 180px;
 			}
 			/* Конец стилей модуля объявлений*/
+
+			/* Cтили модуля новостей*/
+			.article_main_content {
+				top: 60%;
+				background-color: #3797BF;
+				opacity: .8;
+			}
+			.article_main_widget {
+				height: 256px;
+			}
+			.article_main_widget h3 {
+				font-size: 0.9em;
+				text-align: left;
+			}
+			.article_main_widget h3 a{
+				color: #fff;
+			}
+			.article_main_header {
+				height: 100px;
+				overflow: hidden;
+				position: relative;
+			}
+			.article_main_header h3 {
+				/*position: absolute;
+				top: 0;
+				left: 0;*/
+				width: 100%;
+				height: 100%;
+			}
+			.article_main_header .data {
+				position: absolute;
+				top: 60px;
+				left: 0px;
+				background-color: #3779bf;
+				float: left;
+				height: 30px;
+				margin-top: 0px;
+				padding-top: 5px;
+				opacity: 1;
+				text-align: center;
+				width: 100%;
+				display: inline-block;
+			}
+			.article_main_header .data span.day {
+				float: none;
+				font-size: 1em;
+			}
+			.article_main_header .data span.month {
+				float: none;
+				font-size: 1em;
+				margin: 0;
+				color: yellow;
+			}
+			.article_main_header .data span.year {
+				float: none;
+				font-size: 1em;
+				margin: 0;
+			}
+			.article_main_post{
+				font-size: .9em;
+			}
+			.article_img {
+				height: 145px;
+			}
+			.article_widget h3 {
+				font-size: 0.9em;
+			}
+			.article_post{
+				font-size: .9em;
+			}
+
+			/* Конец стилей модуля новостей*/
+
 			.post_image img{
 				max-width: 200px;
 				max-height: 200px;

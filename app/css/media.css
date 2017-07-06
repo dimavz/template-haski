@@ -82,6 +82,60 @@
 	}
 	/* Конец стилей модуля объявлений*/
 
+	/* Cтили модуля новостей*/
+	.article_main_widget {
+		height: 300px;
+	}
+	.article_main_widget h3 {
+		font-size: 1em;
+	}
+	.article_main_header .data span.day {
+		font-size: 22px;
+	}
+	.article_main_header .data span.month {
+		font-size: 14px;
+	}
+	.article_widget {
+		height: 80px;
+	}
+	.article_img {
+		height: 80px;
+		width: 130px;
+	}
+	.article_img a {
+		height: 80px;
+		width: 130px;
+		display: block;
+	}
+	.article_img img {
+		padding: 3px 5px 5px 3px;
+
+	}
+	.article_header {
+		position: absolute;
+		top: 0;
+		left: 160px;
+		height: 80px;
+		overflow: hidden;
+		padding: 5px;
+		transition: all 0.5s ease 0s;
+	}
+	.article_header .article_data {
+		padding-left: 5px;
+	}
+	.article_widget h3 {
+		font-size: 1em;
+		height:85px;
+	}
+	.article_post {
+		height: 80px;
+		padding: 3px;
+		font-size: .8em;
+		overflow: hidden;
+	}
+
+	/* Конец стилей модуля новостей*/
+
 	/* Стили слайдера розыска */
 	#carousel-wanted_pets .carousel-inner .item img {
 		height: 310px;
@@ -204,6 +258,16 @@
 	}
 
 	/* Cтили модуля объявлений*/
+	.article_main_widget {
+		height: 384px;
+	}
+	.article_main_widget > div {
+		height: 384px;
+		top: 0;
+	}
+	.article_main_content {
+		top: 83%;
+	}
 	.post_widget {
 		height: 287px;
 	}
@@ -220,6 +284,34 @@
 		font-size: 0.85em;
 		padding: 0px;
 	}
+	.article_widget {
+		height: 150px;
+	}
+	.article_img {
+		height: 150px;
+		width: 250px;
+	}
+	.article_img a {
+		height: 150px;
+		width: 250px;
+	}
+	.article_header {
+		height: 150px;
+		left: 260px;
+	}
+	.article_header h3 {
+		margin-top: 0px;
+	}
+	.article_widget h3 {
+		height: 140px;
+		font-size: 1.2em;
+		width: 95%;
+	}
+	.article_post{
+		height: 150px;
+		font-size: 1em;
+	}
+
 	/* Конец стилей модуля объявлений*/
 
 	.footer_left_block h3{
@@ -500,6 +592,9 @@
 	}
 
 	/* Cтили модуля объявлений*/
+	.article_main_widget {
+		height: 384px;
+	}
 	.post_widget {
 		height: 367px;
 	}
@@ -636,27 +731,47 @@
 		}
 		/* Конец стилей слайдера банеров*/
 	}
-	@media only screen and (max-width : 600px) {
-		/* Начало стилей слайдера банеров*/
-		.owl-item .item{
-			padding: 0 5%;
-		}
-		/* Конец стилей слайдера банеров*/
-		/* Cтили модуля объявлений*/
-				.post_widget {
-					height: 298px;
-				}
-				.post_content {
-					top: 180px;
-				}
-				/* Конец стилей модуля объявлений*/
-	}
 
 	@media only screen and (max-width : 618px) {
 		.pages ul li {
 			padding: 3px;
 		}
 	}
+
+	@media only screen and (max-width : 600px) {
+		/* Начало стилей слайдера банеров*/
+		.owl-item .item{
+			padding: 0 5%;
+		}
+		/* Конец стилей слайдера банеров*/
+
+		/* Cтили модуля объявлений*/
+		.post_widget {
+			height: 298px;
+		}
+		.post_content {
+			top: 180px;
+		}
+		.article_main_widget {
+			height: 320px;
+		}
+		.article_main_widget > div {
+			height: 320px;
+		}
+		.article_main_content {
+			top: 80%;
+		}
+		.article_widget h3 {
+			width: 75%;
+		}
+		.article_post {
+			font-size: 1.1em;
+			height: 150px;
+		}
+		/* Конец стилей модуля объявлений*/
+	}
+
+	
 
 	/* Для настройки отображения навигатора страниц */
 	@media only screen and (max-width : 580px) {
@@ -881,12 +996,86 @@
 					left: 63%;
 					width: 35%;
 				}
+
 				/* Cтили модуля объявлений*/
 				.post_widget {
 					height: 272px;
 				}
 				.post_content {
 					top: 155px;
+				}
+				.article_main_content {
+					top: 73%;
+				}
+				.article_main_widget {
+					height: 243px;
+				}
+				.article_main_widget > div {
+					height: 243px;
+				}
+				.article_widget {
+					height: 250px;
+					width: 100%;
+					overflow: hidden;
+				}
+				.article_img {
+					height: 250px;
+					width: 100%;
+					overflow: hidden;
+				}
+				.article_img a {
+					height: 100%;
+					width: 100%;
+				}
+				.article_header {
+					height: 110px;
+					width: 100%;
+					left: 0px;
+					top: 145px;
+					background-color: #3797BF;
+					opacity: .7;
+					color: #fff;
+				}
+				.article_header .article_data {
+					color: yellow;
+				}
+				.article_widget:hover{
+					border: 1px solid #31b0d5;
+					overflow: hidden;
+				}
+				.article_widget:hover .article_header{
+					top:0;
+					opacity: .7;
+					text-align: center;
+				}
+				.article_widget:hover .article_img{
+					opacity: .1;
+				}
+				.article_widget:hover .article_post{
+					top:110px;
+					opacity: .7;
+				}
+
+				.article_widget h3 {
+					width: 99%;
+					height: 95px;
+					font-size: 1em;
+				}
+				.article_widget h3 > a {
+					color: #fff;
+				}
+				.article_widget h3 > a:hover {
+					color: yellow;
+				}
+				.article_post {
+					position: absolute;
+					top: 100%;
+					left: 0;
+					height: 135px;
+					opacity: 1;
+					overflow: hidden;
+					padding: 7px;
+					transition: all 0.5s ease 0s;
 				}
 				/* Конец стилей модуля объявлений*/
 
@@ -971,13 +1160,13 @@
 			}
 
 			/* Cтили модуля объявлений*/
-				.post_widget {
-					height: 353px;
-				}
-				.post_content {
-					top: 235px;
-				}
-				/* Конец стилей модуля объявлений*/
+			.post_widget {
+				height: 353px;
+			}
+			.post_content {
+				top: 235px;
+			}
+			/* Конец стилей модуля объявлений*/
 
 			.pages ul li{
 				padding: 0px;
@@ -1030,13 +1219,13 @@
 				padding: 0;
 			}
 			/* Cтили модуля объявлений*/
-				.post_widget {
-					height: 298px;
-				}
-				.post_content {
-					top: 180px;
-				}
-				/* Конец стилей модуля объявлений*/
+			.post_widget {
+				height: 298px;
+			}
+			.post_content {
+				top: 180px;
+			}
+			/* Конец стилей модуля объявлений*/
 			.post_image img{
 				max-width: 200px;
 				max-height: 200px;

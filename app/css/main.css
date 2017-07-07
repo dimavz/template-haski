@@ -1590,7 +1590,7 @@ ul.profil_menu li i{
 				color: white;
 			}
 			.article_main_widget h3 > a:hover {
-				color:#3779BF;
+				color:yellow;
 				text-decoration: none;
 				background-color: transparent;
 			}

@@ -1,25 +1,36 @@
 {
-  "name": "haskiproject",
+  "name": "template-haski",
   "version": "1.0.0",
-  "description": "My Project Site Haski",
+  "description": "Template for site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimavz/template-haski.git"
+  },
+  "keywords": [
+    "galp",
+    "sass",
+    "scss",
+    "bootstrap"
+  ],
   "author": "Dmitry Zatulenko",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimavz/template-haski/issues"
+  },
+  "homepage": "https://github.com/dimavz/template-haski#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.2",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-cache": "^0.4.5",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglifyjs": "^0.6.2",
-    "imagemin-pngquant": "^5.0.0"
+    "gulp-dest-clean": "^0.5.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
